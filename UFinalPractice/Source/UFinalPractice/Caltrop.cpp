@@ -34,7 +34,7 @@ void ACaltrop::NotifyHit(UPrimitiveComponent* MyComp, AActor* Other, UPrimitiveC
 	auto actor = Cast<AUFinalPracticeCharacter>(Other);
 	if (actor != nullptr)
 	{
-		actor->HP -= Damage;
+		actor->SetHP(-Damage);
 		Destroy();
 	}
 }

@@ -65,7 +65,8 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AUFinalPracticeCharacter); \
 	FORCEINLINE static uint32 __PPO__VR_MuzzleLocation() { return STRUCT_OFFSET(AUFinalPracticeCharacter, VR_MuzzleLocation); } \
 	FORCEINLINE static uint32 __PPO__FirstPersonCameraComponent() { return STRUCT_OFFSET(AUFinalPracticeCharacter, FirstPersonCameraComponent); } \
 	FORCEINLINE static uint32 __PPO__R_MotionController() { return STRUCT_OFFSET(AUFinalPracticeCharacter, R_MotionController); } \
-	FORCEINLINE static uint32 __PPO__L_MotionController() { return STRUCT_OFFSET(AUFinalPracticeCharacter, L_MotionController); }
+	FORCEINLINE static uint32 __PPO__L_MotionController() { return STRUCT_OFFSET(AUFinalPracticeCharacter, L_MotionController); } \
+	FORCEINLINE static uint32 __PPO__HP() { return STRUCT_OFFSET(AUFinalPracticeCharacter, HP); }
 
 
 #define UFinalPractice_Source_UFinalPractice_UFinalPracticeCharacter_h_12_PROLOG

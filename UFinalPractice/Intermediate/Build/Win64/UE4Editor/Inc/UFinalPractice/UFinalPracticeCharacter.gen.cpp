@@ -198,7 +198,7 @@ void EmptyLinkFunctionForGeneratedCodeUFinalPracticeCharacter() {}
 		{ "ModuleRelativePath", "UFinalPracticeCharacter.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AUFinalPracticeCharacter_Statics::NewProp_HP = { "HP", nullptr, (EPropertyFlags)0x0010000000000014, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AUFinalPracticeCharacter, HP), METADATA_PARAMS(Z_Construct_UClass_AUFinalPracticeCharacter_Statics::NewProp_HP_MetaData, ARRAY_COUNT(Z_Construct_UClass_AUFinalPracticeCharacter_Statics::NewProp_HP_MetaData)) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AUFinalPracticeCharacter_Statics::NewProp_HP = { "HP", nullptr, (EPropertyFlags)0x0020080000000014, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AUFinalPracticeCharacter, HP), METADATA_PARAMS(Z_Construct_UClass_AUFinalPracticeCharacter_Statics::NewProp_HP_MetaData, ARRAY_COUNT(Z_Construct_UClass_AUFinalPracticeCharacter_Statics::NewProp_HP_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AUFinalPracticeCharacter_Statics::NewProp_wg_MetaData[] = {
 		{ "Category", "UFinalPracticeCharacter" },
@@ -335,7 +335,7 @@ void EmptyLinkFunctionForGeneratedCodeUFinalPracticeCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AUFinalPracticeCharacter, 1652280785);
+	IMPLEMENT_CLASS(AUFinalPracticeCharacter, 3235595603);
 	template<> UFINALPRACTICE_API UClass* StaticClass<AUFinalPracticeCharacter>()
 	{
 		return AUFinalPracticeCharacter::StaticClass();

@@ -47,14 +47,29 @@ class AUFinalPracticeCharacter : public ACharacter
 	class UMotionControllerComponent* L_MotionController;
 
 public:
+
 	AUFinalPracticeCharacter();
 
 	UPROPERTY(EditAnywhere) TSubclassOf<UPlayerHpWidget> wg;
-	UPROPERTY(BluePrintReadOnly) float HP = 1.f;
 
+	float MAX_HP = 1.0f;	float toHealPerSecond;
+	int healingCounter;
+	float HealDuration;
+
+	void Heal(float duration);
+	void SetHP(float hpToAdd);
+
+	void TimerTester();
+
+	FTimerManager HealingTimerHandle;
+	
 protected:
 	virtual void BeginPlay();
 
+	UPROPERTY(BluePrintReadOnly) float HP = 1.0f;
+
+private:
+	void Heal();
 
 
 public:
@@ -86,13 +101,13 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gameplay)
 	uint32 bUsingMotionControllers : 1;
 
+
+
+
 protected:
 	
 	/** Fires a projectile. */
 	void OnFire();
-
-	/** Resets HMD orientation and position in VR. */
-	void OnResetVR();
 
 	/** Handles moving forward/backward */
 	void MoveForward(float Val);
@@ -112,20 +127,11 @@ protected:
 	 */
 	void LookUpAtRate(float Rate);
 
-	struct TouchData
-	{
-		TouchData() { bIsPressed = false;Location=FVector::ZeroVector;}
-		bool bIsPressed;
-		ETouchIndex::Type FingerIndex;
-		FVector Location;
-		bool bMoved;
-	};
-	void BeginTouch(const ETouchIndex::Type FingerIndex, const FVector Location);
-	void EndTouch(const ETouchIndex::Type FingerIndex, const FVector Location);
-	void TouchUpdate(const ETouchIndex::Type FingerIndex, const FVector Location);
-	TouchData	TouchItem;
-	
 protected:
+
+	FTimerHandle HealTimerHandle;
+
+
 	// APawn interface
 	virtual void SetupPlayerInputComponent(UInputComponent* InputComponent) override;
 	// End of APawn interface
@@ -136,7 +142,6 @@ protected:
 	 * @param	InputComponent	The input component pointer to bind controls to
 	 * @returns true if touch controls were enabled.
 	 */
-	bool EnableTouchscreenMovement(UInputComponent* InputComponent);
 
 public:
 	/** Returns Mesh1P subobject **/

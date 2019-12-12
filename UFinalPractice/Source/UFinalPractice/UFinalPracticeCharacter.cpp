@@ -11,6 +11,8 @@
 #include "Kismet/GameplayStatics.h"
 #include "MotionControllerComponent.h"
 #include "XRMotionControllerBase.h" // for FXRMotionControllerBase::RightHandSourceId
+#include "TimerManager.h"
+#include "Engine.h"
 
 DEFINE_LOG_CATEGORY_STATIC(LogFPChar, Warning, All);
 
@@ -113,6 +115,8 @@ void AUFinalPracticeCharacter::BeginPlay()
 	}
 }
 
+
+
 //////////////////////////////////////////////////////////////////////////
 // Input
 
@@ -128,11 +132,6 @@ void AUFinalPracticeCharacter::SetupPlayerInputComponent(class UInputComponent* 
 	// Bind fire event
 	PlayerInputComponent->BindAction("Fire", IE_Pressed, this, &AUFinalPracticeCharacter::OnFire);
 
-	// Enable touchscreen input
-	EnableTouchscreenMovement(PlayerInputComponent);
-
-	PlayerInputComponent->BindAction("ResetVR", IE_Pressed, this, &AUFinalPracticeCharacter::OnResetVR);
-
 	// Bind movement events
 	PlayerInputComponent->BindAxis("MoveForward", this, &AUFinalPracticeCharacter::MoveForward);
 	PlayerInputComponent->BindAxis("MoveRight", this, &AUFinalPracticeCharacter::MoveRight);
@@ -144,6 +143,33 @@ void AUFinalPracticeCharacter::SetupPlayerInputComponent(class UInputComponent* 
 	PlayerInputComponent->BindAxis("TurnRate", this, &AUFinalPracticeCharacter::TurnAtRate);
 	PlayerInputComponent->BindAxis("LookUp", this, &APawn::AddControllerPitchInput);
 	PlayerInputComponent->BindAxis("LookUpRate", this, &AUFinalPracticeCharacter::LookUpAtRate);
+}
+
+void AUFinalPracticeCharacter::Heal(float duration)
+{
+	if (!HealTimerHandle.IsValid())
+	{
+		healingCounter = duration;
+		toHealPerSecond = (MAX_HP - HP) / duration;
+
+		GetWorldTimerManager().SetTimer(HealTimerHandle, this, &AUFinalPracticeCharacter::Heal, 1.0f, true);
+	}
+}
+
+void AUFinalPracticeCharacter::Heal()
+{
+	if (--healingCounter < 0) GetWorldTimerManager().ClearTimer(HealTimerHandle);
+	else SetHP(toHealPerSecond);
+}
+
+void AUFinalPracticeCharacter::SetHP(float hpToAdd)
+{
+	HP += hpToAdd;
+}
+
+void AUFinalPracticeCharacter::TimerTester()
+{
+	GEngine->AddOnScreenDebugMessage(-1, 20, FColor::Red, TEXT("TIMER TIMER"));
 }
 
 void AUFinalPracticeCharacter::OnFire()
@@ -194,74 +220,6 @@ void AUFinalPracticeCharacter::OnFire()
 	}
 }
 
-void AUFinalPracticeCharacter::OnResetVR()
-{
-	UHeadMountedDisplayFunctionLibrary::ResetOrientationAndPosition();
-}
-
-void AUFinalPracticeCharacter::BeginTouch(const ETouchIndex::Type FingerIndex, const FVector Location)
-{
-	if (TouchItem.bIsPressed == true)
-	{
-		return;
-	}
-	if ((FingerIndex == TouchItem.FingerIndex) && (TouchItem.bMoved == false))
-	{
-		OnFire();
-	}
-	TouchItem.bIsPressed = true;
-	TouchItem.FingerIndex = FingerIndex;
-	TouchItem.Location = Location;
-	TouchItem.bMoved = false;
-}
-
-void AUFinalPracticeCharacter::EndTouch(const ETouchIndex::Type FingerIndex, const FVector Location)
-{
-	if (TouchItem.bIsPressed == false)
-	{
-		return;
-	}
-	TouchItem.bIsPressed = false;
-}
-
-//Commenting this section out to be consistent with FPS BP template.
-//This allows the user to turn without using the right virtual joystick
-
-//void AUFinalPracticeCharacter::TouchUpdate(const ETouchIndex::Type FingerIndex, const FVector Location)
-//{
-//	if ((TouchItem.bIsPressed == true) && (TouchItem.FingerIndex == FingerIndex))
-//	{
-//		if (TouchItem.bIsPressed)
-//		{
-//			if (GetWorld() != nullptr)
-//			{
-//				UGameViewportClient* ViewportClient = GetWorld()->GetGameViewport();
-//				if (ViewportClient != nullptr)
-//				{
-//					FVector MoveDelta = Location - TouchItem.Location;
-//					FVector2D ScreenSize;
-//					ViewportClient->GetViewportSize(ScreenSize);
-//					FVector2D ScaledDelta = FVector2D(MoveDelta.X, MoveDelta.Y) / ScreenSize;
-//					if (FMath::Abs(ScaledDelta.X) >= 4.0 / ScreenSize.X)
-//					{
-//						TouchItem.bMoved = true;
-//						float Value = ScaledDelta.X * BaseTurnRate;
-//						AddControllerYawInput(Value);
-//					}
-//					if (FMath::Abs(ScaledDelta.Y) >= 4.0 / ScreenSize.Y)
-//					{
-//						TouchItem.bMoved = true;
-//						float Value = ScaledDelta.Y * BaseTurnRate;
-//						AddControllerPitchInput(Value);
-//					}
-//					TouchItem.Location = Location;
-//				}
-//				TouchItem.Location = Location;
-//			}
-//		}
-//	}
-//}
-
 void AUFinalPracticeCharacter::MoveForward(float Value)
 {
 	if (Value != 0.0f)
@@ -290,19 +248,4 @@ void AUFinalPracticeCharacter::LookUpAtRate(float Rate)
 {
 	// calculate delta for this frame from the rate information
 	AddControllerPitchInput(Rate * BaseLookUpRate * GetWorld()->GetDeltaSeconds());
-}
-
-bool AUFinalPracticeCharacter::EnableTouchscreenMovement(class UInputComponent* PlayerInputComponent)
-{
-	if (FPlatformMisc::SupportsTouchInput() || GetDefault<UInputSettings>()->bUseMouseForTouch)
-	{
-		PlayerInputComponent->BindTouch(EInputEvent::IE_Pressed, this, &AUFinalPracticeCharacter::BeginTouch);
-		PlayerInputComponent->BindTouch(EInputEvent::IE_Released, this, &AUFinalPracticeCharacter::EndTouch);
-
-		//Commenting this out to be more consistent with FPS BP template.
-		//PlayerInputComponent->BindTouch(EInputEvent::IE_Repeat, this, &AUFinalPracticeCharacter::TouchUpdate);
-		return true;
-	}
-	
-	return false;
 }
