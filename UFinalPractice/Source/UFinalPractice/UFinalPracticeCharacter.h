@@ -50,10 +50,11 @@ public:
 	AUFinalPracticeCharacter();
 
 	UPROPERTY(EditAnywhere) TSubclassOf<UPlayerHpWidget> wg;
+	UPROPERTY(BluePrintReadOnly) float HP = 1.f;
+
 protected:
 	virtual void BeginPlay();
 
-	UPROPERTY(BluePrintReadOnly) float HP = 1.f;
 
 
 public:

@@ -57,7 +57,10 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ACaltrop); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ACaltrop)
 
 
-#define UFinalPractice_Source_UFinalPractice_Caltrop_h_12_PRIVATE_PROPERTY_OFFSET
+#define UFinalPractice_Source_UFinalPractice_Caltrop_h_12_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__MeshComponent() { return STRUCT_OFFSET(ACaltrop, MeshComponent); }
+
+
 #define UFinalPractice_Source_UFinalPractice_Caltrop_h_9_PROLOG
 #define UFinalPractice_Source_UFinalPractice_Caltrop_h_12_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
