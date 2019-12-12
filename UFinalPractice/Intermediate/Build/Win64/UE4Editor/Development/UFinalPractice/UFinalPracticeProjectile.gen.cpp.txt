@@ -1,0 +1,5 @@
+C:\Repo\FinalPractice\UFinalPractice\Intermediate\Build\Win64\UE4Editor\Development\UFinalPractice\Definitions.UFinalPractice.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+C:\Repo\FinalPractice\UFinalPractice\Source\UFinalPractice/UFinalPracticeProjectile.h
+C:\Repo\FinalPractice\UFinalPractice\Intermediate\Build\Win64\UE4Editor\Inc\UFinalPractice\UFinalPracticeProjectile.generated.h

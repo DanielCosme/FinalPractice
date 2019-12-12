@@ -1,0 +1,890 @@
+﻿Log file open, 12/11/19 21:25:16
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: UFinalPractice
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 47 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.068169
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GLTFImporter
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin BlastPlugin
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin DataPrepEditor
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogPluginManager: Mounting plugin DatasmithC4DImporter
+LogPluginManager: Mounting plugin DatasmithCADImporter
+LogPluginManager: Mounting plugin DatasmithFBXImporter
+LogPluginManager: Mounting plugin DatasmithGLTFImporter
+LogPluginManager: Mounting plugin DatasmithIFCImporter
+LogPluginManager: Mounting plugin DatasmithImporter
+LogPluginManager: Mounting plugin MDLImporter
+LogPluginManager: Mounting plugin StaticMeshEditorExtension
+LogPluginManager: Mounting plugin VariantManager
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.23-CL-9631420
+LogInit: Engine Version: 4.23.1-9631420+++UE4+Release-4.23
+LogInit: Compatible Engine Version: 4.23.0-8386587+++UE4+Release-4.23
+LogInit: Net CL: 8386587
+LogInit: OS: Windows 10 (Release 1903) (), CPU: AMD Ryzen 7 2700X Eight-Core Processor         , GPU: NVIDIA GeForce GTX 1060 6GB
+LogInit: Compiled (64-bit): Oct 18 2019 02:07:44
+LogInit: Compiled with Visual C++: 19.16.27030.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.23
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.23/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 23
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 34
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 35
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 31
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 27
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 6
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 9
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2019.12.12-02.25.16:982][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.12.12-02.25.16:982][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.12.12-02.25.16:982][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Repo/FinalPractice/UFinalPractice/Saved/Config/Windows/Engine.ini]
+[2019.12.12-02.25.16:982][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.12.12-02.25.16:982][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Repo/FinalPractice/UFinalPractice/Saved/Config/Windows/Engine.ini]
+[2019.12.12-02.25.16:982][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Repo/FinalPractice/UFinalPractice/Saved/Config/Windows/Engine.ini]
+[2019.12.12-02.25.16:982][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.12.12-02.25.16:982][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.12.12-02.25.16:982][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.12.12-02.25.16:982][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.12.12-02.25.16:982][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.12.12-02.25.16:982][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.12.12-02.25.16:982][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.12.12-02.25.16:982][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.12.12-02.25.16:982][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.12.12-02.25.16:982][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.12.12-02.25.16:982][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.12.12-02.25.16:982][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.12.12-02.25.16:982][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.12.12-02.25.16:982][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Repo/FinalPractice/UFinalPractice/Saved/Config/Windows/Engine.ini]
+[2019.12.12-02.25.16:982][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.12.12-02.25.16:982][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.12.12-02.25.16:982][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.12.12-02.25.16:982][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.12.12-02.25.16:982][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.12.12-02.25.16:982][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.12.12-02.25.16:982][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2019.12.12-02.25.16:982][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.12.12-02.25.16:982][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.12.12-02.25.16:982][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.12.12-02.25.16:982][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.12.12-02.25.16:982][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.12.12-02.25.16:982][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.12.12-02.25.16:982][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Repo/FinalPractice/UFinalPractice/Saved/Config/Windows/Engine.ini]
+[2019.12.12-02.25.16:982][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Repo/FinalPractice/UFinalPractice/Saved/Config/Windows/Engine.ini]
+[2019.12.12-02.25.16:984][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Repo/FinalPractice/UFinalPractice/Saved/Config/Windows/Scalability.ini]
+[2019.12.12-02.25.16:984][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.12.12-02.25.16:984][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.12.12-02.25.16:984][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Repo/FinalPractice/UFinalPractice/Saved/Config/Windows/Scalability.ini]
+[2019.12.12-02.25.16:984][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.12.12-02.25.16:984][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Repo/FinalPractice/UFinalPractice/Saved/Config/Windows/Scalability.ini]
+[2019.12.12-02.25.16:984][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.12.12-02.25.16:984][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.12.12-02.25.16:984][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.12.12-02.25.16:984][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.12.12-02.25.16:984][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.12.12-02.25.16:984][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.12.12-02.25.16:984][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.12.12-02.25.16:984][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.12.12-02.25.16:984][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.12.12-02.25.16:984][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.12.12-02.25.16:984][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.12.12-02.25.16:984][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.12.12-02.25.16:984][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.12.12-02.25.16:984][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.12.12-02.25.16:984][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.12.12-02.25.16:984][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.12.12-02.25.16:984][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.12.12-02.25.16:985][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.12.12-02.25.16:985][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Repo/FinalPractice/UFinalPractice/Saved/Config/Windows/Scalability.ini]
+[2019.12.12-02.25.16:985][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.12.12-02.25.16:985][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.12.12-02.25.16:985][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.12.12-02.25.16:985][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.12.12-02.25.16:985][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.12.12-02.25.16:985][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.12.12-02.25.16:985][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.12.12-02.25.16:985][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.12.12-02.25.16:985][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.12.12-02.25.16:985][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.12.12-02.25.16:985][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.12.12-02.25.16:985][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.12.12-02.25.16:985][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.12.12-02.25.16:985][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.12.12-02.25.16:985][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.12.12-02.25.16:985][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.12.12-02.25.16:985][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.12.12-02.25.16:985][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.12.12-02.25.16:985][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.12.12-02.25.16:985][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.12.12-02.25.16:985][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.12.12-02.25.16:985][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.12.12-02.25.16:985][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.12.12-02.25.16:985][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.12.12-02.25.16:985][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.12.12-02.25.16:985][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.12.12-02.25.16:985][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.12.12-02.25.16:985][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.12.12-02.25.16:985][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.12.12-02.25.16:985][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.12.12-02.25.16:985][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Repo/FinalPractice/UFinalPractice/Saved/Config/Windows/Scalability.ini]
+[2019.12.12-02.25.16:985][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.12.12-02.25.16:985][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.12.12-02.25.16:985][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.12.12-02.25.16:985][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.12.12-02.25.16:985][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.12.12-02.25.16:985][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.12.12-02.25.16:985][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.12.12-02.25.16:985][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.12.12-02.25.16:985][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Repo/FinalPractice/UFinalPractice/Saved/Config/Windows/Scalability.ini]
+[2019.12.12-02.25.16:985][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.12.12-02.25.16:985][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.12.12-02.25.16:985][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.12.12-02.25.16:985][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.12.12-02.25.16:985][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.12.12-02.25.16:985][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.12.12-02.25.16:985][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.12.12-02.25.16:985][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.12.12-02.25.16:985][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.12.12-02.25.16:985][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.12.12-02.25.16:985][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.12.12-02.25.16:985][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.12.12-02.25.16:985][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.12.12-02.25.16:985][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Repo/FinalPractice/UFinalPractice/Saved/Config/Windows/Scalability.ini]
+[2019.12.12-02.25.16:985][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.12.12-02.25.16:985][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.12.12-02.25.16:985][  0]LogInit: Selected Device Profile: [Windows]
+[2019.12.12-02.25.16:985][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.12.12-02.25.16:988][  0]LogHAL: Display: Platform has ~ 16 GB [17128321024 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.12.12-02.25.16:988][  0]LogInit: Going up to parent DeviceProfile []
+[2019.12.12-02.25.16:988][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Repo/FinalPractice/UFinalPractice/Saved/Config/Windows/Scalability.ini]
+[2019.12.12-02.25.16:988][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.12.12-02.25.16:988][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.12.12-02.25.16:988][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Repo/FinalPractice/UFinalPractice/Saved/Config/Windows/Scalability.ini]
+[2019.12.12-02.25.16:988][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.12.12-02.25.16:988][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Repo/FinalPractice/UFinalPractice/Saved/Config/Windows/Scalability.ini]
+[2019.12.12-02.25.16:988][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.12.12-02.25.16:988][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.12.12-02.25.16:988][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.12.12-02.25.16:988][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.12.12-02.25.16:988][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.12.12-02.25.16:988][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.12.12-02.25.16:988][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.12.12-02.25.16:988][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.12.12-02.25.16:988][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.12.12-02.25.16:988][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.12.12-02.25.16:988][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.12.12-02.25.16:988][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.12.12-02.25.16:988][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.12.12-02.25.16:988][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.12.12-02.25.16:988][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.12.12-02.25.16:988][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.12.12-02.25.16:988][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.12.12-02.25.16:988][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.12.12-02.25.16:988][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Repo/FinalPractice/UFinalPractice/Saved/Config/Windows/Scalability.ini]
+[2019.12.12-02.25.16:988][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.12.12-02.25.16:988][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.12.12-02.25.16:988][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.12.12-02.25.16:988][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.12.12-02.25.16:988][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.12.12-02.25.16:988][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.12.12-02.25.16:988][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.12.12-02.25.16:988][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.12.12-02.25.16:988][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.12.12-02.25.16:988][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.12.12-02.25.16:988][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.12.12-02.25.16:988][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.12.12-02.25.16:988][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.12.12-02.25.16:988][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.12.12-02.25.16:988][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.12.12-02.25.16:989][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.12.12-02.25.16:989][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.12.12-02.25.16:989][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.12.12-02.25.16:989][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.12.12-02.25.16:989][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.12.12-02.25.16:989][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.12.12-02.25.16:989][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.12.12-02.25.16:989][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.12.12-02.25.16:989][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.12.12-02.25.16:989][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.12.12-02.25.16:989][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.12.12-02.25.16:989][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.12.12-02.25.16:989][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.12.12-02.25.16:989][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.12.12-02.25.16:989][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.12.12-02.25.16:989][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Repo/FinalPractice/UFinalPractice/Saved/Config/Windows/Scalability.ini]
+[2019.12.12-02.25.16:989][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.12.12-02.25.16:989][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.12.12-02.25.16:989][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.12.12-02.25.16:989][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.12.12-02.25.16:989][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.12.12-02.25.16:989][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.12.12-02.25.16:989][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.12.12-02.25.16:989][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.12.12-02.25.16:989][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Repo/FinalPractice/UFinalPractice/Saved/Config/Windows/Scalability.ini]
+[2019.12.12-02.25.16:989][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.12.12-02.25.16:989][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.12.12-02.25.16:989][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.12.12-02.25.16:989][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.12.12-02.25.16:989][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.12.12-02.25.16:989][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.12.12-02.25.16:989][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.12.12-02.25.16:989][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.12.12-02.25.16:989][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.12.12-02.25.16:989][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.12.12-02.25.16:989][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.12.12-02.25.16:989][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.12.12-02.25.16:989][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.12.12-02.25.16:989][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Repo/FinalPractice/UFinalPractice/Saved/Config/Windows/Scalability.ini]
+[2019.12.12-02.25.16:989][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.12.12-02.25.16:989][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.12.12-02.25.16:989][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.12.12-02.25.16:989][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.12.12-02.25.16:989][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2019.12.12-02.25.16:989][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Repo/FinalPractice/UFinalPractice/Saved/Config/Windows/Engine.ini]
+[2019.12.12-02.25.16:989][  0]LogInit: Computer: DESKTOP-VJFBM6U
+[2019.12.12-02.25.16:989][  0]LogInit: User: dani
+[2019.12.12-02.25.16:989][  0]LogInit: CPU Page size=4096, Cores=8
+[2019.12.12-02.25.16:989][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.12.12-02.25.16:990][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2019.12.12-02.25.16:990][  0]LogMemory: Platform Memory Stats for Windows
+[2019.12.12-02.25.16:990][  0]LogMemory: Process Physical Memory: 101.80 MB used, 101.80 MB peak
+[2019.12.12-02.25.16:990][  0]LogMemory: Process Virtual Memory: 102.42 MB used, 102.42 MB peak
+[2019.12.12-02.25.16:990][  0]LogMemory: Physical Memory: 9449.78 MB used,  6885.06 MB free, 16334.84 MB total
+[2019.12.12-02.25.16:990][  0]LogMemory: Virtual Memory: 4703.18 MB used,  134213024.00 MB free, 134217728.00 MB total
+[2019.12.12-02.25.16:991][  0]LogWindows: WindowsPlatformFeatures enabled
+[2019.12.12-02.25.17:014][  0]LogInit: Using OS detected language (en-US).
+[2019.12.12-02.25.17:014][  0]LogInit: Using OS detected locale (en-US).
+[2019.12.12-02.25.17:014][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.12.12-02.25.17:153][  0]LogInit: Setting process to per monitor DPI aware
+[2019.12.12-02.25.17:186][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.12.12-02.25.17:186][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.12.12-02.25.17:348][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.12.12-02.25.17:348][  0]LogD3D11RHI: D3D11 adapters:
+[2019.12.12-02.25.17:414][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
+[2019.12.12-02.25.17:414][  0]LogD3D11RHI:       6052/0/8167 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.12.12-02.25.17:416][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.12.12-02.25.17:416][  0]LogD3D11RHI:       0/0/8167 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.12.12-02.25.17:416][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.12.12-02.25.17:423][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.12.12-02.25.17:423][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
+[2019.12.12-02.25.17:423][  0]LogWindows: EnumDisplayDevices:
+[2019.12.12-02.25.17:424][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
+[2019.12.12-02.25.17:424][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2019.12.12-02.25.17:424][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2019.12.12-02.25.17:424][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2019.12.12-02.25.17:424][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.12.12-02.25.17:424][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
+[2019.12.12-02.25.17:424][  0]LogD3D11RHI:   Driver Version: 441.12 (internal:26.21.14.4112, unified:441.12)
+[2019.12.12-02.25.17:424][  0]LogD3D11RHI:      Driver Date: 10-24-2019
+[2019.12.12-02.25.17:424][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
+[2019.12.12-02.25.17:469][  0]LogD3D11RHI: Async texture creation enabled
+[2019.12.12-02.25.17:495][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.12.12-02.25.17:751][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2019.12.12-02.25.17:759][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2019.12.12-02.25.17:767][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2019.12.12-02.25.17:776][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2019.12.12-02.25.17:785][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2019.12.12-02.25.17:793][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2019.12.12-02.25.17:801][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2019.12.12-02.25.17:810][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2019.12.12-02.25.17:814][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2019.12.12-02.25.17:842][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2019.12.12-02.25.17:843][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2019.12.12-02.25.17:843][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2019.12.12-02.25.17:843][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2019.12.12-02.25.17:843][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2019.12.12-02.25.17:843][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2019.12.12-02.25.17:843][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2019.12.12-02.25.17:843][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2019.12.12-02.25.17:843][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2019.12.12-02.25.17:843][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2019.12.12-02.25.17:843][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2019.12.12-02.25.17:843][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2019.12.12-02.25.17:843][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2019.12.12-02.25.17:843][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2019.12.12-02.25.17:843][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2019.12.12-02.25.17:843][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2019.12.12-02.25.17:843][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2019.12.12-02.25.17:843][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2019.12.12-02.25.17:844][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2019.12.12-02.25.17:861][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2019.12.12-02.25.17:861][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2019.12.12-02.25.17:874][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2019.12.12-02.25.17:874][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2019.12.12-02.25.17:881][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2019.12.12-02.25.17:887][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2019.12.12-02.25.17:894][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2019.12.12-02.25.17:901][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2019.12.12-02.25.17:924][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2019.12.12-02.25.17:924][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2019.12.12-02.25.17:924][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.12.12-02.25.17:934][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2019.12.12-02.25.17:984][  0]LogShaderCompilers: Guid format shader working directory is -7 characters bigger than the processId version (../../../../../../Repo/FinalPractice/UFinalPractice/Intermediate/Shaders/WorkingDirectory/18688/).
+[2019.12.12-02.25.17:985][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/dani/AppData/Local/Temp/UnrealShaderWorkingDir/F782604D47A358DC17956D8F3DAD40D3/'.
+[2019.12.12-02.25.17:988][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.12.12-02.25.17:988][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.12.12-02.25.17:988][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.12.12-02.25.18:548][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.12.12-02.25.18:584][  0]LogDerivedDataCache: Loaded boot cache 0.04s 77MB C:/Users/dani/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
+[2019.12.12-02.25.18:584][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/dani/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc
+[2019.12.12-02.25.18:584][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Repo/FinalPractice/UFinalPractice/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.12.12-02.25.18:584][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.12.12-02.25.18:584][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Repo/FinalPractice/UFinalPractice/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.12.12-02.25.18:584][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.12.12-02.25.18:595][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.12.12-02.25.18:596][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Enterprise/DerivedDataCache/Compressed.ddp.
+[2019.12.12-02.25.18:597][  0]LogDerivedDataCache: Using Local data cache path C:/Users/dani/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.12.12-02.25.18:597][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.12.12-02.25.18:597][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.12.12-02.25.18:619][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.12.12-02.25.18:621][  0]LogSlate: Using FreeType 2.6.0
+[2019.12.12-02.25.18:622][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.12.12-02.25.18:670][  0]LogAssetRegistry: FAssetRegistry took 0.0020 seconds to start up
+[2019.12.12-02.25.18:915][  0]LogInit: Selected Device Profile: [Windows]
+[2019.12.12-02.25.19:043][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.12.12-02.25.19:043][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2019.12.12-02.25.19:043][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.12.12-02.25.19:043][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2019.12.12-02.25.19:043][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2019.12.12-02.25.19:052][  0]LogNetVersion: UFinalPractice 1.0.0, NetCL: 8386587, EngineNetVer: 11, GameNetVer: 0 (Checksum: 687986185)
+[2019.12.12-02.25.19:450][  0]LogPackageLocalizationCache: Processed 18 localized package path(s) for 1 prioritized culture(s) in 0.074517 seconds
+[2019.12.12-02.25.19:456][  0]LogUObjectArray: 43444 objects as part of root set at end of initial load.
+[2019.12.12-02.25.19:456][  0]LogUObjectAllocator: 7548648 out of 0 bytes used by permanent object pool.
+[2019.12.12-02.25.19:456][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.12.12-02.25.20:203][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.12.12-02.25.20:206][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.12.12-02.25.20:541][  0]SourceControl: Source control is disabled
+[2019.12.12-02.25.20:541][  0]SourceControl: Source control is disabled
+[2019.12.12-02.25.20:542][  0]SourceControl: Source control is disabled
+[2019.12.12-02.25.20:543][  0]SourceControl: Source control is disabled
+[2019.12.12-02.25.20:699][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.12.12-02.25.20:767][  0]LogOcInput: OculusInput pre-init called
+[2019.12.12-02.25.20:776][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2019.12.12-02.25.20:776][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2019.12.12-02.25.24:312][  0]LogEngine: Initializing Engine...
+[2019.12.12-02.25.24:313][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.12.12-02.25.24:314][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2019.12.12-02.25.24:506][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.12.12-02.25.24:518][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.12.12-02.25.24:533][  0]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.12.12-02.25.24:561][  0]LogInit: FAudioDevice initialized.
+[2019.12.12-02.25.24:561][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.12.12-02.25.24:613][  0]LogDerivedDataCache: Saved boot cache 0.05s 77MB C:/Users/dani/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
+[2019.12.12-02.25.24:619][  0]LogInit: Texture streaming: Enabled
+[2019.12.12-02.25.24:638][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.12.12-02.25.24:638][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2019.12.12-02.25.24:639][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2019.12.12-02.25.24:693][  0]LogInit: Transaction tracking system initialized
+[2019.12.12-02.25.24:729][  0]BlueprintLog: New page: Editor Load
+[2019.12.12-02.25.24:809][  0]LocalizationService: Localization service is disabled
+[2019.12.12-02.25.25:042][  0]LogFileCache: Scanning file cache for directory 'C:/Repo/FinalPractice/UFinalPractice/Content/' took 0.01s
+[2019.12.12-02.25.25:042][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.12.12-02.25.25:042][  0]LogCook: Display: Mobile HDR setting 1
+[2019.12.12-02.25.26:530][  0]SourceControl: Source control is disabled
+[2019.12.12-02.25.26:530][  0]Cmd: MAP LOAD FILE="../../../../../../Repo/FinalPractice/UFinalPractice/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.12.12-02.25.26:535][  0]LightingResults: New page: Lighting Build
+[2019.12.12-02.25.26:537][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2019.12.12-02.25.26:537][  0]MapCheck: New page: Map Check
+[2019.12.12-02.25.26:537][  0]LightingResults: New page: Lighting Build
+[2019.12.12-02.25.26:572][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
+[2019.12.12-02.25.26:672][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.12.12-02.25.26:690][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.12.12-02.25.26:724][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.94ms
+[2019.12.12-02.25.26:724][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.12.12-02.25.26:724][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.162ms to complete.
+[2019.12.12-02.25.26:724][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.195
+[2019.12.12-02.25.26:861][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.12-02.25.26:867][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.12-02.25.26:872][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.12-02.25.26:878][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.12-02.25.26:887][  0]LogCollectionManager: Loaded 0 collections in 0.001722 seconds
+[2019.12.12-02.25.26:892][  0]LogFileCache: Scanning file cache for directory 'C:/Repo/FinalPractice/UFinalPractice/Saved/Collections/' took 0.00s
+[2019.12.12-02.25.26:892][  0]LogFileCache: Scanning file cache for directory 'C:/Repo/FinalPractice/UFinalPractice/Content/Developers/dani/Collections/' took 0.00s
+[2019.12.12-02.25.26:892][  0]LogFileCache: Scanning file cache for directory 'C:/Repo/FinalPractice/UFinalPractice/Content/Collections/' took 0.00s
+[2019.12.12-02.25.26:892][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2019.12.12-02.25.26:901][  0]LogContentBrowser: Native class hierarchy populated in 0.0086 seconds. Added 3050 classes and 767 folders.
+[2019.12.12-02.25.26:907][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.12.12-02.25.27:123][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.12.12-02.25.27:198][  0]LogSlate: Took 0.000177 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.12.12-02.25.27:201][  0]LogSlate: Took 0.000148 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.12.12-02.25.27:207][  0]LogSlate: Took 0.004116 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.12.12-02.25.27:287][  0]LogRenderer: Reallocating scene render targets to support 1172x660 Format 10 NumSamples 1 (Frame:1).
+[2019.12.12-02.25.27:378][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.12.12-02.25.27:378][  0]LogLoad: (Engine Initialization) Total time: 11.53 seconds
+[2019.12.12-02.25.27:378][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.12.12-02.25.27:421][  0]LogAssetRegistry: Asset discovery search completed in 8.7517 seconds
+[2019.12.12-02.25.27:424][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000003 seconds (found 0 objects)
+[2019.12.12-02.25.27:424][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000033 seconds (updated 0 objects)
+[2019.12.12-02.25.27:425][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.12.12-02.25.27:523][  0]LogSlate: Took 0.004990 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.12.12-02.25.39:176][375]LogHotReload: New module detected: UE4Editor-UFinalPractice-0008.dll
+[2019.12.12-02.25.39:856][378]LogHotReload: Starting Hot-Reload from IDE
+[2019.12.12-02.25.39:862][378]LogSlate: Took 0.000159 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.12.12-02.25.39:910][378]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2019.12.12-02.25.39:937][378]LogContentBrowser: Native class hierarchy updated for 'UFinalPractice' in 0.0004 seconds. Added 5 classes and 2 folders.
+[2019.12.12-02.25.39:940][378]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2019.12.12-02.25.40:007][378]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2019.12.12-02.25.40:020][378]LogContentBrowser: Native class hierarchy populated in 0.0087 seconds. Added 3050 classes and 767 folders.
+[2019.12.12-02.25.40:030][378]Display: HotReload took  0.2s.
+[2019.12.12-02.26.48:614][729]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.12.12-02.30.30:334][671]LogHotReload: New module detected: UE4Editor-UFinalPractice-0009.dll
+[2019.12.12-02.30.30:680][673]LogHotReload: Starting Hot-Reload from IDE
+[2019.12.12-02.30.30:732][673]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2019.12.12-02.30.30:755][673]LogClass: Could not find existing class UFinalPracticeCharacter in package /Script/UFinalPractice for HotReload, assuming new class
+[2019.12.12-02.30.30:767][673]LogHotReload: Re-instancing UFinalPracticeCharacter after hot-reload.
+[2019.12.12-02.30.30:973][673]LogContentBrowser: Native class hierarchy updated for 'UFinalPractice' in 0.0004 seconds. Added 5 classes and 2 folders.
+[2019.12.12-02.30.30:976][673]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2019.12.12-02.30.31:036][673]LogUObjectHash: Compacting FUObjectHashTables data took   1.93ms
+[2019.12.12-02.30.31:051][673]LogContentBrowser: Native class hierarchy populated in 0.0099 seconds. Added 3050 classes and 767 folders.
+[2019.12.12-02.30.31:061][673]Display: HotReload took  0.4s.
+[2019.12.12-02.32.59:284][311]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.12-02.33.04:353][908]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/FirstPersonCPP/Blueprints/FirstPersonCharacter.FirstPersonCharacter
+[2019.12.12-02.33.04:607][908]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 121 classes and 0 folders.
+[2019.12.12-02.33.06:749][ 26]LogSlate: Window 'FirstPersonCharacter' being destroyed
+[2019.12.12-02.33.06:764][ 26]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2019.12.12-02.33.06:824][ 26]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/FirstPersonCPP/Blueprints/FirstPersonCharacter.FirstPersonCharacter
+[2019.12.12-02.33.07:159][ 26]LogSlate: Took 0.004421 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.12.12-02.33.15:164][961]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.12.12-02.33.16:246][ 81]BlueprintLog: New page: Compile FirstPersonCharacter
+[2019.12.12-02.33.16:499][ 81]LogUObjectHash: Compacting FUObjectHashTables data took   3.36ms
+[2019.12.12-02.33.16:965][121]LogSavePackage: Moving '../../../../../../Repo/FinalPractice/UFinalPractice/Saved/FirstPersonCharacter4B5729E7487B868D1A3BA68354C5C99A.tmp' to '../../../../../../Repo/FinalPractice/UFinalPractice/Content/FirstPersonCPP/Blueprints/FirstPersonCharacter.uasset'
+[2019.12.12-02.33.17:967][232]LogSlate: Window 'FirstPersonCharacter' being destroyed
+[2019.12.12-02.33.17:974][232]LogSlate: Window 'FirstPersonCharacter' being destroyed
+[2019.12.12-02.33.17:982][232]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2019.12.12-02.33.20:784][553]LogTemp: Repeating last play command: Selected Viewport
+[2019.12.12-02.33.20:795][553]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.12-02.33.20:795][553]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.12-02.33.20:795][553]PIE: New page: PIE session: FirstPersonExampleMap (Dec 11, 2019, 4:33:20 PM)
+[2019.12.12-02.33.20:796][553]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2019.12.12-02.33.20:797][553]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.12.12-02.33.20:808][553]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010801s)
+[2019.12.12-02.33.20:808][553]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.12.12-02.33.20:809][553]LogPlayLevel: PIE: World Init took: (0.000752s)
+[2019.12.12-02.33.20:809][553]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.011781s)
+[2019.12.12-02.33.20:844][553]LogUObjectHash: Compacting FUObjectHashTables data took   3.06ms
+[2019.12.12-02.33.20:852][553]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.12.12-02.33.20:861][553]LogInit: FAudioDevice initialized.
+[2019.12.12-02.33.20:869][553]LogLoad: Game class is 'UFinalPracticeGameMode'
+[2019.12.12-02.33.20:871][553]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2019.12.11-21.33.20
+[2019.12.12-02.33.20:871][553]LogWorld: Bringing up level for play took: 0.001312
+[2019.12.12-02.33.20:871][553]LogOnline: OSS: Creating online subsystem instance for: :Context_7
+[2019.12.12-02.33.20:878][553]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 20 classes and 0 folders.
+[2019.12.12-02.33.20:879][553]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap -0.221
+[2019.12.12-02.33.20:879][553]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.12-02.33.24:087][901]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.12-02.33.24:087][901]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.12-02.33.24:087][901]LogWorld: BeginTearingDown for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.12.12-02.33.24:088][901]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2019.12.12-02.33.24:098][901]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.12.12-02.33.24:098][901]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.12-02.33.24:131][901]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.12-02.33.24:171][901]LogUObjectHash: Compacting FUObjectHashTables data took   4.04ms
+[2019.12.12-02.33.24:193][902]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2019.12.12-02.33.25:998][117]LogTemp: Repeating last play command: Selected Viewport
+[2019.12.12-02.33.26:007][117]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.12-02.33.26:008][117]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.12-02.33.26:008][117]PIE: New page: PIE session: FirstPersonExampleMap (Dec 11, 2019, 4:33:26 PM)
+[2019.12.12-02.33.26:008][117]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.12.12-02.33.26:016][117]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008086s)
+[2019.12.12-02.33.26:016][117]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.12.12-02.33.26:017][117]LogPlayLevel: PIE: World Init took: (0.001214s)
+[2019.12.12-02.33.26:017][117]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.009409s)
+[2019.12.12-02.33.26:071][117]LogUObjectHash: Compacting FUObjectHashTables data took   2.37ms
+[2019.12.12-02.33.26:079][117]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.12.12-02.33.26:089][117]LogInit: FAudioDevice initialized.
+[2019.12.12-02.33.26:089][117]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.12.12-02.33.26:096][117]LogLoad: Game class is 'UFinalPracticeGameMode'
+[2019.12.12-02.33.26:097][117]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2019.12.11-21.33.26
+[2019.12.12-02.33.26:097][117]LogWorld: Bringing up level for play took: 0.001270
+[2019.12.12-02.33.26:097][117]LogOnline: OSS: Creating online subsystem instance for: :Context_8
+[2019.12.12-02.33.26:099][117]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 0.999
+[2019.12.12-02.33.26:100][117]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.12-02.33.28:512][403]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.12-02.33.28:512][403]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.12-02.33.28:512][403]LogWorld: BeginTearingDown for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.12.12-02.33.28:512][403]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2019.12.12-02.33.28:521][403]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.12.12-02.33.28:521][403]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.12-02.33.28:559][403]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.12-02.33.28:562][403]LogUObjectHash: Compacting FUObjectHashTables data took   2.19ms
+[2019.12.12-02.33.28:613][406]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2019.12.12-02.33.29:353][493]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.12-02.33.30:807][659]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/FirstPersonCPP/Blueprints/WBP_PlayerHp.WBP_PlayerHp
+[2019.12.12-02.33.44:317][ 88]LogSlate: Window 'Color Picker' being destroyed
+[2019.12.12-02.33.50:325][794]BlueprintLog: New page: Compile WBP_PlayerHp
+[2019.12.12-02.33.50:387][794]LogUObjectHash: Compacting FUObjectHashTables data took   4.43ms
+[2019.12.12-02.33.50:968][850]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonCPP/Blueprints/WBP_PlayerHp" FILE="../../../../../../Repo/FinalPractice/UFinalPractice/Content/FirstPersonCPP/Blueprints/WBP_PlayerHp.uasset" SILENT=true
+[2019.12.12-02.33.50:987][850]LogSavePackage: Moving '../../../../../../Repo/FinalPractice/UFinalPractice/Saved/WBP_PlayerHpB8770B7E4478B1BD93327F951FE722E1.tmp' to '../../../../../../Repo/FinalPractice/UFinalPractice/Content/FirstPersonCPP/Blueprints/WBP_PlayerHp.uasset'
+[2019.12.12-02.33.51:853][944]LogSlate: Window 'WBP_PlayerHp' being destroyed
+[2019.12.12-02.33.51:860][944]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2019.12.12-02.33.51:864][944]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2019.12.12-02.34.20:238][755]Candidate modules for hot reload:
+[2019.12.12-02.34.20:238][755]  UFinalPractice
+[2019.12.12-02.34.20:238][755]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.23/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=UFinalPractice,7727 Win64 Development -TargetType=Editor -Project="C:/Repo/FinalPractice/UFinalPractice/UFinalPractice.uproject" "C:/Repo/FinalPractice/UFinalPractice/UFinalPractice.uproject"  -IgnoreJunk]
+[2019.12.12-02.34.29:223][755]CompilerResultsLog: New page: Compilation - Dec 11, 2019, 4:34:29 PM
+[2019.12.12-02.34.29:223][755]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Repo\FinalPractice).
+[2019.12.12-02.34.29:223][755]CompilerResultsLog: Creating makefile for UFinalPracticeEditor (.uproject file is newer)
+[2019.12.12-02.34.29:223][755]CompilerResultsLog: Parsing headers for UFinalPracticeEditor
+[2019.12.12-02.34.29:223][755]CompilerResultsLog:   Running UnrealHeaderTool "C:\Repo\FinalPractice\UFinalPractice\UFinalPractice.uproject" "C:\Repo\FinalPractice\UFinalPractice\Intermediate\Build\Win64\UFinalPracticeEditor\Development\UFinalPracticeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.12.12-02.34.29:223][755]CompilerResultsLog: Reflection code generated for UFinalPracticeEditor in 5.8419331 seconds
+[2019.12.12-02.34.29:223][755]CompilerResultsLog: Using Visual Studio 2019 14.23.28105 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.12.12-02.34.29:223][755]CompilerResultsLog: Building 9 actions with 16 processes...
+[2019.12.12-02.34.29:223][755]CompilerResultsLog:   [1/9] UFinalPractice.init.gen.cpp
+[2019.12.12-02.34.29:223][755]CompilerResultsLog:   [2/9] Caltrop.cpp
+[2019.12.12-02.34.29:223][755]CompilerResultsLog:   [3/9] Caltrop.gen.cpp
+[2019.12.12-02.34.29:223][755]CompilerResultsLog:   [4/9] UFinalPracticeCharacter.gen.cpp
+[2019.12.12-02.34.29:223][755]CompilerResultsLog:   [5/9] UFinalPracticeGameMode.cpp
+[2019.12.12-02.34.29:223][755]CompilerResultsLog:   [6/9] UFinalPracticeCharacter.cpp
+[2019.12.12-02.34.29:223][755]CompilerResultsLog:    C:\Repo\FinalPractice\UFinalPractice\Source\UFinalPractice\UFinalPracticeCharacter.cpp(95) : error C2065: 'CreateWidget': undeclared identifier
+[2019.12.12-02.34.29:223][755]CompilerResultsLog:    C:\Repo\FinalPractice\UFinalPractice\Source\UFinalPractice\UFinalPracticeCharacter.cpp(95) : error C2275: 'UPlayerHpWidget': illegal use of this type as an expression
+[2019.12.12-02.34.29:223][755]CompilerResultsLog:   C:\Repo\FinalPractice\UFinalPractice\Source\UFinalPractice\UFinalPracticeCharacter.h(52): note: see declaration of 'UPlayerHpWidget'
+[2019.12.12-02.34.29:223][755]CompilerResultsLog:    C:\Repo\FinalPractice\UFinalPractice\Source\UFinalPractice\UFinalPracticeCharacter.cpp(96) : error C3536: 'widget': cannot be used before it is initialized
+[2019.12.12-02.34.29:223][755]LogMainFrame: MainFrame: Module compiling took 8.996 seconds
+[2019.12.12-02.34.29:223][755]Warning: HotReload failed, recompile failed
+[2019.12.12-02.34.29:232][755]Warning: RebindPackages failed because compilation failed.
+[2019.12.12-02.34.47:282][755]LogSlate: Window 'Message' being destroyed
+[2019.12.12-02.34.47:291][755]LogSlate: Window 'Add C++ Class' being destroyed
+[2019.12.12-02.34.47:301][756]LogEditorSessionSummary: EditorSessionSummary sent report. Type=Crashed, SessionId={B7424CF1-4437-950A-67FC-B690ADB0E7C4}
+[2019.12.12-02.34.47:301][756]LogEditorSessionSummary: EditorSessionSummary sent report. Type=Shutdown, SessionId={45EAB6F9-4562-C1A1-889C-199ADC051B98}
+[2019.12.12-02.35.12:026][305]LogSlate: Window 'Message Log' being destroyed
+[2019.12.12-02.35.12:032][305]LogSlate: Window 'Message Log' being destroyed
+[2019.12.12-02.35.13:336][442]Candidate modules for hot reload:
+[2019.12.12-02.35.13:336][442]  UFinalPractice
+[2019.12.12-02.35.13:336][442]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.23/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=UFinalPractice,6932 Win64 Development -TargetType=Editor -Project="C:/Repo/FinalPractice/UFinalPractice/UFinalPractice.uproject" "C:/Repo/FinalPractice/UFinalPractice/UFinalPractice.uproject"  -IgnoreJunk]
+[2019.12.12-02.35.13:341][442]Warning: Starting HotReload took  0.0s.
+[2019.12.12-02.35.20:869][659]CompilerResultsLog: New page: Compilation - Dec 11, 2019, 4:35:20 PM
+[2019.12.12-02.35.20:869][659]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Repo\FinalPractice).
+[2019.12.12-02.35.20:869][659]CompilerResultsLog: Parsing headers for UFinalPracticeEditor
+[2019.12.12-02.35.20:869][659]CompilerResultsLog:   Running UnrealHeaderTool "C:\Repo\FinalPractice\UFinalPractice\UFinalPractice.uproject" "C:\Repo\FinalPractice\UFinalPractice\Intermediate\Build\Win64\UFinalPracticeEditor\Development\UFinalPracticeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.12.12-02.35.20:869][659]CompilerResultsLog: Reflection code generated for UFinalPracticeEditor in 5.4619425 seconds
+[2019.12.12-02.35.20:869][659]CompilerResultsLog: Using Visual Studio 2019 14.23.28105 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.12.12-02.35.20:869][659]CompilerResultsLog: Building 4 actions with 16 processes...
+[2019.12.12-02.35.20:869][659]CompilerResultsLog:   [1/4] UFinalPracticeCharacter.cpp
+[2019.12.12-02.35.20:869][659]CompilerResultsLog:    C:\Repo\FinalPractice\UFinalPractice\Source\UFinalPractice\UFinalPracticeCharacter.cpp(95) : error C2065: 'CreateWidget': undeclared identifier
+[2019.12.12-02.35.20:869][659]CompilerResultsLog:    C:\Repo\FinalPractice\UFinalPractice\Source\UFinalPractice\UFinalPracticeCharacter.cpp(95) : error C2275: 'UPlayerHpWidget': illegal use of this type as an expression
+[2019.12.12-02.35.20:870][659]CompilerResultsLog:   C:\Repo\FinalPractice\UFinalPractice\Source\UFinalPractice\UFinalPracticeCharacter.h(52): note: see declaration of 'UPlayerHpWidget'
+[2019.12.12-02.35.20:870][659]CompilerResultsLog:    C:\Repo\FinalPractice\UFinalPractice\Source\UFinalPractice\UFinalPracticeCharacter.cpp(96) : error C3536: 'widget': cannot be used before it is initialized
+[2019.12.12-02.35.20:870][659]LogMainFrame: MainFrame: Module compiling took 7.542 seconds
+[2019.12.12-02.35.20:870][659]Warning: HotReload failed, recompile failed
+[2019.12.12-02.35.39:981][ 88]LogUObjectHash: Compacting FUObjectHashTables data took   4.08ms
+[2019.12.12-02.35.40:220][ 88]LogSavePackage: Moving '../../../../../../Repo/FinalPractice/UFinalPractice/Saved/FirstPersonExampleMap_Auto10210D85E4D32AE78791FF2A686F92A7D.tmp' to '../../../../../../Repo/FinalPractice/UFinalPractice/Saved/Autosaves/Game/FirstPersonCPP/Maps/FirstPersonExampleMap_Auto1.umap'
+[2019.12.12-02.35.40:226][ 88]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap' took 0.302
+[2019.12.12-02.35.40:226][ 88]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.302
+[2019.12.12-02.35.47:326][372]Candidate modules for hot reload:
+[2019.12.12-02.35.47:326][372]  UFinalPractice
+[2019.12.12-02.35.47:326][372]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.23/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=UFinalPractice,5107 Win64 Development -TargetType=Editor -Project="C:/Repo/FinalPractice/UFinalPractice/UFinalPractice.uproject" "C:/Repo/FinalPractice/UFinalPractice/UFinalPractice.uproject"  -IgnoreJunk]
+[2019.12.12-02.35.47:328][372]Warning: Starting HotReload took  0.0s.
+[2019.12.12-02.35.55:361][310]CompilerResultsLog: New page: Compilation - Dec 11, 2019, 4:35:55 PM
+[2019.12.12-02.35.55:361][310]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Repo\FinalPractice).
+[2019.12.12-02.35.55:361][310]CompilerResultsLog: Parsing headers for UFinalPracticeEditor
+[2019.12.12-02.35.55:361][310]CompilerResultsLog:   Running UnrealHeaderTool "C:\Repo\FinalPractice\UFinalPractice\UFinalPractice.uproject" "C:\Repo\FinalPractice\UFinalPractice\Intermediate\Build\Win64\UFinalPracticeEditor\Development\UFinalPracticeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.12.12-02.35.55:361][310]CompilerResultsLog: Reflection code generated for UFinalPracticeEditor in 5.9225923 seconds
+[2019.12.12-02.35.55:361][310]CompilerResultsLog: Using Visual Studio 2019 14.23.28105 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.12.12-02.35.55:361][310]CompilerResultsLog: Building 6 actions with 16 processes...
+[2019.12.12-02.35.55:361][310]CompilerResultsLog:   [1/6] UFinalPracticeGameMode.cpp
+[2019.12.12-02.35.55:361][310]CompilerResultsLog:   [2/6] UFinalPracticeCharacter.gen.cpp
+[2019.12.12-02.35.55:361][310]CompilerResultsLog:   [3/6] UFinalPracticeCharacter.cpp
+[2019.12.12-02.35.55:361][310]CompilerResultsLog:    C:\Repo\FinalPractice\UFinalPractice\Source\UFinalPractice\UFinalPracticeCharacter.cpp(95) : error C2065: 'CreateWidget': undeclared identifier
+[2019.12.12-02.35.55:361][310]CompilerResultsLog:    C:\Repo\FinalPractice\UFinalPractice\Source\UFinalPractice\UFinalPracticeCharacter.cpp(95) : error C2275: 'UPlayerHpWidget': illegal use of this type as an expression
+[2019.12.12-02.35.55:361][310]CompilerResultsLog:   C:\Repo\FinalPractice\UFinalPractice\Source\UFinalPractice\UFinalPracticeCharacter.h(51): note: see declaration of 'UPlayerHpWidget'
+[2019.12.12-02.35.55:361][310]CompilerResultsLog:    C:\Repo\FinalPractice\UFinalPractice\Source\UFinalPractice\UFinalPracticeCharacter.cpp(96) : error C3536: 'widget': cannot be used before it is initialized
+[2019.12.12-02.35.55:361][310]LogMainFrame: MainFrame: Module compiling took 8.045 seconds
+[2019.12.12-02.35.55:361][310]Warning: HotReload failed, recompile failed
+[2019.12.12-02.36.47:348][932]LogEditorSessionSummary: EditorSessionSummary sent report. Type=Debugger, SessionId={F239ABBB-4F4D-A083-0BD2-1B9267281DF9}
+[2019.12.12-02.36.58:537][ 46]Candidate modules for hot reload:
+[2019.12.12-02.36.58:537][ 46]  UFinalPractice
+[2019.12.12-02.36.58:537][ 46]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.23/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=UFinalPractice,7209 Win64 Development -TargetType=Editor -Project="C:/Repo/FinalPractice/UFinalPractice/UFinalPractice.uproject" "C:/Repo/FinalPractice/UFinalPractice/UFinalPractice.uproject"  -IgnoreJunk]
+[2019.12.12-02.36.58:539][ 46]Warning: Starting HotReload took  0.0s.
+[2019.12.12-02.37.00:605][266]LogSlate: Window 'Message Log' being destroyed
+[2019.12.12-02.37.00:612][266]LogSlate: Window 'Message Log' being destroyed
+[2019.12.12-02.37.09:982][390]CompilerResultsLog: New page: Compilation - Dec 11, 2019, 4:37:09 PM
+[2019.12.12-02.37.09:982][390]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Repo\FinalPractice).
+[2019.12.12-02.37.09:982][390]CompilerResultsLog: Parsing headers for UFinalPracticeEditor
+[2019.12.12-02.37.09:982][390]CompilerResultsLog:   Running UnrealHeaderTool "C:\Repo\FinalPractice\UFinalPractice\UFinalPractice.uproject" "C:\Repo\FinalPractice\UFinalPractice\Intermediate\Build\Win64\UFinalPracticeEditor\Development\UFinalPracticeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.12.12-02.37.09:982][390]CompilerResultsLog: Reflection code generated for UFinalPracticeEditor in 6.0287887 seconds
+[2019.12.12-02.37.09:982][390]CompilerResultsLog: Using Visual Studio 2019 14.23.28105 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.12.12-02.37.09:982][390]CompilerResultsLog: Building 6 actions with 16 processes...
+[2019.12.12-02.37.09:982][390]CompilerResultsLog:   [1/6] UFinalPracticeGameMode.cpp
+[2019.12.12-02.37.09:982][390]CompilerResultsLog:   [2/6] UFinalPracticeCharacter.gen.cpp
+[2019.12.12-02.37.09:982][390]CompilerResultsLog:   [3/6] UFinalPracticeCharacter.cpp
+[2019.12.12-02.37.09:982][390]CompilerResultsLog:   [4/6] UE4Editor-UFinalPractice-7209.lib
+[2019.12.12-02.37.09:982][390]CompilerResultsLog:      Creating library C:\Repo\FinalPractice\UFinalPractice\Intermediate\Build\Win64\UE4Editor\Development\UFinalPractice\UE4Editor-UFinalPractice-7209.lib and object C:\Repo\FinalPractice\UFinalPractice\Intermediate\Build\Win64\UE4Editor\Development\UFinalPractice\UE4Editor-UFinalPractice-7209.exp
+[2019.12.12-02.37.09:982][390]CompilerResultsLog:   [5/6] UE4Editor-UFinalPractice-7209.dll
+[2019.12.12-02.37.09:982][390]CompilerResultsLog:      Creating library C:\Repo\FinalPractice\UFinalPractice\Intermediate\Build\Win64\UE4Editor\Development\UFinalPractice\UE4Editor-UFinalPractice-7209.suppressed.lib and object C:\Repo\FinalPractice\UFinalPractice\Intermediate\Build\Win64\UE4Editor\Development\UFinalPractice\UE4Editor-UFinalPractice-7209.suppressed.exp
+[2019.12.12-02.37.09:982][390]CompilerResultsLog:   [6/6] UFinalPracticeEditor.target
+[2019.12.12-02.37.09:982][390]CompilerResultsLog: Total time in Parallel executor: 4.41 seconds
+[2019.12.12-02.37.09:982][390]CompilerResultsLog: Total execution time: 11.34 seconds
+[2019.12.12-02.37.09:982][390]LogMainFrame: MainFrame: Module compiling took 11.455 seconds
+[2019.12.12-02.37.10:036][390]LogUObjectHash: Compacting FUObjectHashTables data took   2.77ms
+[2019.12.12-02.37.10:060][390]LogClass: Could not find existing class Caltrop in package /Script/UFinalPractice for HotReload, assuming new class
+[2019.12.12-02.37.10:076][390]LogContentBrowser: Native class hierarchy updated for 'UFinalPractice' in 0.0003 seconds. Added 6 classes and 2 folders.
+[2019.12.12-02.37.10:080][390]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2019.12.12-02.37.10:148][390]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2019.12.12-02.37.10:164][390]LogContentBrowser: Native class hierarchy populated in 0.0089 seconds. Added 3051 classes and 767 folders.
+[2019.12.12-02.37.10:164][390]Display: HotReload took 11.6s.
+[2019.12.12-02.38.02:604][978]Candidate modules for hot reload:
+[2019.12.12-02.38.02:604][978]  UFinalPractice
+[2019.12.12-02.38.02:604][978]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.23/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=UFinalPractice,9248 Win64 Development -TargetType=Editor -Project="C:/Repo/FinalPractice/UFinalPractice/UFinalPractice.uproject" "C:/Repo/FinalPractice/UFinalPractice/UFinalPractice.uproject"  -IgnoreJunk]
+[2019.12.12-02.38.02:606][978]Warning: Starting HotReload took  0.0s.
+[2019.12.12-02.38.10:529][905]CompilerResultsLog: New page: Compilation - Dec 11, 2019, 4:38:10 PM
+[2019.12.12-02.38.10:529][905]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Repo\FinalPractice).
+[2019.12.12-02.38.10:529][905]CompilerResultsLog: Parsing headers for UFinalPracticeEditor
+[2019.12.12-02.38.10:529][905]CompilerResultsLog:   Running UnrealHeaderTool "C:\Repo\FinalPractice\UFinalPractice\UFinalPractice.uproject" "C:\Repo\FinalPractice\UFinalPractice\Intermediate\Build\Win64\UFinalPracticeEditor\Development\UFinalPracticeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.12.12-02.38.10:529][905]CompilerResultsLog: Reflection code generated for UFinalPracticeEditor in 5.8209313 seconds
+[2019.12.12-02.38.10:529][905]CompilerResultsLog: Using Visual Studio 2019 14.23.28105 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.12.12-02.38.10:529][905]CompilerResultsLog: Building 6 actions with 16 processes...
+[2019.12.12-02.38.10:529][905]CompilerResultsLog:   [1/6] UFinalPracticeGameMode.cpp
+[2019.12.12-02.38.10:529][905]CompilerResultsLog:   [2/6] UFinalPracticeCharacter.gen.cpp
+[2019.12.12-02.38.10:529][905]CompilerResultsLog:   [3/6] UFinalPracticeCharacter.cpp
+[2019.12.12-02.38.10:529][905]CompilerResultsLog:    C:\Repo\FinalPractice\UFinalPractice\Source\UFinalPractice\UFinalPracticeCharacter.cpp(95) : error C2065: 'CreateWidget': undeclared identifier
+[2019.12.12-02.38.10:529][905]CompilerResultsLog:    C:\Repo\FinalPractice\UFinalPractice\Source\UFinalPractice\UFinalPracticeCharacter.cpp(95) : error C2275: 'UPlayerHpWidget': illegal use of this type as an expression
+[2019.12.12-02.38.10:529][905]CompilerResultsLog:   C:\Repo\FinalPractice\UFinalPractice\Source\UFinalPractice\UFinalPracticeCharacter.h(10): note: see declaration of 'UPlayerHpWidget'
+[2019.12.12-02.38.10:529][905]CompilerResultsLog:    C:\Repo\FinalPractice\UFinalPractice\Source\UFinalPractice\UFinalPracticeCharacter.cpp(96) : error C3536: 'widget': cannot be used before it is initialized
+[2019.12.12-02.38.10:529][905]LogMainFrame: MainFrame: Module compiling took 7.936 seconds
+[2019.12.12-02.38.10:530][905]Warning: HotReload failed, recompile failed
+[2019.12.12-02.38.18:740][880]LogSlate: Window 'Message Log' being destroyed
+[2019.12.12-02.38.18:747][880]LogSlate: Window 'Message Log' being destroyed
+[2019.12.12-02.38.29:503][ 25]Candidate modules for hot reload:
+[2019.12.12-02.38.29:503][ 25]  UFinalPractice
+[2019.12.12-02.38.29:503][ 25]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.23/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=UFinalPractice,361 Win64 Development -TargetType=Editor -Project="C:/Repo/FinalPractice/UFinalPractice/UFinalPractice.uproject" "C:/Repo/FinalPractice/UFinalPractice/UFinalPractice.uproject"  -IgnoreJunk]
+[2019.12.12-02.38.29:505][ 25]Warning: Starting HotReload took  0.0s.
+[2019.12.12-02.38.37:533][962]CompilerResultsLog: New page: Compilation - Dec 11, 2019, 4:38:37 PM
+[2019.12.12-02.38.37:533][962]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Repo\FinalPractice).
+[2019.12.12-02.38.37:533][962]CompilerResultsLog: Parsing headers for UFinalPracticeEditor
+[2019.12.12-02.38.37:533][962]CompilerResultsLog:   Running UnrealHeaderTool "C:\Repo\FinalPractice\UFinalPractice\UFinalPractice.uproject" "C:\Repo\FinalPractice\UFinalPractice\Intermediate\Build\Win64\UFinalPracticeEditor\Development\UFinalPracticeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.12.12-02.38.37:533][962]CompilerResultsLog: Reflection code generated for UFinalPracticeEditor in 5.8817085 seconds
+[2019.12.12-02.38.37:533][962]CompilerResultsLog: Using Visual Studio 2019 14.23.28105 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.12.12-02.38.37:533][962]CompilerResultsLog: Building 6 actions with 16 processes...
+[2019.12.12-02.38.37:533][962]CompilerResultsLog:   [1/6] UFinalPracticeGameMode.cpp
+[2019.12.12-02.38.37:533][962]CompilerResultsLog:   [2/6] UFinalPracticeCharacter.gen.cpp
+[2019.12.12-02.38.37:533][962]CompilerResultsLog:   [3/6] UFinalPracticeCharacter.cpp
+[2019.12.12-02.38.37:533][962]CompilerResultsLog:    C:\Repo\FinalPractice\UFinalPractice\Source\UFinalPractice\UFinalPracticeCharacter.cpp(95) : error C2065: 'CreateWidget': undeclared identifier
+[2019.12.12-02.38.37:533][962]CompilerResultsLog:    C:\Repo\FinalPractice\UFinalPractice\Source\UFinalPractice\UFinalPracticeCharacter.cpp(95) : error C2275: 'UPlayerHpWidget': illegal use of this type as an expression
+[2019.12.12-02.38.37:533][962]CompilerResultsLog:   C:\Repo\FinalPractice\UFinalPractice\Source\UFinalPractice\UFinalPracticeCharacter.h(51): note: see declaration of 'UPlayerHpWidget'
+[2019.12.12-02.38.37:533][962]CompilerResultsLog:    C:\Repo\FinalPractice\UFinalPractice\Source\UFinalPractice\UFinalPracticeCharacter.cpp(96) : error C3536: 'widget': cannot be used before it is initialized
+[2019.12.12-02.38.37:533][962]LogMainFrame: MainFrame: Module compiling took 8.039 seconds
+[2019.12.12-02.38.37:533][962]Warning: HotReload failed, recompile failed
+[2019.12.12-02.38.51:361][353]Candidate modules for hot reload:
+[2019.12.12-02.38.51:361][353]  UFinalPractice
+[2019.12.12-02.38.51:361][353]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.23/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=UFinalPractice,7186 Win64 Development -TargetType=Editor -Project="C:/Repo/FinalPractice/UFinalPractice/UFinalPractice.uproject" "C:/Repo/FinalPractice/UFinalPractice/UFinalPractice.uproject"  -IgnoreJunk]
+[2019.12.12-02.38.51:363][353]Warning: Starting HotReload took  0.0s.
+[2019.12.12-02.38.59:307][280]CompilerResultsLog: New page: Compilation - Dec 11, 2019, 4:38:59 PM
+[2019.12.12-02.38.59:307][280]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Repo\FinalPractice).
+[2019.12.12-02.38.59:307][280]CompilerResultsLog: Parsing headers for UFinalPracticeEditor
+[2019.12.12-02.38.59:307][280]CompilerResultsLog:   Running UnrealHeaderTool "C:\Repo\FinalPractice\UFinalPractice\UFinalPractice.uproject" "C:\Repo\FinalPractice\UFinalPractice\Intermediate\Build\Win64\UFinalPracticeEditor\Development\UFinalPracticeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.12.12-02.38.59:307][280]CompilerResultsLog: Reflection code generated for UFinalPracticeEditor in 5.8121803 seconds
+[2019.12.12-02.38.59:307][280]CompilerResultsLog: Using Visual Studio 2019 14.23.28105 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.12.12-02.38.59:307][280]CompilerResultsLog: Building 6 actions with 16 processes...
+[2019.12.12-02.38.59:307][280]CompilerResultsLog:   [1/6] UFinalPracticeGameMode.cpp
+[2019.12.12-02.38.59:307][280]CompilerResultsLog:    C:\Repo\FinalPractice\UFinalPractice\Source\UFinalPractice\UFinalPracticeCharacter.h(51) : error C2065: 'UPlayerHpWidget': undeclared identifier
+[2019.12.12-02.38.59:307][280]CompilerResultsLog:    C:\Repo\FinalPractice\UFinalPractice\Source\UFinalPractice\UFinalPracticeCharacter.h(51) : error C2923: 'TSubclassOf': 'UPlayerHpWidget' is not a valid template type argument for parameter 'TClass'
+[2019.12.12-02.38.59:307][280]CompilerResultsLog:   [2/6] UFinalPracticeCharacter.gen.cpp
+[2019.12.12-02.38.59:307][280]CompilerResultsLog:    C:\Repo\FinalPractice\UFinalPractice\Source\UFinalPractice/UFinalPracticeCharacter.h(51) : error C2065: 'UPlayerHpWidget': undeclared identifier
+[2019.12.12-02.38.59:307][280]CompilerResultsLog:    C:\Repo\FinalPractice\UFinalPractice\Source\UFinalPractice/UFinalPracticeCharacter.h(51) : error C2923: 'TSubclassOf': 'UPlayerHpWidget' is not a valid template type argument for parameter 'TClass'
+[2019.12.12-02.38.59:307][280]CompilerResultsLog:    C:\Repo\FinalPractice\UFinalPractice\Intermediate\Build\Win64\UE4Editor\Inc\UFinalPractice\UFinalPracticeCharacter.gen.cpp(344) : error C2512: 'TSubclassOf': no appropriate default constructor available
+[2019.12.12-02.38.59:307][280]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\CoreUObject\Public\Templates/SubclassOf.h(13): note: see declaration of 'TSubclassOf'
+[2019.12.12-02.38.59:307][280]CompilerResultsLog:   [3/6] UFinalPracticeCharacter.cpp
+[2019.12.12-02.38.59:308][280]CompilerResultsLog:    C:\Repo\FinalPractice\UFinalPractice\Source\UFinalPractice\UFinalPracticeCharacter.h(51) : error C2065: 'UPlayerHpWidget': undeclared identifier
+[2019.12.12-02.38.59:308][280]CompilerResultsLog:    C:\Repo\FinalPractice\UFinalPractice\Source\UFinalPractice\UFinalPracticeCharacter.h(51) : error C2923: 'TSubclassOf': 'UPlayerHpWidget' is not a valid template type argument for parameter 'TClass'
+[2019.12.12-02.38.59:308][280]CompilerResultsLog:    C:\Repo\FinalPractice\UFinalPractice\Source\UFinalPractice\UFinalPracticeCharacter.cpp(21) : error C2512: 'TSubclassOf': no appropriate default constructor available
+[2019.12.12-02.38.59:308][280]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\CoreUObject\Public\Templates/SubclassOf.h(13): note: see declaration of 'TSubclassOf'
+[2019.12.12-02.38.59:308][280]CompilerResultsLog:    C:\Repo\FinalPractice\UFinalPractice\Source\UFinalPractice\UFinalPracticeCharacter.cpp(95) : error C2065: 'CreateWidget': undeclared identifier
+[2019.12.12-02.38.59:308][280]CompilerResultsLog:    C:\Repo\FinalPractice\UFinalPractice\Source\UFinalPractice\UFinalPracticeCharacter.cpp(95) : error C2065: 'UPlayerHpWidget': undeclared identifier
+[2019.12.12-02.38.59:308][280]CompilerResultsLog:    C:\Repo\FinalPractice\UFinalPractice\Source\UFinalPractice\UFinalPracticeCharacter.cpp(96) : error C3536: 'widget': cannot be used before it is initialized
+[2019.12.12-02.38.59:308][280]LogMainFrame: MainFrame: Module compiling took 7.957 seconds
+[2019.12.12-02.38.59:308][280]Warning: HotReload failed, recompile failed
+[2019.12.12-02.39.45:835][650]Candidate modules for hot reload:
+[2019.12.12-02.39.45:836][650]  UFinalPractice
+[2019.12.12-02.39.45:836][650]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.23/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=UFinalPractice,1003 Win64 Development -TargetType=Editor -Project="C:/Repo/FinalPractice/UFinalPractice/UFinalPractice.uproject" "C:/Repo/FinalPractice/UFinalPractice/UFinalPractice.uproject"  -IgnoreJunk]
+[2019.12.12-02.39.45:838][650]Warning: Starting HotReload took  0.0s.
+[2019.12.12-02.39.56:874][947]CompilerResultsLog: New page: Compilation - Dec 11, 2019, 4:39:56 PM
+[2019.12.12-02.39.56:874][947]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Repo\FinalPractice).
+[2019.12.12-02.39.56:874][947]CompilerResultsLog: Parsing headers for UFinalPracticeEditor
+[2019.12.12-02.39.56:874][947]CompilerResultsLog:   Running UnrealHeaderTool "C:\Repo\FinalPractice\UFinalPractice\UFinalPractice.uproject" "C:\Repo\FinalPractice\UFinalPractice\Intermediate\Build\Win64\UFinalPracticeEditor\Development\UFinalPracticeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.12.12-02.39.56:874][947]CompilerResultsLog: Reflection code generated for UFinalPracticeEditor in 5.7683134 seconds
+[2019.12.12-02.39.56:874][947]CompilerResultsLog: Using Visual Studio 2019 14.23.28105 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.12.12-02.39.56:874][947]CompilerResultsLog: Building 6 actions with 16 processes...
+[2019.12.12-02.39.56:874][947]CompilerResultsLog:   [1/6] UFinalPracticeGameMode.cpp
+[2019.12.12-02.39.56:874][947]CompilerResultsLog:   [2/6] UFinalPracticeCharacter.gen.cpp
+[2019.12.12-02.39.56:874][947]CompilerResultsLog:   [3/6] UFinalPracticeCharacter.cpp
+[2019.12.12-02.39.56:874][947]CompilerResultsLog:   [4/6] UE4Editor-UFinalPractice-1003.lib
+[2019.12.12-02.39.56:874][947]CompilerResultsLog:      Creating library C:\Repo\FinalPractice\UFinalPractice\Intermediate\Build\Win64\UE4Editor\Development\UFinalPractice\UE4Editor-UFinalPractice-1003.lib and object C:\Repo\FinalPractice\UFinalPractice\Intermediate\Build\Win64\UE4Editor\Development\UFinalPractice\UE4Editor-UFinalPractice-1003.exp
+[2019.12.12-02.39.56:874][947]CompilerResultsLog:   [5/6] UE4Editor-UFinalPractice-1003.dll
+[2019.12.12-02.39.56:874][947]CompilerResultsLog:      Creating library C:\Repo\FinalPractice\UFinalPractice\Intermediate\Build\Win64\UE4Editor\Development\UFinalPractice\UE4Editor-UFinalPractice-1003.suppressed.lib and object C:\Repo\FinalPractice\UFinalPractice\Intermediate\Build\Win64\UE4Editor\Development\UFinalPractice\UE4Editor-UFinalPractice-1003.suppressed.exp
+[2019.12.12-02.39.56:874][947]CompilerResultsLog:   [6/6] UFinalPracticeEditor.target
+[2019.12.12-02.39.56:874][947]CompilerResultsLog: Total time in Parallel executor: 4.32 seconds
+[2019.12.12-02.39.56:874][947]CompilerResultsLog: Total execution time: 10.94 seconds
+[2019.12.12-02.39.56:874][947]LogMainFrame: MainFrame: Module compiling took 11.049 seconds
+[2019.12.12-02.39.56:939][947]LogUObjectHash: Compacting FUObjectHashTables data took   3.29ms
+[2019.12.12-02.39.56:982][947]LogContentBrowser: Native class hierarchy updated for 'UFinalPractice' in 0.0003 seconds. Added 6 classes and 2 folders.
+[2019.12.12-02.39.56:986][947]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2019.12.12-02.39.57:082][947]LogUObjectHash: Compacting FUObjectHashTables data took   3.21ms
+[2019.12.12-02.39.57:097][947]LogContentBrowser: Native class hierarchy populated in 0.0087 seconds. Added 3051 classes and 767 folders.
+[2019.12.12-02.39.57:097][947]Display: HotReload took 11.3s.
+[2019.12.12-02.40.11:042][583]LogSlate: Window 'Message Log' being destroyed
+[2019.12.12-02.40.11:049][583]LogSlate: Window 'Message Log' being destroyed
+[2019.12.12-02.40.11:945][691]LogTemp: Repeating last play command: Selected Viewport
+[2019.12.12-02.40.11:959][691]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.12-02.40.11:959][691]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.12-02.40.11:959][691]PIE: New page: PIE session: FirstPersonExampleMap (Dec 11, 2019, 4:40:11 PM)
+[2019.12.12-02.40.11:959][691]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.12.12-02.40.11:969][691]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009486s)
+[2019.12.12-02.40.11:970][691]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.12.12-02.40.11:970][691]LogPlayLevel: PIE: World Init took: (0.000933s)
+[2019.12.12-02.40.11:970][691]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.010560s)
+[2019.12.12-02.40.12:040][691]LogUObjectHash: Compacting FUObjectHashTables data took   3.36ms
+[2019.12.12-02.40.12:048][691]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.12.12-02.40.12:059][691]LogInit: FAudioDevice initialized.
+[2019.12.12-02.40.12:065][691]LogLoad: Game class is 'UFinalPracticeGameMode'
+[2019.12.12-02.40.12:067][691]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2019.12.11-21.40.12
+[2019.12.12-02.40.12:067][691]LogWorld: Bringing up level for play took: 0.001332
+[2019.12.12-02.40.12:067][691]LogOnline: OSS: Creating online subsystem instance for: :Context_11
+[2019.12.12-02.40.12:069][691]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 0.97
+[2019.12.12-02.40.12:069][691]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.12-02.40.19:880][625]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.12-02.40.19:880][625]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.12-02.40.19:880][625]LogWorld: BeginTearingDown for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.12.12-02.40.19:880][625]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2019.12.12-02.40.19:885][625]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.12.12-02.40.19:885][625]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.12-02.40.19:923][625]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.12-02.40.19:941][625]LogUObjectHash: Compacting FUObjectHashTables data took   2.84ms
+[2019.12.12-02.40.19:988][627]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2019.12.12-02.40.21:083][756]LogSlate: FSceneViewport::OnFocusLost() reason 0

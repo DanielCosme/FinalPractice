@@ -1,0 +1,3 @@
+C:\Repo\FinalPractice\UFinalPractice\Source\UFinalPractice\UFinalPractice.Build.cs
+C:\Repo\FinalPractice\UFinalPractice\Source\UFinalPractice.Target.cs
+C:\Repo\FinalPractice\UFinalPractice\Source\UFinalPracticeEditor.Target.cs

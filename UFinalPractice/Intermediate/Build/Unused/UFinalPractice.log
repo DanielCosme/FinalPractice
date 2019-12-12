@@ -1,0 +1,17 @@
+﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Repo\FinalPractice).
+  Parsing headers for UFinalPracticeEditor
+    Running UnrealHeaderTool "C:\Repo\FinalPractice\UFinalPractice\UFinalPractice.uproject" "C:\Repo\FinalPractice\UFinalPractice\Intermediate\Build\Win64\UFinalPracticeEditor\Development\UFinalPracticeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for UFinalPracticeEditor in 5.6169294 seconds
+  Using Visual Studio 2019 14.23.28105 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Building 7 actions with 16 processes...
+    [1/7] UFinalPractice.init.gen.cpp
+    [2/7] UFinalPracticeCharacter.gen.cpp
+    [3/7] UFinalPracticeGameMode.cpp
+    [4/7] UFinalPracticeCharacter.cpp
+    [5/7] UE4Editor-UFinalPractice-0009.lib
+       Creating library C:\Repo\FinalPractice\UFinalPractice\Intermediate\Build\Win64\UE4Editor\Development\UFinalPractice\UE4Editor-UFinalPractice-0009.lib and object C:\Repo\FinalPractice\UFinalPractice\Intermediate\Build\Win64\UE4Editor\Development\UFinalPractice\UE4Editor-UFinalPractice-0009.exp
+    [6/7] UE4Editor-UFinalPractice-0009.dll
+       Creating library C:\Repo\FinalPractice\UFinalPractice\Intermediate\Build\Win64\UE4Editor\Development\UFinalPractice\UE4Editor-UFinalPractice-0009.suppressed.lib and object C:\Repo\FinalPractice\UFinalPractice\Intermediate\Build\Win64\UE4Editor\Development\UFinalPractice\UE4Editor-UFinalPractice-0009.suppressed.exp
+    [7/7] UFinalPracticeEditor.target
+  Total time in Parallel executor: 4.02 seconds
+  Total execution time: 10.32 seconds

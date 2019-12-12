@@ -1,0 +1,10 @@
+C:\Repo\FinalPractice\UFinalPractice\Intermediate\Build\Win64\UE4Editor\Development\UFinalPractice\Definitions.UFinalPractice.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+C:\Repo\FinalPractice\UFinalPractice\Source\UFinalPractice/UFinalPracticeHUD.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Classes\GameFramework/HUD.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Classes\GameFramework/HUDHitBox.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Classes\GameFramework/DebugTextInfo.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\DebugTextInfo.generated.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\HUD.generated.h
+C:\Repo\FinalPractice\UFinalPractice\Intermediate\Build\Win64\UE4Editor\Inc\UFinalPractice\UFinalPracticeHUD.generated.h

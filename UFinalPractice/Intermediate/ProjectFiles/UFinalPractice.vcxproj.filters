@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\UFinalPractice.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{874A5C52-4652-481B-97B8-7935A14EC564}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\UFinalPractice.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\UFinalPracticeEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{A1B24609-1743-4998-A1B7-55492F286387}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\UFinalPractice">
+      <UniqueIdentifier>{47EE4B17-BD19-4C10-8EB6-F0EEF6969C97}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\UFinalPractice\UFinalPractice.Build.cs">
+      <Filter>Source\UFinalPractice</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\UFinalPractice\UFinalPractice.cpp">
+      <Filter>Source\UFinalPractice</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\UFinalPractice\UFinalPractice.h">
+      <Filter>Source\UFinalPractice</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\UFinalPractice\UFinalPracticeCharacter.cpp">
+      <Filter>Source\UFinalPractice</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\UFinalPractice\UFinalPracticeCharacter.h">
+      <Filter>Source\UFinalPractice</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\UFinalPractice\UFinalPracticeGameMode.cpp">
+      <Filter>Source\UFinalPractice</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\UFinalPractice\UFinalPracticeGameMode.h">
+      <Filter>Source\UFinalPractice</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\UFinalPractice\UFinalPracticeHUD.cpp">
+      <Filter>Source\UFinalPractice</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\UFinalPractice\UFinalPracticeHUD.h">
+      <Filter>Source\UFinalPractice</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\UFinalPractice\UFinalPracticeProjectile.cpp">
+      <Filter>Source\UFinalPractice</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\UFinalPractice\UFinalPracticeProjectile.h">
+      <Filter>Source\UFinalPractice</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\UFinalPractice\PlayerHpWidget.h">
+      <Filter>Source\UFinalPractice</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\UFinalPractice\Caltrop.h">
+      <Filter>Source\UFinalPractice</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\UFinalPractice\PlayerHpWidget.cpp">
+      <Filter>Source\UFinalPractice</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UFinalPractice\Caltrop.cpp">
+      <Filter>Source\UFinalPractice</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
