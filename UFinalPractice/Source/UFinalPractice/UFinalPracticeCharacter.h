@@ -52,6 +52,7 @@ public:
 
 	
 	UPROPERTY(EditAnywhere) TSubclassOf<UPlayerHpWidget> wg;
+	UPROPERTY(EditAnywhere) float cubeKillHabilityDistance = 500.f;
 
 	float MAX_HP = 1.0f;	float toHealPerSecond;
 	int healingCounter;
@@ -60,6 +61,8 @@ public:
 	void Heal(float duration);
 	void SetHP(float hpToAdd);
 	void LootBox();
+	void KillCube();
+
 
 	void TimerTester();
 

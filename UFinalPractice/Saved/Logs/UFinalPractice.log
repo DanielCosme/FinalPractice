@@ -638,3 +638,147 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.12.13-03.20.13:836][157]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
 [2019.12.13-03.20.14:103][157]LogSavePackage: Moving '../../../../../../Repo/FinalPractice/UFinalPractice/Saved/FirstPersonExampleMap736235274068E27B9A1482829F9207D7.tmp' to '../../../../../../Repo/FinalPractice/UFinalPractice/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap'
 [2019.12.13-03.20.14:141][157]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 0.343
+[2019.12.13-03.21.14:271][648]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2019.12.13-03.21.17:038][909]LogSlate: Window 'Project Settings' being destroyed
+[2019.12.13-03.27.33:435][548]LogEditorSessionSummary: EditorSessionSummary sent report. Type=Crashed, SessionId={6502DC59-4ACC-B838-B5CF-C3BB63170954}
+[2019.12.13-03.27.42:859][576]LogAudio: Error: GetDeviceCount error: Unhandled error code -2147024809
+[2019.12.13-03.27.42:859][576]LogInit: No audio devices found!
+[2019.12.13-03.27.43:208][577]LogAudio: Warning: Current Audio Device with ID {0.0.0.00000000}.{85baa6f6-5fcf-4db8-b4a1-17d3ddcd9716} was removed. Shutting down audio device.
+[2019.12.13-03.27.43:208][577]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.12.13-03.27.43:541][578]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.12.13-03.35.02:086][969]Candidate modules for hot reload:
+[2019.12.13-03.35.02:086][969]  UFinalPractice
+[2019.12.13-03.35.02:086][969]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.23/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=UFinalPractice,1212 Win64 Development -TargetType=Editor -Project="C:/Repo/FinalPractice/UFinalPractice/UFinalPractice.uproject" "C:/Repo/FinalPractice/UFinalPractice/UFinalPractice.uproject"  -IgnoreJunk]
+[2019.12.13-03.35.02:088][969]Warning: Starting HotReload took  0.0s.
+[2019.12.13-03.35.12:511][990]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.13-03.35.22:199][111]CompilerResultsLog: New page: Compilation - Dec 12, 2019, 5:35:22 PM
+[2019.12.13-03.35.22:199][111]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Repo\FinalPractice).
+[2019.12.13-03.35.22:199][111]CompilerResultsLog: Parsing headers for UFinalPracticeEditor
+[2019.12.13-03.35.22:199][111]CompilerResultsLog:   Running UnrealHeaderTool "C:\Repo\FinalPractice\UFinalPractice\UFinalPractice.uproject" "C:\Repo\FinalPractice\UFinalPractice\Intermediate\Build\Win64\UFinalPracticeEditor\Development\UFinalPracticeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.12.13-03.35.22:199][111]CompilerResultsLog: Reflection code generated for UFinalPracticeEditor in 5.8561697 seconds
+[2019.12.13-03.35.22:199][111]CompilerResultsLog: Using Visual Studio 2019 14.23.28105 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.12.13-03.35.22:199][111]CompilerResultsLog: Building 11 actions with 16 processes...
+[2019.12.13-03.35.22:199][111]CompilerResultsLog:   [1/11] UFinalPractice.init.gen.cpp
+[2019.12.13-03.35.22:199][111]CompilerResultsLog:   [2/11] Caltrop.cpp
+[2019.12.13-03.35.22:200][111]CompilerResultsLog:   [3/11] UFinalPracticeGameMode.cpp
+[2019.12.13-03.35.22:200][111]CompilerResultsLog:   [4/11] UFinalPracticeCharacter.gen.cpp
+[2019.12.13-03.35.22:200][111]CompilerResultsLog:   [5/11] HealthKit.cpp
+[2019.12.13-03.35.22:200][111]CompilerResultsLog:   [6/11] LaunchPad.cpp
+[2019.12.13-03.35.22:200][111]CompilerResultsLog:   [7/11] ProximityMine.cpp
+[2019.12.13-03.35.22:200][111]CompilerResultsLog:   [8/11] UFinalPracticeCharacter.cpp
+[2019.12.13-03.35.22:200][111]CompilerResultsLog:   [9/11] UE4Editor-UFinalPractice-1212.lib
+[2019.12.13-03.35.22:200][111]CompilerResultsLog:      Creating library C:\Repo\FinalPractice\UFinalPractice\Intermediate\Build\Win64\UE4Editor\Development\UFinalPractice\UE4Editor-UFinalPractice-1212.lib and object C:\Repo\FinalPractice\UFinalPractice\Intermediate\Build\Win64\UE4Editor\Development\UFinalPractice\UE4Editor-UFinalPractice-1212.exp
+[2019.12.13-03.35.22:200][111]CompilerResultsLog:   [10/11] UE4Editor-UFinalPractice-1212.dll
+[2019.12.13-03.35.22:200][111]CompilerResultsLog:      Creating library C:\Repo\FinalPractice\UFinalPractice\Intermediate\Build\Win64\UE4Editor\Development\UFinalPractice\UE4Editor-UFinalPractice-1212.suppressed.lib and object C:\Repo\FinalPractice\UFinalPractice\Intermediate\Build\Win64\UE4Editor\Development\UFinalPractice\UE4Editor-UFinalPractice-1212.suppressed.exp
+[2019.12.13-03.35.22:200][111]CompilerResultsLog:   [11/11] UFinalPracticeEditor.target
+[2019.12.13-03.35.22:200][111]CompilerResultsLog: Total time in Parallel executor: 13.17 seconds
+[2019.12.13-03.35.22:200][111]CompilerResultsLog: Total execution time: 19.95 seconds
+[2019.12.13-03.35.22:200][111]LogMainFrame: MainFrame: Module compiling took 20.132 seconds
+[2019.12.13-03.35.22:274][111]LogUObjectHash: Compacting FUObjectHashTables data took   4.78ms
+[2019.12.13-03.35.22:315][111]LogClass: Could not find existing class UFinalPracticeCharacter in package /Script/UFinalPractice for HotReload, assuming new class
+[2019.12.13-03.35.22:337][111]LogHotReload: Re-instancing UFinalPracticeCharacter after hot-reload.
+[2019.12.13-03.35.22:832][111]LogContentBrowser: Native class hierarchy updated for 'UFinalPractice' in 0.0004 seconds. Added 11 classes and 2 folders.
+[2019.12.13-03.35.22:837][111]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2019.12.13-03.35.22:954][111]LogUObjectHash: Compacting FUObjectHashTables data took   4.71ms
+[2019.12.13-03.35.22:970][111]LogContentBrowser: Native class hierarchy populated in 0.0085 seconds. Added 3056 classes and 767 folders.
+[2019.12.13-03.35.22:974][111]Display: HotReload took 20.9s.
+[2019.12.13-03.35.25:405][353]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.12.13-03.35.25:567][359]LogMaterial: Display: Missing cached shader map for material Material_0, compiling. 
+[2019.12.13-03.35.25:653][360]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 43
+[2019.12.13-03.35.25:653][360]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 39
+[2019.12.13-03.35.25:653][360]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 35
+[2019.12.13-03.35.25:653][360]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 31
+[2019.12.13-03.35.25:653][360]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 27
+[2019.12.13-03.35.25:653][360]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 23
+[2019.12.13-03.35.25:653][360]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 19
+[2019.12.13-03.35.25:653][360]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 15
+[2019.12.13-03.35.25:653][360]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 11
+[2019.12.13-03.35.25:653][360]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 7
+[2019.12.13-03.35.25:653][360]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 3
+[2019.12.13-03.35.25:673][360]LogMaterial: Display: Missing cached shader map for material Material_1, compiling. 
+[2019.12.13-03.35.25:706][361]LogMaterial: Display: Missing cached shader map for material Material_2, compiling. 
+[2019.12.13-03.35.25:737][362]LogMaterial: Display: Missing cached shader map for material Material_3, compiling. 
+[2019.12.13-03.35.25:760][362]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 86
+[2019.12.13-03.35.25:778][363]LogMaterial: Display: Missing cached shader map for material Material_4, compiling. 
+[2019.12.13-03.35.25:838][365]LogMaterial: Display: Missing cached shader map for material Material_5, compiling. 
+[2019.12.13-03.35.25:879][366]LogMaterial: Display: Missing cached shader map for material Material_6, compiling. 
+[2019.12.13-03.35.25:918][367]LogMaterial: Display: Missing cached shader map for material Material_7, compiling. 
+[2019.12.13-03.35.26:614][403]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 293
+[2019.12.13-03.35.26:722][411]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 283
+[2019.12.13-03.35.26:799][413]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 273
+[2019.12.13-03.35.26:877][415]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 263
+[2019.12.13-03.35.26:942][416]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 253
+[2019.12.13-03.35.26:945][417]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 243
+[2019.12.13-03.35.26:979][417]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 233
+[2019.12.13-03.35.27:059][419]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 223
+[2019.12.13-03.35.27:738][465]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 213
+[2019.12.13-03.35.27:830][474]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 203
+[2019.12.13-03.35.27:849][476]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 193
+[2019.12.13-03.35.27:958][486]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 183
+[2019.12.13-03.35.28:315][516]LogTemp: Repeating last play command: Selected Viewport
+[2019.12.13-03.35.28:352][516]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-03.35.28:353][516]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.13-03.35.28:353][516]PIE: New page: PIE session: FirstPersonExampleMap (Dec 12, 2019, 5:35:28 PM)
+[2019.12.13-03.35.28:353][516]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.12.13-03.35.28:372][516]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019834s)
+[2019.12.13-03.35.28:375][516]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.12.13-03.35.28:375][516]LogPlayLevel: PIE: World Init took: (0.002893s)
+[2019.12.13-03.35.28:375][516]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.022998s)
+[2019.12.13-03.35.28:516][516]LogUObjectHash: Compacting FUObjectHashTables data took  12.65ms
+[2019.12.13-03.35.28:534][516]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.12.13-03.35.28:558][516]LogInit: FAudioDevice initialized.
+[2019.12.13-03.35.28:573][516]LogLoad: Game class is 'UFinalPracticeGameMode'
+[2019.12.13-03.35.28:578][516]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2019.12.12-22.35.28
+[2019.12.13-03.35.28:579][516]LogWorld: Bringing up level for play took: 0.005119
+[2019.12.13-03.35.28:580][516]LogOnline: OSS: Creating online subsystem instance for: :Context_18
+[2019.12.13-03.35.28:585][516]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 0.459
+[2019.12.13-03.35.28:585][516]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-03.35.29:247][559]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 173
+[2019.12.13-03.35.29:260][560]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 163
+[2019.12.13-03.35.29:470][577]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 153
+[2019.12.13-03.35.29:655][592]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 143
+[2019.12.13-03.35.29:761][599]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 133
+[2019.12.13-03.35.30:291][637]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 123
+[2019.12.13-03.35.30:381][644]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 113
+[2019.12.13-03.35.30:490][653]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 103
+[2019.12.13-03.35.31:597][734]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 94
+[2019.12.13-03.35.31:597][734]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 86
+[2019.12.13-03.35.31:625][735]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 78
+[2019.12.13-03.35.31:964][757]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 71
+[2019.12.13-03.35.32:041][762]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 65
+[2019.12.13-03.35.32:233][775]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 59
+[2019.12.13-03.35.32:474][789]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 54
+[2019.12.13-03.35.32:555][793]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 49
+[2019.12.13-03.35.32:590][795]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 44
+[2019.12.13-03.35.33:033][824]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 40
+[2019.12.13-03.35.33:252][838]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 36
+[2019.12.13-03.35.33:537][859]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 32
+[2019.12.13-03.35.33:550][860]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 29
+[2019.12.13-03.35.33:644][865]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 26
+[2019.12.13-03.35.33:659][866]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 23
+[2019.12.13-03.35.34:083][895]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 21
+[2019.12.13-03.35.34:167][901]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 19
+[2019.12.13-03.35.34:307][909]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 17
+[2019.12.13-03.35.34:356][911]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 15
+[2019.12.13-03.35.34:397][913]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 13
+[2019.12.13-03.35.34:410][914]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 11
+[2019.12.13-03.35.34:481][919]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 10
+[2019.12.13-03.35.34:559][924]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 9
+[2019.12.13-03.35.34:578][925]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 8
+[2019.12.13-03.35.34:664][930]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 7
+[2019.12.13-03.35.34:740][935]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 6
+[2019.12.13-03.35.34:823][941]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 5
+[2019.12.13-03.35.35:008][953]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 4
+[2019.12.13-03.35.35:008][953]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 3
+[2019.12.13-03.35.35:036][955]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 2
+[2019.12.13-03.35.35:077][956]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 1
+[2019.12.13-03.35.49:110][622]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-03.35.49:110][622]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.13-03.35.49:110][622]LogWorld: BeginTearingDown for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.12.13-03.35.49:111][622]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2019.12.13-03.35.49:126][622]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.12.13-03.35.49:126][622]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-03.35.49:162][622]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.13-03.35.49:183][622]LogUObjectHash: Compacting FUObjectHashTables data took   3.50ms
+[2019.12.13-03.35.49:235][624]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2019.12.13-03.35.51:245][852]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms

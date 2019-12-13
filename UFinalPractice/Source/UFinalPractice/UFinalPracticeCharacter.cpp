@@ -13,6 +13,7 @@
 #include "XRMotionControllerBase.h" // for FXRMotionControllerBase::RightHandSourceId
 #include "TimerManager.h"
 #include "Engine.h"
+#include "Cubemon.h"
 
 DEFINE_LOG_CATEGORY_STATIC(LogFPChar, Warning, All);
 
@@ -126,6 +127,7 @@ void AUFinalPracticeCharacter::SetupPlayerInputComponent(class UInputComponent* 
 	check(PlayerInputComponent);
 
 	PlayerInputComponent->BindAction("Loot", IE_Pressed, this, &AUFinalPracticeCharacter::LootBox);
+	PlayerInputComponent->BindAction("KillCube", IE_Pressed, this, &AUFinalPracticeCharacter::KillCube);
 	// Bind jump events
 	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &ACharacter::Jump);
 	PlayerInputComponent->BindAction("Jump", IE_Released, this, &ACharacter::StopJumping);
@@ -189,6 +191,32 @@ void AUFinalPracticeCharacter::LootBox()
 		color = FColor::Purple;
 	}
 	GEngine->AddOnScreenDebugMessage(-1, 20, color, result + TEXT("ITEM"));
+}
+
+void AUFinalPracticeCharacter::KillCube()
+{
+	TArray<TEnumAsByte<EObjectTypeQuery>> filter;
+	TArray<AActor*> ignore;
+	TArray<AActor*> out;
+
+	UKismetSystemLibrary::SphereOverlapActors(this, GetActorLocation(), cubeKillHabilityDistance, filter, ACubemon::StaticClass(), ignore, out);
+
+	ACubemon* furthest = nullptr;
+
+	for (auto actor : out)
+	{
+		auto cubemon = Cast<ACubemon>(actor);
+		if (cubemon != nullptr)
+		{
+			FVector myPos = this->GetActorLocation();
+			if (furthest == nullptr) furthest = cubemon;
+			else if (FVector::Distance(myPos, furthest->GetActorLocation()) < FVector::Distance(myPos, cubemon->GetActorLocation()))
+			{
+				furthest = cubemon;
+			}
+		}
+	}
+	if (furthest != nullptr) furthest->HP -= 0.1f;
 }
 
 void AUFinalPracticeCharacter::TimerTester()

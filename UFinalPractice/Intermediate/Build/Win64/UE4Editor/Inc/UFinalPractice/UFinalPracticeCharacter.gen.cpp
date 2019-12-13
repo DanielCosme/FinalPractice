@@ -75,6 +75,10 @@ void EmptyLinkFunctionForGeneratedCodeUFinalPracticeCharacter() {}
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_HP;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_cubeKillHabilityDistance_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_cubeKillHabilityDistance;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_wg_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FClassPropertyParams NewProp_wg;
@@ -200,6 +204,13 @@ void EmptyLinkFunctionForGeneratedCodeUFinalPracticeCharacter() {}
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AUFinalPracticeCharacter_Statics::NewProp_HP = { "HP", nullptr, (EPropertyFlags)0x0020080000000014, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AUFinalPracticeCharacter, HP), METADATA_PARAMS(Z_Construct_UClass_AUFinalPracticeCharacter_Statics::NewProp_HP_MetaData, ARRAY_COUNT(Z_Construct_UClass_AUFinalPracticeCharacter_Statics::NewProp_HP_MetaData)) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AUFinalPracticeCharacter_Statics::NewProp_cubeKillHabilityDistance_MetaData[] = {
+		{ "Category", "UFinalPracticeCharacter" },
+		{ "ModuleRelativePath", "UFinalPracticeCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AUFinalPracticeCharacter_Statics::NewProp_cubeKillHabilityDistance = { "cubeKillHabilityDistance", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AUFinalPracticeCharacter, cubeKillHabilityDistance), METADATA_PARAMS(Z_Construct_UClass_AUFinalPracticeCharacter_Statics::NewProp_cubeKillHabilityDistance_MetaData, ARRAY_COUNT(Z_Construct_UClass_AUFinalPracticeCharacter_Statics::NewProp_cubeKillHabilityDistance_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AUFinalPracticeCharacter_Statics::NewProp_wg_MetaData[] = {
 		{ "Category", "UFinalPracticeCharacter" },
 		{ "ModuleRelativePath", "UFinalPracticeCharacter.h" },
@@ -298,6 +309,7 @@ void EmptyLinkFunctionForGeneratedCodeUFinalPracticeCharacter() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AUFinalPracticeCharacter_Statics::NewProp_BaseLookUpRate,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AUFinalPracticeCharacter_Statics::NewProp_BaseTurnRate,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AUFinalPracticeCharacter_Statics::NewProp_HP,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AUFinalPracticeCharacter_Statics::NewProp_cubeKillHabilityDistance,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AUFinalPracticeCharacter_Statics::NewProp_wg,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AUFinalPracticeCharacter_Statics::NewProp_L_MotionController,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AUFinalPracticeCharacter_Statics::NewProp_R_MotionController,
@@ -335,7 +347,7 @@ void EmptyLinkFunctionForGeneratedCodeUFinalPracticeCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AUFinalPracticeCharacter, 3235595603);
+	IMPLEMENT_CLASS(AUFinalPracticeCharacter, 269081624);
 	template<> UFINALPRACTICE_API UClass* StaticClass<AUFinalPracticeCharacter>()
 	{
 		return AUFinalPracticeCharacter::StaticClass();

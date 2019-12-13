@@ -794,3 +794,5 @@ C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Slate\Public\Widgets/I
 C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Slate\Public\Widgets/Input/SSlider.h
 C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Slate\Public\Widgets/Input/SComboBox.h
 C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Slate\Public\Framework/Docking/LayoutService.h
+C:\Repo\FinalPractice\UFinalPractice\Source\UFinalPractice\Cubemon.h
+C:\Repo\FinalPractice\UFinalPractice\Intermediate\Build\Win64\UE4Editor\Inc\UFinalPractice\Cubemon.generated.h
