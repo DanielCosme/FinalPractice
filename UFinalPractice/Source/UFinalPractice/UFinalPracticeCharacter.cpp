@@ -125,6 +125,7 @@ void AUFinalPracticeCharacter::SetupPlayerInputComponent(class UInputComponent* 
 	// set up gameplay key bindings
 	check(PlayerInputComponent);
 
+	PlayerInputComponent->BindAction("Loot", IE_Pressed, this, &AUFinalPracticeCharacter::LootBox);
 	// Bind jump events
 	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &ACharacter::Jump);
 	PlayerInputComponent->BindAction("Jump", IE_Released, this, &ACharacter::StopJumping);
@@ -165,6 +166,29 @@ void AUFinalPracticeCharacter::Heal()
 void AUFinalPracticeCharacter::SetHP(float hpToAdd)
 {
 	HP += hpToAdd;
+}
+
+void AUFinalPracticeCharacter::LootBox()
+{
+	float rand = FGenericPlatformMath::FRand();
+	FString result;
+	FColor color;
+	if (rand <= COMMON_CHANCE)
+	{
+		result = "COMMON ";
+		color = FColor::Green;
+	}
+	else if (rand <= RARE_CHANCE + COMMON_CHANCE)
+	{
+		result = "RARE ";
+		color = FColor::Blue;
+	}
+	else
+	{
+		result = "LEGENDARY ";
+		color = FColor::Purple;
+	}
+	GEngine->AddOnScreenDebugMessage(-1, 20, color, result + TEXT("ITEM"));
 }
 
 void AUFinalPracticeCharacter::TimerTester()

@@ -50,6 +50,7 @@ public:
 
 	AUFinalPracticeCharacter();
 
+	
 	UPROPERTY(EditAnywhere) TSubclassOf<UPlayerHpWidget> wg;
 
 	float MAX_HP = 1.0f;	float toHealPerSecond;
@@ -58,6 +59,7 @@ public:
 
 	void Heal(float duration);
 	void SetHP(float hpToAdd);
+	void LootBox();
 
 	void TimerTester();
 
@@ -67,6 +69,10 @@ protected:
 	virtual void BeginPlay();
 
 	UPROPERTY(BluePrintReadOnly) float HP = 1.0f;
+
+
+	float COMMON_CHANCE = 0.6f;
+	float RARE_CHANCE = 0.3f;
 
 private:
 	void Heal();
