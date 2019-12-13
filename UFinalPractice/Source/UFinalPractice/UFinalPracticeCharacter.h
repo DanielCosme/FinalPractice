@@ -63,6 +63,7 @@ public:
 	void LootBox();
 	void KillCube();
 	void SortCube();
+	void AltFire();
 
 
 	void TimerTester();

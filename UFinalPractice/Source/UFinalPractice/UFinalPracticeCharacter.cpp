@@ -129,6 +129,7 @@ void AUFinalPracticeCharacter::SetupPlayerInputComponent(class UInputComponent* 
 	PlayerInputComponent->BindAction("Loot", IE_Pressed, this, &AUFinalPracticeCharacter::LootBox);
 	PlayerInputComponent->BindAction("KillCube", IE_Pressed, this, &AUFinalPracticeCharacter::KillCube);
 	PlayerInputComponent->BindAction("SortCube", IE_Pressed, this, &AUFinalPracticeCharacter::SortCube);
+	PlayerInputComponent->BindAction("AltFire", IE_Pressed, this, &AUFinalPracticeCharacter::AltFire);
 	// Bind jump events
 	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &ACharacter::Jump);
 	PlayerInputComponent->BindAction("Jump", IE_Released, this, &ACharacter::StopJumping);
@@ -237,6 +238,28 @@ void AUFinalPracticeCharacter::SortCube()
 	{
 		auto cube = Cast<ACubemon>(cubemon);
 		GEngine->AddOnScreenDebugMessage(-1, 5, FColor::Orange, cube->GetActorLabel() + TEXT(" Has ") + FString::SanitizeFloat(cube->HP, 2));
+	}
+}
+
+void AUFinalPracticeCharacter::AltFire()
+{
+	float damage = 0.8f;
+
+	auto camera = UGameplayStatics::GetPlayerCameraManager(GetWorld(), 0);
+	auto start = FP_MuzzleLocation->GetComponentLocation();
+	auto end = start + (camera->GetCameraRotation().Vector() * 10000.f);
+
+	auto hits = TArray<FHitResult>();
+	auto queryParams = FCollisionObjectQueryParams(ECC_WorldDynamic);
+	GetWorld()->LineTraceMultiByObjectType(hits, start, end, queryParams);
+	for (auto hit : hits)
+	{
+		auto cube = Cast<ACubemon>(hit.GetActor());
+		if (cube != nullptr)
+		{
+			cube->HP -= cube->MAX_HP * damage;
+			damage /= 2;
+		}
 	}
 }
 
