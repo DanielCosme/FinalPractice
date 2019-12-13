@@ -91,12 +91,24 @@
     <ClInclude Include="..\..\Source\UFinalPractice\ProximityMine.h">
       <Filter>Source\UFinalPractice</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\UFinalPractice\Cubemon.h">
+      <Filter>Source\UFinalPractice</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\UFinalPractice\CubemonWidget.h">
+      <Filter>Source\UFinalPractice</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\UFinalPractice\LaunchPad.cpp">
       <Filter>Source\UFinalPractice</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\UFinalPractice\ProximityMine.cpp">
+      <Filter>Source\UFinalPractice</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UFinalPractice\Cubemon.cpp">
+      <Filter>Source\UFinalPractice</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UFinalPractice\CubemonWidget.cpp">
       <Filter>Source\UFinalPractice</Filter>
     </ClCompile>
   </ItemGroup>

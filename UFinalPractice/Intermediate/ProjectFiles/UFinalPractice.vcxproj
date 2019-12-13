@@ -374,7 +374,11 @@
     <None Include="..\..\Config\DefaultInput.ini" />
     <ClCompile Include="..\..\Source\UFinalPractice\Caltrop.cpp" />
     <ClInclude Include="..\..\Source\UFinalPractice\Caltrop.h" />
+    <ClCompile Include="..\..\Source\UFinalPractice\Cubemon.cpp" />
+    <ClCompile Include="..\..\Source\UFinalPractice\CubemonWidget.cpp" />
     <ClCompile Include="..\..\Source\UFinalPractice\HealthKit.cpp" />
+    <ClInclude Include="..\..\Source\UFinalPractice\Cubemon.h" />
+    <ClInclude Include="..\..\Source\UFinalPractice\CubemonWidget.h" />
     <ClInclude Include="..\..\Source\UFinalPractice\HealthKit.h" />
     <ClCompile Include="..\..\Source\UFinalPractice\LaunchPad.cpp" />
     <ClCompile Include="..\..\Source\UFinalPractice\PlayerHpWidget.cpp" />
