@@ -1,10 +1,21 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Repo\FinalPractice).
   Parsing headers for UFinalPracticeEditor
     Running UnrealHeaderTool "C:\Repo\FinalPractice\UFinalPractice\UFinalPractice.uproject" "C:\Repo\FinalPractice\UFinalPractice\Intermediate\Build\Win64\UFinalPracticeEditor\Development\UFinalPracticeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for UFinalPracticeEditor in 5.6438319 seconds
+  Reflection code generated for UFinalPracticeEditor in 5.4846331 seconds
   Using Visual Studio 2019 14.23.28105 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
   Building 4 actions with 16 processes...
-    [1/4] LaunchPad.cpp
-C:\Repo\FinalPractice\UFinalPractice\Source\UFinalPractice\LaunchPad.cpp(38): error C2027: use of undefined type 'UCharacterMovementComponent'
-    C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h(24): note: see declaration of 'UCharacterMovementComponent'
+    [1/4] ProximityMine.cpp
+C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\CoreUObject\Public\UObject/Object.h(106): error C2027: use of undefined type 'UParticleSystem'
+    C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Classes\Kismet/GameplayStatics.h(26): note: see declaration of 'UParticleSystem'
+    C:\Repo\FinalPractice\UFinalPractice\Source\UFinalPractice\ProximityMine.cpp(18): note: see reference to function template instantiation 'TReturnType *UObject::CreateDefaultSubobject<UParticleSystem>(FName,bool)' being compiled
+            with
+            [
+                TReturnType=UParticleSystem
+            ]
+C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\CoreUObject\Public\UObject/Object.h(107): error C2440: 'static_cast': cannot convert from 'UObject *' to 'TReturnType *'
+            with
+            [
+                TReturnType=UParticleSystem
+            ]
+    C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\CoreUObject\Public\UObject/Object.h(107): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.MakeFile.Targets(44,5): error MSB3075: The command ""C:\Program Files\Epic Games\UE_4.23\Engine\Build\BatchFiles\Build.bat" UFinalPracticeEditor Win64 Development -Project="C:\Repo\FinalPractice\UFinalPractice\UFinalPractice.uproject" -WaitMutex -FromMsBuild" exited with code 5. Please verify that you have sufficient rights to run this command.

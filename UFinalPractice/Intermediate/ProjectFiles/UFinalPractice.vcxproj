@@ -381,7 +381,9 @@
     <ClInclude Include="..\..\Source\UFinalPractice\LaunchPad.h" />
     <ClInclude Include="..\..\Source\UFinalPractice\PlayerHpWidget.h" />
     <None Include="..\..\Source\UFinalPractice\UFinalPractice.Build.cs" />
+    <ClCompile Include="..\..\Source\UFinalPractice\ProximityMine.cpp" />
     <ClCompile Include="..\..\Source\UFinalPractice\UFinalPractice.cpp" />
+    <ClInclude Include="..\..\Source\UFinalPractice\ProximityMine.h" />
     <ClInclude Include="..\..\Source\UFinalPractice\UFinalPractice.h" />
     <ClCompile Include="..\..\Source\UFinalPractice\UFinalPracticeCharacter.cpp" />
     <ClInclude Include="..\..\Source\UFinalPractice\UFinalPracticeCharacter.h" />
