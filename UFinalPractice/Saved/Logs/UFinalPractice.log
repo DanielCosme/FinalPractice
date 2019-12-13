@@ -1638,3 +1638,1102 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.12.12-23.55.21:618][ 30]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2019.12.12-23.55.21:621][ 30]LogUObjectHash: Compacting FUObjectHashTables data took   2.60ms
 [2019.12.12-23.55.21:679][ 34]LogPlayLevel: Display: Destroying online subsystem :Context_35
+[2019.12.12-23.56.39:053][293]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.12.12-23.56.43:140][760]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2019.12.12-23.56.43:200][760]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BP_HEalthKit.BP_HealthKit
+[2019.12.12-23.57.22:042][270]Candidate modules for hot reload:
+[2019.12.12-23.57.22:042][270]  UFinalPractice
+[2019.12.12-23.57.22:042][270]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.23/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=UFinalPractice,290 Win64 Development -TargetType=Editor -Project="C:/Repo/FinalPractice/UFinalPractice/UFinalPractice.uproject" "C:/Repo/FinalPractice/UFinalPractice/UFinalPractice.uproject"  -IgnoreJunk]
+[2019.12.12-23.57.31:508][270]CompilerResultsLog: New page: Compilation - Dec 12, 2019, 1:57:31 PM
+[2019.12.12-23.57.31:508][270]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Repo\FinalPractice).
+[2019.12.12-23.57.31:508][270]CompilerResultsLog: Invalidating makefile for UFinalPracticeEditor (source file added)
+[2019.12.12-23.57.31:508][270]CompilerResultsLog: Parsing headers for UFinalPracticeEditor
+[2019.12.12-23.57.31:508][270]CompilerResultsLog:   Running UnrealHeaderTool "C:\Repo\FinalPractice\UFinalPractice\UFinalPractice.uproject" "C:\Repo\FinalPractice\UFinalPractice\Intermediate\Build\Win64\UFinalPracticeEditor\Development\UFinalPracticeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.12.12-23.57.31:508][270]CompilerResultsLog: Reflection code generated for UFinalPracticeEditor in 5.8507982 seconds
+[2019.12.12-23.57.31:508][270]CompilerResultsLog: Using Visual Studio 2019 14.23.28105 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.12.12-23.57.31:508][270]CompilerResultsLog: Building 6 actions with 16 processes...
+[2019.12.12-23.57.31:508][270]CompilerResultsLog:   [1/6] LaunchPad.cpp
+[2019.12.12-23.57.31:508][270]CompilerResultsLog:   [2/6] UFinalPractice.init.gen.cpp
+[2019.12.12-23.57.31:508][270]CompilerResultsLog:   [3/6] LaunchPad.gen.cpp
+[2019.12.12-23.57.31:508][270]CompilerResultsLog:   [4/6] UE4Editor-UFinalPractice-0290.lib
+[2019.12.12-23.57.31:508][270]CompilerResultsLog:      Creating library C:\Repo\FinalPractice\UFinalPractice\Intermediate\Build\Win64\UE4Editor\Development\UFinalPractice\UE4Editor-UFinalPractice-0290.lib and object C:\Repo\FinalPractice\UFinalPractice\Intermediate\Build\Win64\UE4Editor\Development\UFinalPractice\UE4Editor-UFinalPractice-0290.exp
+[2019.12.12-23.57.31:508][270]CompilerResultsLog:   [5/6] UE4Editor-UFinalPractice-0290.dll
+[2019.12.12-23.57.31:508][270]CompilerResultsLog:      Creating library C:\Repo\FinalPractice\UFinalPractice\Intermediate\Build\Win64\UE4Editor\Development\UFinalPractice\UE4Editor-UFinalPractice-0290.suppressed.lib and object C:\Repo\FinalPractice\UFinalPractice\Intermediate\Build\Win64\UE4Editor\Development\UFinalPractice\UE4Editor-UFinalPractice-0290.suppressed.exp
+[2019.12.12-23.57.31:508][270]CompilerResultsLog:   [6/6] UFinalPracticeEditor.target
+[2019.12.12-23.57.31:508][270]CompilerResultsLog: Total time in Parallel executor: 1.38 seconds
+[2019.12.12-23.57.31:508][270]CompilerResultsLog: Total execution time: 9.37 seconds
+[2019.12.12-23.57.31:508][270]LogMainFrame: MainFrame: Module compiling took 9.476 seconds
+[2019.12.12-23.57.31:547][270]LogUObjectHash: Compacting FUObjectHashTables data took   2.87ms
+[2019.12.12-23.57.31:563][270]LogContentBrowser: Native class hierarchy populated in 0.0094 seconds. Added 3052 classes and 767 folders.
+[2019.12.12-23.57.31:564][270]Display: HotReload took  9.5s.
+[2019.12.12-23.57.31:566][270]Warning: HotReload operation took  9.6s.
+[2019.12.12-23.57.31:895][270]LogSlate: Window 'Add C++ Class' being destroyed
+[2019.12.12-23.57.32:192][270]LogHotReload: New module detected: UE4Editor-UFinalPractice-0290.dll
+[2019.12.12-23.57.32:225][271]LogHotReload: Starting Hot-Reload from IDE
+[2019.12.12-23.57.32:322][271]LogUObjectHash: Compacting FUObjectHashTables data took   4.02ms
+[2019.12.12-23.57.32:356][271]LogClass: Could not find existing class LaunchPad in package /Script/UFinalPractice for HotReload, assuming new class
+[2019.12.12-23.57.32:388][271]LogContentBrowser: Native class hierarchy updated for 'UFinalPractice' in 0.0008 seconds. Added 8 classes and 2 folders.
+[2019.12.12-23.57.32:394][271]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2019.12.12-23.57.32:473][271]LogUObjectHash: Compacting FUObjectHashTables data took   3.09ms
+[2019.12.12-23.57.32:489][271]LogContentBrowser: Native class hierarchy populated in 0.0096 seconds. Added 3053 classes and 767 folders.
+[2019.12.12-23.57.32:499][271]Display: HotReload took  0.3s.
+[2019.12.12-23.58.57:360][825]LogEditorViewport: Clicking on Actor (LMB): BP_Caltrop_C (BP_Caltrop3)
+[2019.12.13-00.04.05:712][724]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.13-00.04.11:608][414]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.13-00.05.13:990][311]LogUObjectHash: Compacting FUObjectHashTables data took   4.48ms
+[2019.12.13-00.05.14:251][311]LogSavePackage: Moving '../../../../../../Repo/FinalPractice/UFinalPractice/Saved/FirstPersonExampleMap_Auto1F360D4374FB01618EFAFA88DD8356673.tmp' to '../../../../../../Repo/FinalPractice/UFinalPractice/Saved/Autosaves/Game/FirstPersonCPP/Maps/FirstPersonExampleMap_Auto1.umap'
+[2019.12.13-00.05.14:258][311]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap' took 0.337
+[2019.12.13-00.05.14:258][311]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.337
+[2019.12.13-00.10.59:427][578]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.13-00.14.35:019][352]Candidate modules for hot reload:
+[2019.12.13-00.14.35:019][352]  UFinalPractice
+[2019.12.13-00.14.35:019][352]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.23/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=UFinalPractice,6978 Win64 Development -TargetType=Editor -Project="C:/Repo/FinalPractice/UFinalPractice/UFinalPractice.uproject" "C:/Repo/FinalPractice/UFinalPractice/UFinalPractice.uproject"  -IgnoreJunk]
+[2019.12.13-00.14.35:021][352]Warning: Starting HotReload took  0.0s.
+[2019.12.13-00.14.43:830][380]CompilerResultsLog: New page: Compilation - Dec 12, 2019, 2:14:43 PM
+[2019.12.13-00.14.43:830][380]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Repo\FinalPractice).
+[2019.12.13-00.14.43:830][380]CompilerResultsLog: Parsing headers for UFinalPracticeEditor
+[2019.12.13-00.14.43:830][380]CompilerResultsLog:   Running UnrealHeaderTool "C:\Repo\FinalPractice\UFinalPractice\UFinalPractice.uproject" "C:\Repo\FinalPractice\UFinalPractice\Intermediate\Build\Win64\UFinalPracticeEditor\Development\UFinalPracticeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.12.13-00.14.43:831][380]CompilerResultsLog: Reflection code generated for UFinalPracticeEditor in 5.8013088 seconds
+[2019.12.13-00.14.43:831][380]CompilerResultsLog: Using Visual Studio 2019 14.23.28105 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.12.13-00.14.43:831][380]CompilerResultsLog: Building 6 actions with 16 processes...
+[2019.12.13-00.14.43:831][380]CompilerResultsLog:   [1/6] UFinalPractice.init.gen.cpp
+[2019.12.13-00.14.43:831][380]CompilerResultsLog:   [2/6] LaunchPad.gen.cpp
+[2019.12.13-00.14.43:831][380]CompilerResultsLog:   [3/6] LaunchPad.cpp
+[2019.12.13-00.14.43:831][380]CompilerResultsLog:    C:\Repo\FinalPractice\UFinalPractice\Source\UFinalPractice\LaunchPad.cpp(38) : error C2027: use of undefined type 'UCharacterMovementComponent'
+[2019.12.13-00.14.43:831][380]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h(24): note: see declaration of 'UCharacterMovementComponent'
+[2019.12.13-00.14.43:831][380]LogMainFrame: MainFrame: Module compiling took 8.822 seconds
+[2019.12.13-00.14.43:831][380]Warning: HotReload failed, recompile failed
+[2019.12.13-00.22.47:943][802]LogSlate: Window 'Message Log' being destroyed
+[2019.12.13-00.22.47:946][802]LogSlate: Window 'Message Log' being destroyed
+[2019.12.13-00.22.49:420][882]Candidate modules for hot reload:
+[2019.12.13-00.22.49:420][882]  UFinalPractice
+[2019.12.13-00.22.49:420][882]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.23/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=UFinalPractice,7402 Win64 Development -TargetType=Editor -Project="C:/Repo/FinalPractice/UFinalPractice/UFinalPractice.uproject" "C:/Repo/FinalPractice/UFinalPractice/UFinalPractice.uproject"  -IgnoreJunk]
+[2019.12.13-00.22.49:422][882]Warning: Starting HotReload took  0.0s.
+[2019.12.13-00.22.57:843][241]CompilerResultsLog: New page: Compilation - Dec 12, 2019, 2:22:57 PM
+[2019.12.13-00.22.57:843][241]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Repo\FinalPractice).
+[2019.12.13-00.22.57:843][241]CompilerResultsLog: Parsing headers for UFinalPracticeEditor
+[2019.12.13-00.22.57:843][241]CompilerResultsLog:   Running UnrealHeaderTool "C:\Repo\FinalPractice\UFinalPractice\UFinalPractice.uproject" "C:\Repo\FinalPractice\UFinalPractice\Intermediate\Build\Win64\UFinalPracticeEditor\Development\UFinalPracticeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.12.13-00.22.57:843][241]CompilerResultsLog: Reflection code generated for UFinalPracticeEditor in 5.5507846 seconds
+[2019.12.13-00.22.57:843][241]CompilerResultsLog: Using Visual Studio 2019 14.23.28105 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.12.13-00.22.57:843][241]CompilerResultsLog: Building 4 actions with 16 processes...
+[2019.12.13-00.22.57:843][241]CompilerResultsLog:   [1/4] LaunchPad.cpp
+[2019.12.13-00.22.57:843][241]CompilerResultsLog:    C:\Repo\FinalPractice\UFinalPractice\Source\UFinalPractice\LaunchPad.cpp(39) : error C2027: use of undefined type 'UCharacterMovementComponent'
+[2019.12.13-00.22.57:843][241]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h(24): note: see declaration of 'UCharacterMovementComponent'
+[2019.12.13-00.22.57:843][241]LogMainFrame: MainFrame: Module compiling took 8.433 seconds
+[2019.12.13-00.22.57:843][241]Warning: HotReload failed, recompile failed
+[2019.12.13-00.23.18:838][819]LogSlate: Window 'Message Log' being destroyed
+[2019.12.13-00.23.18:846][819]LogSlate: Window 'Message Log' being destroyed
+[2019.12.13-00.41.45:720][421]Candidate modules for hot reload:
+[2019.12.13-00.41.45:720][421]  UFinalPractice
+[2019.12.13-00.41.45:720][421]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.23/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=UFinalPractice,9700 Win64 Development -TargetType=Editor -Project="C:/Repo/FinalPractice/UFinalPractice/UFinalPractice.uproject" "C:/Repo/FinalPractice/UFinalPractice/UFinalPractice.uproject"  -IgnoreJunk]
+[2019.12.13-00.41.45:722][421]Warning: Starting HotReload took  0.0s.
+[2019.12.13-00.41.54:753][729]CompilerResultsLog: New page: Compilation - Dec 12, 2019, 2:41:54 PM
+[2019.12.13-00.41.54:754][729]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Repo\FinalPractice).
+[2019.12.13-00.41.54:754][729]CompilerResultsLog: Parsing headers for UFinalPracticeEditor
+[2019.12.13-00.41.54:754][729]CompilerResultsLog:   Running UnrealHeaderTool "C:\Repo\FinalPractice\UFinalPractice\UFinalPractice.uproject" "C:\Repo\FinalPractice\UFinalPractice\Intermediate\Build\Win64\UFinalPracticeEditor\Development\UFinalPracticeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.12.13-00.41.54:754][729]CompilerResultsLog: Reflection code generated for UFinalPracticeEditor in 5.6204089 seconds
+[2019.12.13-00.41.54:754][729]CompilerResultsLog: Using Visual Studio 2019 14.23.28105 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.12.13-00.41.54:754][729]CompilerResultsLog: Building 5 actions with 16 processes...
+[2019.12.13-00.41.54:754][729]CompilerResultsLog:   [1/5] LaunchPad.gen.cpp
+[2019.12.13-00.41.54:754][729]CompilerResultsLog:   [2/5] LaunchPad.cpp
+[2019.12.13-00.41.54:754][729]CompilerResultsLog:    C:\Repo\FinalPractice\UFinalPractice\Source\UFinalPractice\LaunchPad.cpp(40) : error C2027: use of undefined type 'UCharacterMovementComponent'
+[2019.12.13-00.41.54:754][729]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h(24): note: see declaration of 'UCharacterMovementComponent'
+[2019.12.13-00.41.54:754][729]LogMainFrame: MainFrame: Module compiling took 9.045 seconds
+[2019.12.13-00.41.54:754][729]Warning: HotReload failed, recompile failed
+[2019.12.13-00.46.07:326][547]Candidate modules for hot reload:
+[2019.12.13-00.46.07:326][547]  UFinalPractice
+[2019.12.13-00.46.07:327][547]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.23/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=UFinalPractice,7914 Win64 Development -TargetType=Editor -Project="C:/Repo/FinalPractice/UFinalPractice/UFinalPractice.uproject" "C:/Repo/FinalPractice/UFinalPractice/UFinalPractice.uproject"  -IgnoreJunk]
+[2019.12.13-00.46.07:329][547]Warning: Starting HotReload took  0.0s.
+[2019.12.13-00.46.25:743][196]CompilerResultsLog: New page: Compilation - Dec 12, 2019, 2:46:25 PM
+[2019.12.13-00.46.25:744][196]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Repo\FinalPractice).
+[2019.12.13-00.46.25:744][196]CompilerResultsLog: Parsing headers for UFinalPracticeEditor
+[2019.12.13-00.46.25:744][196]CompilerResultsLog:   Running UnrealHeaderTool "C:\Repo\FinalPractice\UFinalPractice\UFinalPractice.uproject" "C:\Repo\FinalPractice\UFinalPractice\Intermediate\Build\Win64\UFinalPracticeEditor\Development\UFinalPracticeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.12.13-00.46.25:744][196]CompilerResultsLog: Reflection code generated for UFinalPracticeEditor in 5.6555633 seconds
+[2019.12.13-00.46.25:744][196]CompilerResultsLog: Using Visual Studio 2019 14.23.28105 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.12.13-00.46.25:744][196]CompilerResultsLog: Building 4 actions with 16 processes...
+[2019.12.13-00.46.25:744][196]CompilerResultsLog:   [1/4] LaunchPad.cpp
+[2019.12.13-00.46.25:744][196]CompilerResultsLog:   [2/4] UE4Editor-UFinalPractice-7914.lib
+[2019.12.13-00.46.25:744][196]CompilerResultsLog:      Creating library C:\Repo\FinalPractice\UFinalPractice\Intermediate\Build\Win64\UE4Editor\Development\UFinalPractice\UE4Editor-UFinalPractice-7914.lib and object C:\Repo\FinalPractice\UFinalPractice\Intermediate\Build\Win64\UE4Editor\Development\UFinalPractice\UE4Editor-UFinalPractice-7914.exp
+[2019.12.13-00.46.25:744][196]CompilerResultsLog:   [3/4] UE4Editor-UFinalPractice-7914.dll
+[2019.12.13-00.46.25:744][196]CompilerResultsLog:      Creating library C:\Repo\FinalPractice\UFinalPractice\Intermediate\Build\Win64\UE4Editor\Development\UFinalPractice\UE4Editor-UFinalPractice-7914.suppressed.lib and object C:\Repo\FinalPractice\UFinalPractice\Intermediate\Build\Win64\UE4Editor\Development\UFinalPractice\UE4Editor-UFinalPractice-7914.suppressed.exp
+[2019.12.13-00.46.25:744][196]CompilerResultsLog:   [4/4] UFinalPracticeEditor.target
+[2019.12.13-00.46.25:744][196]CompilerResultsLog: Total time in Parallel executor: 11.60 seconds
+[2019.12.13-00.46.25:744][196]CompilerResultsLog: Total execution time: 18.12 seconds
+[2019.12.13-00.46.25:744][196]LogMainFrame: MainFrame: Module compiling took 18.429 seconds
+[2019.12.13-00.46.25:845][196]LogUObjectHash: Compacting FUObjectHashTables data took  14.74ms
+[2019.12.13-00.46.25:894][196]LogClass: Could not find existing class LaunchPad in package /Script/UFinalPractice for HotReload, assuming new class
+[2019.12.13-00.46.25:916][196]LogHotReload: Re-instancing LaunchPad after hot-reload.
+[2019.12.13-00.46.26:197][196]LogContentBrowser: Native class hierarchy updated for 'UFinalPractice' in 0.0008 seconds. Added 8 classes and 2 folders.
+[2019.12.13-00.46.26:202][196]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2019.12.13-00.46.26:284][196]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
+[2019.12.13-00.46.26:329][196]LogContentBrowser: Native class hierarchy populated in 0.0158 seconds. Added 3053 classes and 767 folders.
+[2019.12.13-00.46.26:329][196]Display: HotReload took 19.0s.
+[2019.12.13-00.46.35:402][ 96]LogAssetEditorManager: Opening Asset editor for Class /Script/UFinalPractice.LaunchPad
+[2019.12.13-00.46.44:587][870]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BP_Launchpad.BP_Launchpad
+[2019.12.13-00.46.44:996][870]LogSlate: Window 'Add Blueprint Class' being destroyed
+[2019.12.13-00.46.57:060][184]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.13-00.46.57:734][251]LogSlate: Window 'BP_Launchpad' being destroyed
+[2019.12.13-00.47.13:399][982]LogAssetEditorManager: Opening Asset editor for MaterialInstanceConstant /Game/FirstPerson/MI_Yellow.MI_Yellow
+[2019.12.13-00.47.13:732][982]LogRenderer: Reallocating scene render targets to support 1336x920 Format 10 NumSamples 1 (Frame:1).
+[2019.12.13-00.47.19:156][615]LogSlate: Window 'Color Picker' being destroyed
+[2019.12.13-00.47.26:941][501]LogSlate: Window 'Color Picker' being destroyed
+[2019.12.13-00.47.28:260][647]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPerson/MI_Yellow" FILE="../../../../../../Repo/FinalPractice/UFinalPractice/Content/FirstPerson/MI_Yellow.uasset" SILENT=true
+[2019.12.13-00.47.28:416][647]LogUObjectHash: Compacting FUObjectHashTables data took   7.38ms
+[2019.12.13-00.47.28:427][647]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.12.13-00.47.28:808][647]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 2
+[2019.12.13-00.47.28:808][647]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 1
+[2019.12.13-00.47.28:808][647]TextureStreamingBuild: Display: Compiling optional shaders took 0.393 seconds.
+[2019.12.13-00.47.28:881][647]LogUObjectHash: Compacting FUObjectHashTables data took   4.94ms
+[2019.12.13-00.47.28:895][647]LogSavePackage: Moving '../../../../../../Repo/FinalPractice/UFinalPractice/Saved/MI_Yellow29BA6FA64A6A4527692E0D9C2BE817B2.tmp' to '../../../../../../Repo/FinalPractice/UFinalPractice/Content/FirstPerson/MI_Yellow.uasset'
+[2019.12.13-00.47.34:200][242]BlueprintLog: New page: Compile BP_Launchpad
+[2019.12.13-00.47.34:508][242]LogUObjectHash: Compacting FUObjectHashTables data took   4.88ms
+[2019.12.13-00.47.35:042][298]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_Launchpad" FILE="../../../../../../Repo/FinalPractice/UFinalPractice/Content/BP_Launchpad.uasset" SILENT=true
+[2019.12.13-00.47.35:063][298]LogSavePackage: Moving '../../../../../../Repo/FinalPractice/UFinalPractice/Saved/BP_Launchpad143D37794025FB3E18CB80936EBD79C3.tmp' to '../../../../../../Repo/FinalPractice/UFinalPractice/Content/BP_Launchpad.uasset'
+[2019.12.13-00.47.48:863][794]LogTemp: Repeating last play command: Selected Viewport
+[2019.12.13-00.47.48:883][794]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-00.47.48:884][794]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.13-00.47.48:884][794]PIE: New page: PIE session: FirstPersonExampleMap (Dec 12, 2019, 2:47:48 PM)
+[2019.12.13-00.47.48:884][794]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.12.13-00.47.48:909][794]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025665s)
+[2019.12.13-00.47.48:910][794]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.12.13-00.47.48:911][794]LogPlayLevel: PIE: World Init took: (0.001042s)
+[2019.12.13-00.47.48:911][794]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.026848s)
+[2019.12.13-00.47.48:957][794]LogUObjectHash: Compacting FUObjectHashTables data took   5.92ms
+[2019.12.13-00.47.48:977][794]LogInit: XAudio2 using 'Headphones (2- HD 4.50BTNC Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.12.13-00.47.48:986][794]LogInit: FAudioDevice initialized.
+[2019.12.13-00.47.48:987][794]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.12.13-00.47.48:998][794]LogLoad: Game class is 'UFinalPracticeGameMode'
+[2019.12.13-00.47.49:000][794]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2019.12.12-19.47.49
+[2019.12.13-00.47.49:000][794]LogWorld: Bringing up level for play took: 0.002300
+[2019.12.13-00.47.49:001][794]LogOnline: OSS: Creating online subsystem instance for: :Context_40
+[2019.12.13-00.47.49:003][794]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 0.878
+[2019.12.13-00.47.49:003][794]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-00.47.58:304][906]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-00.47.58:305][906]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.13-00.47.58:305][906]LogWorld: BeginTearingDown for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.12.13-00.47.58:305][906]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2019.12.13-00.47.58:321][906]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.12.13-00.47.58:321][906]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-00.47.58:362][906]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.13-00.47.58:367][906]LogUObjectHash: Compacting FUObjectHashTables data took   4.30ms
+[2019.12.13-00.47.58:413][908]LogPlayLevel: Display: Destroying online subsystem :Context_40
+[2019.12.13-00.48.08:735][ 19]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.12.13-00.48.09:954][140]Candidate modules for hot reload:
+[2019.12.13-00.48.09:954][140]  UFinalPractice
+[2019.12.13-00.48.09:954][140]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.23/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=UFinalPractice,5615 Win64 Development -TargetType=Editor -Project="C:/Repo/FinalPractice/UFinalPractice/UFinalPractice.uproject" "C:/Repo/FinalPractice/UFinalPractice/UFinalPractice.uproject"  -IgnoreJunk]
+[2019.12.13-00.48.09:956][140]Warning: Starting HotReload took  0.0s.
+[2019.12.13-00.48.23:431][731]CompilerResultsLog: New page: Compilation - Dec 12, 2019, 2:48:23 PM
+[2019.12.13-00.48.23:431][731]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Repo\FinalPractice).
+[2019.12.13-00.48.23:431][731]CompilerResultsLog: Parsing headers for UFinalPracticeEditor
+[2019.12.13-00.48.23:431][731]CompilerResultsLog:   Running UnrealHeaderTool "C:\Repo\FinalPractice\UFinalPractice\UFinalPractice.uproject" "C:\Repo\FinalPractice\UFinalPractice\Intermediate\Build\Win64\UFinalPracticeEditor\Development\UFinalPracticeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.12.13-00.48.23:431][731]CompilerResultsLog: Reflection code generated for UFinalPracticeEditor in 5.7362243 seconds
+[2019.12.13-00.48.23:431][731]CompilerResultsLog: Using Visual Studio 2019 14.23.28105 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.12.13-00.48.23:431][731]CompilerResultsLog: Building 4 actions with 16 processes...
+[2019.12.13-00.48.23:431][731]CompilerResultsLog:   [1/4] LaunchPad.cpp
+[2019.12.13-00.48.23:431][731]CompilerResultsLog:    C:\Repo\FinalPractice\UFinalPractice\Source\UFinalPractice\LaunchPad.cpp(19) : error C2065: 'MeshComponent': undeclared identifier
+[2019.12.13-00.48.23:432][731]LogMainFrame: MainFrame: Module compiling took 13.487 seconds
+[2019.12.13-00.48.23:432][731]Warning: HotReload failed, recompile failed
+[2019.12.13-00.48.34:752][ 10]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2019.12.13-00.48.35:066][ 10]LogSavePackage: Moving '../../../../../../Repo/FinalPractice/UFinalPractice/Saved/FirstPersonExampleMap_Auto22EC019AF4276E8CB7D20369F4FC31810.tmp' to '../../../../../../Repo/FinalPractice/UFinalPractice/Saved/Autosaves/Game/FirstPersonCPP/Maps/FirstPersonExampleMap_Auto2.umap'
+[2019.12.13-00.48.35:073][ 10]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap' took 0.358
+[2019.12.13-00.48.35:073][ 10]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.358
+[2019.12.13-00.48.42:009][225]LogSlate: Window 'Message Log' being destroyed
+[2019.12.13-00.48.42:016][225]LogSlate: Window 'Message Log' being destroyed
+[2019.12.13-00.48.42:622][287]Candidate modules for hot reload:
+[2019.12.13-00.48.42:622][287]  UFinalPractice
+[2019.12.13-00.48.42:622][287]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.23/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=UFinalPractice,2015 Win64 Development -TargetType=Editor -Project="C:/Repo/FinalPractice/UFinalPractice/UFinalPractice.uproject" "C:/Repo/FinalPractice/UFinalPractice/UFinalPractice.uproject"  -IgnoreJunk]
+[2019.12.13-00.48.42:624][287]Warning: Starting HotReload took  0.0s.
+[2019.12.13-00.48.58:766][357]CompilerResultsLog: New page: Compilation - Dec 12, 2019, 2:48:58 PM
+[2019.12.13-00.48.58:766][357]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Repo\FinalPractice).
+[2019.12.13-00.48.58:766][357]CompilerResultsLog: Parsing headers for UFinalPracticeEditor
+[2019.12.13-00.48.58:766][357]CompilerResultsLog:   Running UnrealHeaderTool "C:\Repo\FinalPractice\UFinalPractice\UFinalPractice.uproject" "C:\Repo\FinalPractice\UFinalPractice\Intermediate\Build\Win64\UFinalPracticeEditor\Development\UFinalPracticeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.12.13-00.48.58:766][357]CompilerResultsLog: Reflection code generated for UFinalPracticeEditor in 5.6504507 seconds
+[2019.12.13-00.48.58:766][357]CompilerResultsLog: Using Visual Studio 2019 14.23.28105 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.12.13-00.48.58:766][357]CompilerResultsLog: Building 4 actions with 16 processes...
+[2019.12.13-00.48.58:766][357]CompilerResultsLog:   [1/4] LaunchPad.cpp
+[2019.12.13-00.48.58:766][357]CompilerResultsLog:   [2/4] UE4Editor-UFinalPractice-2015.lib
+[2019.12.13-00.48.58:766][357]CompilerResultsLog:      Creating library C:\Repo\FinalPractice\UFinalPractice\Intermediate\Build\Win64\UE4Editor\Development\UFinalPractice\UE4Editor-UFinalPractice-2015.lib and object C:\Repo\FinalPractice\UFinalPractice\Intermediate\Build\Win64\UE4Editor\Development\UFinalPractice\UE4Editor-UFinalPractice-2015.exp
+[2019.12.13-00.48.58:766][357]CompilerResultsLog:   [3/4] UE4Editor-UFinalPractice-2015.dll
+[2019.12.13-00.48.58:766][357]CompilerResultsLog:      Creating library C:\Repo\FinalPractice\UFinalPractice\Intermediate\Build\Win64\UE4Editor\Development\UFinalPractice\UE4Editor-UFinalPractice-2015.suppressed.lib and object C:\Repo\FinalPractice\UFinalPractice\Intermediate\Build\Win64\UE4Editor\Development\UFinalPractice\UE4Editor-UFinalPractice-2015.suppressed.exp
+[2019.12.13-00.48.58:766][357]CompilerResultsLog:   [4/4] UFinalPracticeEditor.target
+[2019.12.13-00.48.58:766][357]CompilerResultsLog: Total time in Parallel executor: 9.39 seconds
+[2019.12.13-00.48.58:766][357]CompilerResultsLog: Total execution time: 15.87 seconds
+[2019.12.13-00.48.58:766][357]LogMainFrame: MainFrame: Module compiling took 16.155 seconds
+[2019.12.13-00.48.58:814][357]LogUObjectHash: Compacting FUObjectHashTables data took   5.25ms
+[2019.12.13-00.48.58:863][357]LogHotReload: Re-instancing LaunchPad after hot-reload.
+[2019.12.13-00.48.59:396][357]LogContentBrowser: Native class hierarchy updated for 'UFinalPractice' in 0.0005 seconds. Added 8 classes and 2 folders.
+[2019.12.13-00.48.59:402][357]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2019.12.13-00.48.59:494][357]LogUObjectHash: Compacting FUObjectHashTables data took   6.06ms
+[2019.12.13-00.48.59:511][357]LogContentBrowser: Native class hierarchy populated in 0.0091 seconds. Added 3053 classes and 767 folders.
+[2019.12.13-00.48.59:511][357]Display: HotReload took 16.9s.
+[2019.12.13-00.49.02:719][454]LogTemp: Repeating last play command: Selected Viewport
+[2019.12.13-00.49.02:734][454]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-00.49.02:735][454]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.13-00.49.02:735][454]PIE: New page: PIE session: FirstPersonExampleMap (Dec 12, 2019, 2:49:02 PM)
+[2019.12.13-00.49.02:735][454]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.12.13-00.49.02:743][454]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007482s)
+[2019.12.13-00.49.02:743][454]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.12.13-00.49.02:744][454]LogPlayLevel: PIE: World Init took: (0.000878s)
+[2019.12.13-00.49.02:744][454]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.008476s)
+[2019.12.13-00.49.02:826][454]LogUObjectHash: Compacting FUObjectHashTables data took   6.13ms
+[2019.12.13-00.49.02:844][454]LogInit: XAudio2 using 'Headphones (2- HD 4.50BTNC Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.12.13-00.49.02:852][454]LogInit: FAudioDevice initialized.
+[2019.12.13-00.49.02:861][454]LogLoad: Game class is 'UFinalPracticeGameMode'
+[2019.12.13-00.49.02:863][454]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2019.12.12-19.49.02
+[2019.12.13-00.49.02:863][454]LogWorld: Bringing up level for play took: 0.001639
+[2019.12.13-00.49.02:863][454]LogOnline: OSS: Creating online subsystem instance for: :Context_41
+[2019.12.13-00.49.02:865][454]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 0.739
+[2019.12.13-00.49.02:866][454]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-00.49.21:080][636]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-00.49.21:080][636]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.13-00.49.21:080][636]LogWorld: BeginTearingDown for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.12.13-00.49.21:080][636]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2019.12.13-00.49.21:095][636]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.12.13-00.49.21:095][636]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-00.49.21:142][636]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.13-00.49.21:165][636]LogUObjectHash: Compacting FUObjectHashTables data took   5.39ms
+[2019.12.13-00.49.21:190][637]LogPlayLevel: Display: Destroying online subsystem :Context_41
+[2019.12.13-00.49.33:428][708]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.12.13-00.49.34:831][851]Candidate modules for hot reload:
+[2019.12.13-00.49.34:831][851]  UFinalPractice
+[2019.12.13-00.49.34:831][851]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.23/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=UFinalPractice,9684 Win64 Development -TargetType=Editor -Project="C:/Repo/FinalPractice/UFinalPractice/UFinalPractice.uproject" "C:/Repo/FinalPractice/UFinalPractice/UFinalPractice.uproject"  -IgnoreJunk]
+[2019.12.13-00.49.34:833][851]Warning: Starting HotReload took  0.0s.
+[2019.12.13-00.49.51:784][816]CompilerResultsLog: New page: Compilation - Dec 12, 2019, 2:49:51 PM
+[2019.12.13-00.49.51:785][816]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Repo\FinalPractice).
+[2019.12.13-00.49.51:785][816]CompilerResultsLog: Parsing headers for UFinalPracticeEditor
+[2019.12.13-00.49.51:785][816]CompilerResultsLog:   Running UnrealHeaderTool "C:\Repo\FinalPractice\UFinalPractice\UFinalPractice.uproject" "C:\Repo\FinalPractice\UFinalPractice\Intermediate\Build\Win64\UFinalPracticeEditor\Development\UFinalPracticeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.12.13-00.49.51:785][816]CompilerResultsLog: Reflection code generated for UFinalPracticeEditor in 5.8023917 seconds
+[2019.12.13-00.49.51:785][816]CompilerResultsLog: Using Visual Studio 2019 14.23.28105 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.12.13-00.49.51:785][816]CompilerResultsLog: Building 4 actions with 16 processes...
+[2019.12.13-00.49.51:785][816]CompilerResultsLog:   [1/4] LaunchPad.cpp
+[2019.12.13-00.49.51:785][816]CompilerResultsLog:   [2/4] UE4Editor-UFinalPractice-9684.lib
+[2019.12.13-00.49.51:785][816]CompilerResultsLog:      Creating library C:\Repo\FinalPractice\UFinalPractice\Intermediate\Build\Win64\UE4Editor\Development\UFinalPractice\UE4Editor-UFinalPractice-9684.lib and object C:\Repo\FinalPractice\UFinalPractice\Intermediate\Build\Win64\UE4Editor\Development\UFinalPractice\UE4Editor-UFinalPractice-9684.exp
+[2019.12.13-00.49.51:785][816]CompilerResultsLog:   [3/4] UE4Editor-UFinalPractice-9684.dll
+[2019.12.13-00.49.51:785][816]CompilerResultsLog:      Creating library C:\Repo\FinalPractice\UFinalPractice\Intermediate\Build\Win64\UE4Editor\Development\UFinalPractice\UE4Editor-UFinalPractice-9684.suppressed.lib and object C:\Repo\FinalPractice\UFinalPractice\Intermediate\Build\Win64\UE4Editor\Development\UFinalPractice\UE4Editor-UFinalPractice-9684.suppressed.exp
+[2019.12.13-00.49.51:785][816]CompilerResultsLog:   [4/4] UFinalPracticeEditor.target
+[2019.12.13-00.49.51:785][816]CompilerResultsLog: Total time in Parallel executor: 10.15 seconds
+[2019.12.13-00.49.51:785][816]CompilerResultsLog: Total execution time: 16.84 seconds
+[2019.12.13-00.49.51:785][816]LogMainFrame: MainFrame: Module compiling took 16.965 seconds
+[2019.12.13-00.49.51:824][816]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2019.12.13-00.49.51:869][816]LogContentBrowser: Native class hierarchy updated for 'UFinalPractice' in 0.0004 seconds. Added 8 classes and 2 folders.
+[2019.12.13-00.49.51:875][816]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2019.12.13-00.49.51:965][816]LogUObjectHash: Compacting FUObjectHashTables data took   2.87ms
+[2019.12.13-00.49.51:981][816]LogContentBrowser: Native class hierarchy populated in 0.0090 seconds. Added 3053 classes and 767 folders.
+[2019.12.13-00.49.51:981][816]Display: HotReload took 17.2s.
+[2019.12.13-00.49.56:505][316]BlueprintLog: New page: Compile BP_Launchpad
+[2019.12.13-00.49.56:876][316]LogUObjectHash: Compacting FUObjectHashTables data took   7.47ms
+[2019.12.13-00.49.57:241][354]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_Launchpad" FILE="../../../../../../Repo/FinalPractice/UFinalPractice/Content/BP_Launchpad.uasset" SILENT=true
+[2019.12.13-00.49.57:265][354]LogSavePackage: Moving '../../../../../../Repo/FinalPractice/UFinalPractice/Saved/BP_LaunchpadD06C6AC24122FA40E53270B5E05CEED8.tmp' to '../../../../../../Repo/FinalPractice/UFinalPractice/Content/BP_Launchpad.uasset'
+[2019.12.13-00.49.59:119][567]LogTemp: Repeating last play command: Selected Viewport
+[2019.12.13-00.49.59:135][567]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-00.49.59:135][567]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.13-00.49.59:135][567]PIE: New page: PIE session: FirstPersonExampleMap (Dec 12, 2019, 2:49:59 PM)
+[2019.12.13-00.49.59:135][567]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.12.13-00.49.59:143][567]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007909s)
+[2019.12.13-00.49.59:144][567]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.12.13-00.49.59:144][567]LogPlayLevel: PIE: World Init took: (0.000824s)
+[2019.12.13-00.49.59:144][567]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.008851s)
+[2019.12.13-00.49.59:205][567]LogUObjectHash: Compacting FUObjectHashTables data took   5.90ms
+[2019.12.13-00.49.59:223][567]LogInit: XAudio2 using 'Headphones (2- HD 4.50BTNC Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.12.13-00.49.59:233][567]LogInit: FAudioDevice initialized.
+[2019.12.13-00.49.59:238][567]LogLoad: Game class is 'UFinalPracticeGameMode'
+[2019.12.13-00.49.59:241][567]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2019.12.12-19.49.59
+[2019.12.13-00.49.59:242][567]LogWorld: Bringing up level for play took: 0.002775
+[2019.12.13-00.49.59:242][567]LogOnline: OSS: Creating online subsystem instance for: :Context_42
+[2019.12.13-00.49.59:244][567]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap -0.881
+[2019.12.13-00.49.59:244][567]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-00.50.18:187][831]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-00.50.18:188][831]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.13-00.50.18:188][831]LogWorld: BeginTearingDown for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.12.13-00.50.18:188][831]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2019.12.13-00.50.18:202][831]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.12.13-00.50.18:202][831]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-00.50.18:250][831]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.13-00.50.18:255][831]LogUObjectHash: Compacting FUObjectHashTables data took   4.42ms
+[2019.12.13-00.50.18:302][833]LogPlayLevel: Display: Destroying online subsystem :Context_42
+[2019.12.13-00.50.40:594][ 89]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.12.13-00.50.41:470][144]Candidate modules for hot reload:
+[2019.12.13-00.50.41:470][144]  UFinalPractice
+[2019.12.13-00.50.41:470][144]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.23/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=UFinalPractice,1671 Win64 Development -TargetType=Editor -Project="C:/Repo/FinalPractice/UFinalPractice/UFinalPractice.uproject" "C:/Repo/FinalPractice/UFinalPractice/UFinalPractice.uproject"  -IgnoreJunk]
+[2019.12.13-00.50.41:472][144]Warning: Starting HotReload took  0.0s.
+[2019.12.13-00.50.57:247][217]CompilerResultsLog: New page: Compilation - Dec 12, 2019, 2:50:57 PM
+[2019.12.13-00.50.57:247][217]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Repo\FinalPractice).
+[2019.12.13-00.50.57:248][217]CompilerResultsLog: Parsing headers for UFinalPracticeEditor
+[2019.12.13-00.50.57:248][217]CompilerResultsLog:   Running UnrealHeaderTool "C:\Repo\FinalPractice\UFinalPractice\UFinalPractice.uproject" "C:\Repo\FinalPractice\UFinalPractice\Intermediate\Build\Win64\UFinalPracticeEditor\Development\UFinalPracticeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.12.13-00.50.57:248][217]CompilerResultsLog: Reflection code generated for UFinalPracticeEditor in 5.5002535 seconds
+[2019.12.13-00.50.57:248][217]CompilerResultsLog: Using Visual Studio 2019 14.23.28105 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.12.13-00.50.57:248][217]CompilerResultsLog: Building 4 actions with 16 processes...
+[2019.12.13-00.50.57:248][217]CompilerResultsLog:   [1/4] LaunchPad.cpp
+[2019.12.13-00.50.57:248][217]CompilerResultsLog:   [2/4] UE4Editor-UFinalPractice-1671.lib
+[2019.12.13-00.50.57:248][217]CompilerResultsLog:      Creating library C:\Repo\FinalPractice\UFinalPractice\Intermediate\Build\Win64\UE4Editor\Development\UFinalPractice\UE4Editor-UFinalPractice-1671.lib and object C:\Repo\FinalPractice\UFinalPractice\Intermediate\Build\Win64\UE4Editor\Development\UFinalPractice\UE4Editor-UFinalPractice-1671.exp
+[2019.12.13-00.50.57:248][217]CompilerResultsLog:   [3/4] UE4Editor-UFinalPractice-1671.dll
+[2019.12.13-00.50.57:248][217]CompilerResultsLog:      Creating library C:\Repo\FinalPractice\UFinalPractice\Intermediate\Build\Win64\UE4Editor\Development\UFinalPractice\UE4Editor-UFinalPractice-1671.suppressed.lib and object C:\Repo\FinalPractice\UFinalPractice\Intermediate\Build\Win64\UE4Editor\Development\UFinalPractice\UE4Editor-UFinalPractice-1671.suppressed.exp
+[2019.12.13-00.50.57:248][217]CompilerResultsLog:   [4/4] UFinalPracticeEditor.target
+[2019.12.13-00.50.57:248][217]CompilerResultsLog: Total time in Parallel executor: 9.18 seconds
+[2019.12.13-00.50.57:248][217]CompilerResultsLog: Total execution time: 15.53 seconds
+[2019.12.13-00.50.57:248][217]LogMainFrame: MainFrame: Module compiling took 15.788 seconds
+[2019.12.13-00.50.57:286][217]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2019.12.13-00.50.57:339][217]LogContentBrowser: Native class hierarchy updated for 'UFinalPractice' in 0.0004 seconds. Added 8 classes and 2 folders.
+[2019.12.13-00.50.57:345][217]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2019.12.13-00.50.57:435][217]LogUObjectHash: Compacting FUObjectHashTables data took   3.04ms
+[2019.12.13-00.50.57:454][217]LogContentBrowser: Native class hierarchy populated in 0.0098 seconds. Added 3053 classes and 767 folders.
+[2019.12.13-00.50.57:454][217]Display: HotReload took 16.0s.
+[2019.12.13-00.50.59:339][273]LogTemp: Repeating last play command: Selected Viewport
+[2019.12.13-00.50.59:357][273]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-00.50.59:357][273]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.13-00.50.59:358][273]PIE: New page: PIE session: FirstPersonExampleMap (Dec 12, 2019, 2:50:59 PM)
+[2019.12.13-00.50.59:358][273]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.12.13-00.50.59:366][273]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008556s)
+[2019.12.13-00.50.59:367][273]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.12.13-00.50.59:367][273]LogPlayLevel: PIE: World Init took: (0.000933s)
+[2019.12.13-00.50.59:367][273]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.009618s)
+[2019.12.13-00.50.59:452][273]LogUObjectHash: Compacting FUObjectHashTables data took   6.58ms
+[2019.12.13-00.50.59:469][273]LogInit: XAudio2 using 'Headphones (2- HD 4.50BTNC Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.12.13-00.50.59:478][273]LogInit: FAudioDevice initialized.
+[2019.12.13-00.50.59:489][273]LogLoad: Game class is 'UFinalPracticeGameMode'
+[2019.12.13-00.50.59:491][273]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2019.12.12-19.50.59
+[2019.12.13-00.50.59:492][273]LogWorld: Bringing up level for play took: 0.002305
+[2019.12.13-00.50.59:492][273]LogOnline: OSS: Creating online subsystem instance for: :Context_43
+[2019.12.13-00.50.59:494][273]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap -0.631
+[2019.12.13-00.50.59:495][273]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-00.51.14:667][ 89]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-00.51.14:667][ 89]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.13-00.51.14:667][ 89]LogWorld: BeginTearingDown for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.12.13-00.51.14:667][ 89]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2019.12.13-00.51.14:678][ 89]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.12.13-00.51.14:678][ 89]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-00.51.14:722][ 89]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.13-00.51.14:745][ 89]LogUObjectHash: Compacting FUObjectHashTables data took   5.82ms
+[2019.12.13-00.51.14:772][ 90]LogPlayLevel: Display: Destroying online subsystem :Context_43
+[2019.12.13-00.51.32:144][165]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.12.13-00.51.32:874][212]Candidate modules for hot reload:
+[2019.12.13-00.51.32:874][212]  UFinalPractice
+[2019.12.13-00.51.32:874][212]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.23/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=UFinalPractice,2731 Win64 Development -TargetType=Editor -Project="C:/Repo/FinalPractice/UFinalPractice/UFinalPractice.uproject" "C:/Repo/FinalPractice/UFinalPractice/UFinalPractice.uproject"  -IgnoreJunk]
+[2019.12.13-00.51.32:876][212]Warning: Starting HotReload took  0.0s.
+[2019.12.13-00.51.49:277][138]CompilerResultsLog: New page: Compilation - Dec 12, 2019, 2:51:49 PM
+[2019.12.13-00.51.49:277][138]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Repo\FinalPractice).
+[2019.12.13-00.51.49:277][138]CompilerResultsLog: Parsing headers for UFinalPracticeEditor
+[2019.12.13-00.51.49:277][138]CompilerResultsLog:   Running UnrealHeaderTool "C:\Repo\FinalPractice\UFinalPractice\UFinalPractice.uproject" "C:\Repo\FinalPractice\UFinalPractice\Intermediate\Build\Win64\UFinalPracticeEditor\Development\UFinalPracticeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.12.13-00.51.49:277][138]CompilerResultsLog: Reflection code generated for UFinalPracticeEditor in 5.7776944 seconds
+[2019.12.13-00.51.49:277][138]CompilerResultsLog: Using Visual Studio 2019 14.23.28105 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.12.13-00.51.49:277][138]CompilerResultsLog: Building 4 actions with 16 processes...
+[2019.12.13-00.51.49:277][138]CompilerResultsLog:   [1/4] LaunchPad.cpp
+[2019.12.13-00.51.49:277][138]CompilerResultsLog:   [2/4] UE4Editor-UFinalPractice-2731.lib
+[2019.12.13-00.51.49:277][138]CompilerResultsLog:      Creating library C:\Repo\FinalPractice\UFinalPractice\Intermediate\Build\Win64\UE4Editor\Development\UFinalPractice\UE4Editor-UFinalPractice-2731.lib and object C:\Repo\FinalPractice\UFinalPractice\Intermediate\Build\Win64\UE4Editor\Development\UFinalPractice\UE4Editor-UFinalPractice-2731.exp
+[2019.12.13-00.51.49:277][138]CompilerResultsLog:   [3/4] UE4Editor-UFinalPractice-2731.dll
+[2019.12.13-00.51.49:277][138]CompilerResultsLog:      Creating library C:\Repo\FinalPractice\UFinalPractice\Intermediate\Build\Win64\UE4Editor\Development\UFinalPractice\UE4Editor-UFinalPractice-2731.suppressed.lib and object C:\Repo\FinalPractice\UFinalPractice\Intermediate\Build\Win64\UE4Editor\Development\UFinalPractice\UE4Editor-UFinalPractice-2731.suppressed.exp
+[2019.12.13-00.51.49:277][138]CompilerResultsLog:   [4/4] UFinalPracticeEditor.target
+[2019.12.13-00.51.49:277][138]CompilerResultsLog: Total time in Parallel executor: 9.65 seconds
+[2019.12.13-00.51.49:277][138]CompilerResultsLog: Total execution time: 16.29 seconds
+[2019.12.13-00.51.49:277][138]LogMainFrame: MainFrame: Module compiling took 16.413 seconds
+[2019.12.13-00.51.49:312][138]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2019.12.13-00.51.49:359][138]LogContentBrowser: Native class hierarchy updated for 'UFinalPractice' in 0.0004 seconds. Added 8 classes and 2 folders.
+[2019.12.13-00.51.49:365][138]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2019.12.13-00.51.49:457][138]LogUObjectHash: Compacting FUObjectHashTables data took   2.88ms
+[2019.12.13-00.51.49:474][138]LogContentBrowser: Native class hierarchy populated in 0.0095 seconds. Added 3053 classes and 767 folders.
+[2019.12.13-00.51.49:474][138]Display: HotReload took 16.6s.
+[2019.12.13-00.51.50:912][279]LogTemp: Repeating last play command: Selected Viewport
+[2019.12.13-00.51.50:929][279]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-00.51.50:929][279]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.13-00.51.50:929][279]PIE: New page: PIE session: FirstPersonExampleMap (Dec 12, 2019, 2:51:50 PM)
+[2019.12.13-00.51.50:929][279]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.12.13-00.51.50:937][279]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007770s)
+[2019.12.13-00.51.50:938][279]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.12.13-00.51.50:938][279]LogPlayLevel: PIE: World Init took: (0.000916s)
+[2019.12.13-00.51.50:938][279]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.008808s)
+[2019.12.13-00.51.51:021][279]LogUObjectHash: Compacting FUObjectHashTables data took   6.29ms
+[2019.12.13-00.51.51:038][279]LogInit: XAudio2 using 'Headphones (2- HD 4.50BTNC Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.12.13-00.51.51:046][279]LogInit: FAudioDevice initialized.
+[2019.12.13-00.51.51:047][279]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.12.13-00.51.51:053][279]LogLoad: Game class is 'UFinalPracticeGameMode'
+[2019.12.13-00.51.51:055][279]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2019.12.12-19.51.51
+[2019.12.13-00.51.51:055][279]LogWorld: Bringing up level for play took: 0.001672
+[2019.12.13-00.51.51:055][279]LogOnline: OSS: Creating online subsystem instance for: :Context_44
+[2019.12.13-00.51.51:057][279]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 0.932
+[2019.12.13-00.51.51:058][279]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-00.52.04:867][932]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-00.52.04:867][932]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.13-00.52.04:867][932]LogWorld: BeginTearingDown for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.12.13-00.52.04:868][932]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2019.12.13-00.52.04:880][932]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.12.13-00.52.04:880][932]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-00.52.04:927][932]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.13-00.52.04:952][932]LogUObjectHash: Compacting FUObjectHashTables data took   5.41ms
+[2019.12.13-00.52.04:977][933]LogPlayLevel: Display: Destroying online subsystem :Context_44
+[2019.12.13-00.52.06:785][146]LogEditorViewport: Clicking on Actor (LMB): BP_Launchpad_C (BP_Launchpad)
+[2019.12.13-00.52.15:059][125]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.13-00.52.22:259][978]LogTemp: Repeating last play command: Selected Viewport
+[2019.12.13-00.52.22:274][978]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-00.52.22:274][978]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.13-00.52.22:274][978]PIE: New page: PIE session: FirstPersonExampleMap (Dec 12, 2019, 2:52:22 PM)
+[2019.12.13-00.52.22:274][978]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.12.13-00.52.22:284][978]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009968s)
+[2019.12.13-00.52.22:285][978]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.12.13-00.52.22:285][978]LogPlayLevel: PIE: World Init took: (0.000867s)
+[2019.12.13-00.52.22:285][978]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.010967s)
+[2019.12.13-00.52.22:332][978]LogUObjectHash: Compacting FUObjectHashTables data took   4.66ms
+[2019.12.13-00.52.22:351][978]LogInit: XAudio2 using 'Headphones (2- HD 4.50BTNC Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.12.13-00.52.22:359][978]LogInit: FAudioDevice initialized.
+[2019.12.13-00.52.22:370][978]LogLoad: Game class is 'UFinalPracticeGameMode'
+[2019.12.13-00.52.22:371][978]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2019.12.12-19.52.22
+[2019.12.13-00.52.22:371][978]LogWorld: Bringing up level for play took: 0.001769
+[2019.12.13-00.52.22:371][978]LogOnline: OSS: Creating online subsystem instance for: :Context_45
+[2019.12.13-00.52.22:373][978]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 0.248
+[2019.12.13-00.52.22:373][978]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-00.52.28:144][667]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-00.52.28:144][667]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.13-00.52.28:144][667]LogWorld: BeginTearingDown for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.12.13-00.52.28:144][667]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2019.12.13-00.52.28:152][667]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.12.13-00.52.28:152][667]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-00.52.28:197][667]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.13-00.52.28:203][667]LogUObjectHash: Compacting FUObjectHashTables data took   4.69ms
+[2019.12.13-00.52.28:249][669]LogPlayLevel: Display: Destroying online subsystem :Context_45
+[2019.12.13-00.52.29:231][785]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.13-00.52.31:868][ 91]LogEditorViewport: Clicking on Actor (LMB): BP_Launchpad_C (BP_Launchpad)
+[2019.12.13-00.52.34:074][344]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.13-00.52.50:560][301]LogEditorViewport: Clicking on Actor (LMB): BP_Launchpad_C (BP_Launchpad)
+[2019.12.13-00.52.51:134][368]LogEditorViewport: Clicking on Actor (context menu): BP_Launchpad_C (BP_Launchpad)
+[2019.12.13-00.52.51:171][368]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.12.13-00.52.56:144][962]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.12.13-00.52.56:751][ 29]LogTemp: Repeating last play command: Selected Viewport
+[2019.12.13-00.52.56:765][ 29]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-00.52.56:765][ 29]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.13-00.52.56:765][ 29]PIE: New page: PIE session: FirstPersonExampleMap (Dec 12, 2019, 2:52:56 PM)
+[2019.12.13-00.52.56:765][ 29]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.12.13-00.52.56:773][ 29]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007688s)
+[2019.12.13-00.52.56:773][ 29]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.12.13-00.52.56:774][ 29]LogPlayLevel: PIE: World Init took: (0.000759s)
+[2019.12.13-00.52.56:774][ 29]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.008562s)
+[2019.12.13-00.52.56:817][ 29]LogUObjectHash: Compacting FUObjectHashTables data took   4.29ms
+[2019.12.13-00.52.56:836][ 29]LogInit: XAudio2 using 'Headphones (2- HD 4.50BTNC Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.12.13-00.52.56:844][ 29]LogInit: FAudioDevice initialized.
+[2019.12.13-00.52.56:845][ 29]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.12.13-00.52.56:851][ 29]LogLoad: Game class is 'UFinalPracticeGameMode'
+[2019.12.13-00.52.56:853][ 29]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2019.12.12-19.52.56
+[2019.12.13-00.52.56:853][ 29]LogWorld: Bringing up level for play took: 0.002243
+[2019.12.13-00.52.56:854][ 29]LogOnline: OSS: Creating online subsystem instance for: :Context_46
+[2019.12.13-00.52.56:856][ 29]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 0.73
+[2019.12.13-00.52.56:856][ 29]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-00.53.11:275][752]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-00.53.11:275][752]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.13-00.53.11:275][752]LogWorld: BeginTearingDown for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.12.13-00.53.11:276][752]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2019.12.13-00.53.11:284][752]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.12.13-00.53.11:285][752]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-00.53.11:334][752]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.13-00.53.11:340][752]LogUObjectHash: Compacting FUObjectHashTables data took   4.64ms
+[2019.12.13-00.53.11:388][754]LogPlayLevel: Display: Destroying online subsystem :Context_46
+[2019.12.13-00.55.22:306][253]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.13-00.55.22:440][265]Candidate modules for hot reload:
+[2019.12.13-00.55.22:441][265]  UFinalPractice
+[2019.12.13-00.55.22:441][265]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.23/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=UFinalPractice,6823 Win64 Development -TargetType=Editor -Project="C:/Repo/FinalPractice/UFinalPractice/UFinalPractice.uproject" "C:/Repo/FinalPractice/UFinalPractice/UFinalPractice.uproject"  -IgnoreJunk]
+[2019.12.13-00.55.22:443][265]Warning: Starting HotReload took  0.0s.
+[2019.12.13-00.55.38:726][345]CompilerResultsLog: New page: Compilation - Dec 12, 2019, 2:55:38 PM
+[2019.12.13-00.55.38:726][345]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Repo\FinalPractice).
+[2019.12.13-00.55.38:727][345]CompilerResultsLog: Parsing headers for UFinalPracticeEditor
+[2019.12.13-00.55.38:727][345]CompilerResultsLog:   Running UnrealHeaderTool "C:\Repo\FinalPractice\UFinalPractice\UFinalPractice.uproject" "C:\Repo\FinalPractice\UFinalPractice\Intermediate\Build\Win64\UFinalPracticeEditor\Development\UFinalPracticeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.12.13-00.55.38:727][345]CompilerResultsLog: Reflection code generated for UFinalPracticeEditor in 5.512109 seconds
+[2019.12.13-00.55.38:727][345]CompilerResultsLog: Using Visual Studio 2019 14.23.28105 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.12.13-00.55.38:727][345]CompilerResultsLog: Building 5 actions with 16 processes...
+[2019.12.13-00.55.38:727][345]CompilerResultsLog:   [1/5] LaunchPad.gen.cpp
+[2019.12.13-00.55.38:727][345]CompilerResultsLog:   [2/5] LaunchPad.cpp
+[2019.12.13-00.55.38:727][345]CompilerResultsLog:   [3/5] UE4Editor-UFinalPractice-6823.lib
+[2019.12.13-00.55.38:727][345]CompilerResultsLog:      Creating library C:\Repo\FinalPractice\UFinalPractice\Intermediate\Build\Win64\UE4Editor\Development\UFinalPractice\UE4Editor-UFinalPractice-6823.lib and object C:\Repo\FinalPractice\UFinalPractice\Intermediate\Build\Win64\UE4Editor\Development\UFinalPractice\UE4Editor-UFinalPractice-6823.exp
+[2019.12.13-00.55.38:727][345]CompilerResultsLog:   [4/5] UE4Editor-UFinalPractice-6823.dll
+[2019.12.13-00.55.38:727][345]CompilerResultsLog:      Creating library C:\Repo\FinalPractice\UFinalPractice\Intermediate\Build\Win64\UE4Editor\Development\UFinalPractice\UE4Editor-UFinalPractice-6823.suppressed.lib and object C:\Repo\FinalPractice\UFinalPractice\Intermediate\Build\Win64\UE4Editor\Development\UFinalPractice\UE4Editor-UFinalPractice-6823.suppressed.exp
+[2019.12.13-00.55.38:727][345]CompilerResultsLog:   [5/5] UFinalPracticeEditor.target
+[2019.12.13-00.55.38:727][345]CompilerResultsLog: Total time in Parallel executor: 9.60 seconds
+[2019.12.13-00.55.38:727][345]CompilerResultsLog: Total execution time: 15.99 seconds
+[2019.12.13-00.55.38:727][345]LogMainFrame: MainFrame: Module compiling took 16.298 seconds
+[2019.12.13-00.55.38:765][345]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2019.12.13-00.55.38:818][345]LogContentBrowser: Native class hierarchy updated for 'UFinalPractice' in 0.0005 seconds. Added 8 classes and 2 folders.
+[2019.12.13-00.55.38:823][345]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2019.12.13-00.55.38:910][345]LogUObjectHash: Compacting FUObjectHashTables data took   2.97ms
+[2019.12.13-00.55.38:927][345]LogContentBrowser: Native class hierarchy populated in 0.0092 seconds. Added 3053 classes and 767 folders.
+[2019.12.13-00.55.38:927][345]Display: HotReload took 16.5s.
+[2019.12.13-00.55.50:640][665]LogTemp: Repeating last play command: Selected Viewport
+[2019.12.13-00.55.50:657][665]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-00.55.50:657][665]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.13-00.55.50:657][665]PIE: New page: PIE session: FirstPersonExampleMap (Dec 12, 2019, 2:55:50 PM)
+[2019.12.13-00.55.50:658][665]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.12.13-00.55.50:665][665]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007685s)
+[2019.12.13-00.55.50:666][665]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.12.13-00.55.50:666][665]LogPlayLevel: PIE: World Init took: (0.000973s)
+[2019.12.13-00.55.50:666][665]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.008795s)
+[2019.12.13-00.55.50:748][665]LogUObjectHash: Compacting FUObjectHashTables data took   6.91ms
+[2019.12.13-00.55.50:768][665]LogInit: XAudio2 using 'Headphones (2- HD 4.50BTNC Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.12.13-00.55.50:777][665]LogInit: FAudioDevice initialized.
+[2019.12.13-00.55.50:777][665]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.12.13-00.55.50:787][665]LogLoad: Game class is 'UFinalPracticeGameMode'
+[2019.12.13-00.55.50:789][665]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2019.12.12-19.55.50
+[2019.12.13-00.55.50:789][665]LogWorld: Bringing up level for play took: 0.001691
+[2019.12.13-00.55.50:789][665]LogOnline: OSS: Creating online subsystem instance for: :Context_47
+[2019.12.13-00.55.50:791][665]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 0.666
+[2019.12.13-00.55.50:792][665]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-00.55.56:821][386]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-00.55.56:821][386]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.13-00.55.56:821][386]LogWorld: BeginTearingDown for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.12.13-00.55.56:821][386]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2019.12.13-00.55.56:831][386]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.12.13-00.55.56:831][386]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-00.55.56:872][386]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.13-00.55.56:899][386]LogUObjectHash: Compacting FUObjectHashTables data took   5.92ms
+[2019.12.13-00.55.56:923][387]LogPlayLevel: Display: Destroying online subsystem :Context_47
+[2019.12.13-00.56.07:548][513]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.13-00.56.07:661][524]Candidate modules for hot reload:
+[2019.12.13-00.56.07:661][524]  UFinalPractice
+[2019.12.13-00.56.07:661][524]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.23/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=UFinalPractice,3715 Win64 Development -TargetType=Editor -Project="C:/Repo/FinalPractice/UFinalPractice/UFinalPractice.uproject" "C:/Repo/FinalPractice/UFinalPractice/UFinalPractice.uproject"  -IgnoreJunk]
+[2019.12.13-00.56.07:663][524]Warning: Starting HotReload took  0.0s.
+[2019.12.13-00.56.15:919][484]LogEditorViewport: Clicking on Actor (LMB): BP_Launchpad_C (BP_Launchpad)
+[2019.12.13-00.56.19:273][877]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.12.13-00.56.23:984][360]CompilerResultsLog: New page: Compilation - Dec 12, 2019, 2:56:23 PM
+[2019.12.13-00.56.23:984][360]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Repo\FinalPractice).
+[2019.12.13-00.56.23:984][360]CompilerResultsLog: Parsing headers for UFinalPracticeEditor
+[2019.12.13-00.56.23:984][360]CompilerResultsLog:   Running UnrealHeaderTool "C:\Repo\FinalPractice\UFinalPractice\UFinalPractice.uproject" "C:\Repo\FinalPractice\UFinalPractice\Intermediate\Build\Win64\UFinalPracticeEditor\Development\UFinalPracticeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.12.13-00.56.23:984][360]CompilerResultsLog: Reflection code generated for UFinalPracticeEditor in 5.7526249 seconds
+[2019.12.13-00.56.23:984][360]CompilerResultsLog: Using Visual Studio 2019 14.23.28105 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.12.13-00.56.23:984][360]CompilerResultsLog: Building 4 actions with 16 processes...
+[2019.12.13-00.56.23:984][360]CompilerResultsLog:   [1/4] LaunchPad.cpp
+[2019.12.13-00.56.23:984][360]CompilerResultsLog:   [2/4] UE4Editor-UFinalPractice-3715.lib
+[2019.12.13-00.56.23:984][360]CompilerResultsLog:      Creating library C:\Repo\FinalPractice\UFinalPractice\Intermediate\Build\Win64\UE4Editor\Development\UFinalPractice\UE4Editor-UFinalPractice-3715.lib and object C:\Repo\FinalPractice\UFinalPractice\Intermediate\Build\Win64\UE4Editor\Development\UFinalPractice\UE4Editor-UFinalPractice-3715.exp
+[2019.12.13-00.56.23:984][360]CompilerResultsLog:   [3/4] UE4Editor-UFinalPractice-3715.dll
+[2019.12.13-00.56.23:984][360]CompilerResultsLog:      Creating library C:\Repo\FinalPractice\UFinalPractice\Intermediate\Build\Win64\UE4Editor\Development\UFinalPractice\UE4Editor-UFinalPractice-3715.suppressed.lib and object C:\Repo\FinalPractice\UFinalPractice\Intermediate\Build\Win64\UE4Editor\Development\UFinalPractice\UE4Editor-UFinalPractice-3715.suppressed.exp
+[2019.12.13-00.56.23:984][360]CompilerResultsLog:   [4/4] UFinalPracticeEditor.target
+[2019.12.13-00.56.23:984][360]CompilerResultsLog: Total time in Parallel executor: 9.57 seconds
+[2019.12.13-00.56.23:984][360]CompilerResultsLog: Total execution time: 16.20 seconds
+[2019.12.13-00.56.23:985][360]LogMainFrame: MainFrame: Module compiling took 16.334 seconds
+[2019.12.13-00.56.24:027][360]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2019.12.13-00.56.24:072][360]LogHotReload: Re-instancing LaunchPad after hot-reload.
+[2019.12.13-00.56.24:581][360]LogContentBrowser: Native class hierarchy updated for 'UFinalPractice' in 0.0004 seconds. Added 8 classes and 2 folders.
+[2019.12.13-00.56.24:586][360]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2019.12.13-00.56.24:680][360]LogUObjectHash: Compacting FUObjectHashTables data took   6.48ms
+[2019.12.13-00.56.24:698][360]LogContentBrowser: Native class hierarchy populated in 0.0095 seconds. Added 3053 classes and 767 folders.
+[2019.12.13-00.56.24:698][360]Display: HotReload took 17.1s.
+[2019.12.13-00.56.26:110][477]LogTemp: Repeating last play command: Selected Viewport
+[2019.12.13-00.56.26:130][477]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-00.56.26:130][477]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.13-00.56.26:130][477]PIE: New page: PIE session: FirstPersonExampleMap (Dec 12, 2019, 2:56:26 PM)
+[2019.12.13-00.56.26:131][477]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.12.13-00.56.26:140][477]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008983s)
+[2019.12.13-00.56.26:140][477]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.12.13-00.56.26:140][477]LogPlayLevel: PIE: World Init took: (0.001045s)
+[2019.12.13-00.56.26:140][477]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.010184s)
+[2019.12.13-00.56.26:223][477]LogUObjectHash: Compacting FUObjectHashTables data took   6.62ms
+[2019.12.13-00.56.26:240][477]LogInit: XAudio2 using 'Headphones (2- HD 4.50BTNC Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.12.13-00.56.26:248][477]LogInit: FAudioDevice initialized.
+[2019.12.13-00.56.26:248][477]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.12.13-00.56.26:256][477]LogLoad: Game class is 'UFinalPracticeGameMode'
+[2019.12.13-00.56.26:259][477]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2019.12.12-19.56.26
+[2019.12.13-00.56.26:259][477]LogWorld: Bringing up level for play took: 0.002115
+[2019.12.13-00.56.26:259][477]LogOnline: OSS: Creating online subsystem instance for: :Context_48
+[2019.12.13-00.56.26:261][477]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 0.135
+[2019.12.13-00.56.26:261][477]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-00.56.29:850][902]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-00.56.29:850][902]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.13-00.56.29:850][902]LogWorld: BeginTearingDown for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.12.13-00.56.29:850][902]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2019.12.13-00.56.29:859][902]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.12.13-00.56.29:860][902]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-00.56.29:902][902]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.13-00.56.29:926][902]LogUObjectHash: Compacting FUObjectHashTables data took   4.63ms
+[2019.12.13-00.56.29:969][904]LogPlayLevel: Display: Destroying online subsystem :Context_48
+[2019.12.13-00.57.15:763][ 92]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.13-00.57.15:862][101]Candidate modules for hot reload:
+[2019.12.13-00.57.15:862][101]  UFinalPractice
+[2019.12.13-00.57.15:862][101]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.23/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=UFinalPractice,481 Win64 Development -TargetType=Editor -Project="C:/Repo/FinalPractice/UFinalPractice/UFinalPractice.uproject" "C:/Repo/FinalPractice/UFinalPractice/UFinalPractice.uproject"  -IgnoreJunk]
+[2019.12.13-00.57.15:864][101]Warning: Starting HotReload took  0.0s.
+[2019.12.13-00.57.32:649][966]CompilerResultsLog: New page: Compilation - Dec 12, 2019, 2:57:32 PM
+[2019.12.13-00.57.32:650][966]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Repo\FinalPractice).
+[2019.12.13-00.57.32:650][966]CompilerResultsLog: Parsing headers for UFinalPracticeEditor
+[2019.12.13-00.57.32:650][966]CompilerResultsLog:   Running UnrealHeaderTool "C:\Repo\FinalPractice\UFinalPractice\UFinalPractice.uproject" "C:\Repo\FinalPractice\UFinalPractice\Intermediate\Build\Win64\UFinalPracticeEditor\Development\UFinalPracticeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.12.13-00.57.32:650][966]CompilerResultsLog: Reflection code generated for UFinalPracticeEditor in 5.8953818 seconds
+[2019.12.13-00.57.32:650][966]CompilerResultsLog: Using Visual Studio 2019 14.23.28105 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.12.13-00.57.32:650][966]CompilerResultsLog: Building 4 actions with 16 processes...
+[2019.12.13-00.57.32:650][966]CompilerResultsLog:   [1/4] LaunchPad.cpp
+[2019.12.13-00.57.32:650][966]CompilerResultsLog:   [2/4] UE4Editor-UFinalPractice-0481.lib
+[2019.12.13-00.57.32:650][966]CompilerResultsLog:      Creating library C:\Repo\FinalPractice\UFinalPractice\Intermediate\Build\Win64\UE4Editor\Development\UFinalPractice\UE4Editor-UFinalPractice-0481.lib and object C:\Repo\FinalPractice\UFinalPractice\Intermediate\Build\Win64\UE4Editor\Development\UFinalPractice\UE4Editor-UFinalPractice-0481.exp
+[2019.12.13-00.57.32:650][966]CompilerResultsLog:   [3/4] UE4Editor-UFinalPractice-0481.dll
+[2019.12.13-00.57.32:650][966]CompilerResultsLog:      Creating library C:\Repo\FinalPractice\UFinalPractice\Intermediate\Build\Win64\UE4Editor\Development\UFinalPractice\UE4Editor-UFinalPractice-0481.suppressed.lib and object C:\Repo\FinalPractice\UFinalPractice\Intermediate\Build\Win64\UE4Editor\Development\UFinalPractice\UE4Editor-UFinalPractice-0481.suppressed.exp
+[2019.12.13-00.57.32:650][966]CompilerResultsLog:   [4/4] UFinalPracticeEditor.target
+[2019.12.13-00.57.32:650][966]CompilerResultsLog: Total time in Parallel executor: 9.75 seconds
+[2019.12.13-00.57.32:650][966]CompilerResultsLog: Total execution time: 16.53 seconds
+[2019.12.13-00.57.32:650][966]LogMainFrame: MainFrame: Module compiling took 16.800 seconds
+[2019.12.13-00.57.32:690][966]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2019.12.13-00.57.32:706][966]LogContentBrowser: Native class hierarchy populated in 0.0094 seconds. Added 3053 classes and 767 folders.
+[2019.12.13-00.57.32:706][966]Display: HotReload took 16.9s.
+[2019.12.13-00.57.43:689][263]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.13-00.57.46:121][532]LogUObjectGlobals: Reloading 1 Package(s):
+	Asset Name: /Game/BP_Launchpad
+[2019.12.13-00.57.46:222][532]LogUObjectHash: Compacting FUObjectHashTables data took   6.63ms
+[2019.12.13-00.57.46:240][532]LogActorComponent: UnregisterComponent: (/Engine/Transient.DirectionalLightComponent_41) Not registered. Aborting.
+[2019.12.13-00.57.46:240][532]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkyLightComponent_19) Not registered. Aborting.
+[2019.12.13-00.57.46:240][532]LogActorComponent: UnregisterComponent: (/Engine/Transient.LineBatchComponent_136) Not registered. Aborting.
+[2019.12.13-00.57.46:240][532]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.12.13-00.57.46:240][532]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2019.12.13-00.57.46:373][532]LogUObjectHash: Compacting FUObjectHashTables data took   5.53ms
+[2019.12.13-00.57.46:895][532]LogUObjectHash: Compacting FUObjectHashTables data took   4.40ms
+[2019.12.13-00.57.46:895][532]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BP_Launchpad.BP_Launchpad
+[2019.12.13-00.57.48:374][650]LogWorld: UWorld::CleanupWorld for World_22, bSessionEnded=true, bCleanupResources=true
+[2019.12.13-00.57.48:445][650]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BP_Launchpad.BP_Launchpad
+[2019.12.13-00.57.58:480][757]LogUObjectHash: Compacting FUObjectHashTables data took   4.10ms
+[2019.12.13-00.57.58:535][757]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2019.12.13-00.57.58:807][757]LogSavePackage: Moving '../../../../../../Repo/FinalPractice/UFinalPractice/Saved/FirstPersonExampleMapCDB4C714427C0B3B7047C3B0A91490DE.tmp' to '../../../../../../Repo/FinalPractice/UFinalPractice/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap'
+[2019.12.13-00.57.58:841][757]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 0.339
+[2019.12.13-00.57.59:545][839]LogTemp: Repeating last play command: Selected Viewport
+[2019.12.13-00.57.59:561][839]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-00.57.59:561][839]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.13-00.57.59:561][839]PIE: New page: PIE session: FirstPersonExampleMap (Dec 12, 2019, 2:57:59 PM)
+[2019.12.13-00.57.59:562][839]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.12.13-00.57.59:569][839]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007389s)
+[2019.12.13-00.57.59:570][839]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.12.13-00.57.59:570][839]LogPlayLevel: PIE: World Init took: (0.000729s)
+[2019.12.13-00.57.59:570][839]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.008229s)
+[2019.12.13-00.57.59:610][839]LogUObjectHash: Compacting FUObjectHashTables data took   3.54ms
+[2019.12.13-00.57.59:629][839]LogInit: XAudio2 using 'Headphones (2- HD 4.50BTNC Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.12.13-00.57.59:637][839]LogInit: FAudioDevice initialized.
+[2019.12.13-00.57.59:646][839]LogLoad: Game class is 'UFinalPracticeGameMode'
+[2019.12.13-00.57.59:648][839]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2019.12.12-19.57.59
+[2019.12.13-00.57.59:649][839]LogWorld: Bringing up level for play took: 0.001774
+[2019.12.13-00.57.59:649][839]LogOnline: OSS: Creating online subsystem instance for: :Context_51
+[2019.12.13-00.57.59:651][839]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap -0.475
+[2019.12.13-00.57.59:651][839]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-00.58.10:560][143]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-00.58.10:561][143]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.13-00.58.10:561][143]LogWorld: BeginTearingDown for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.12.13-00.58.10:561][143]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2019.12.13-00.58.10:570][143]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.12.13-00.58.10:570][143]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-00.58.10:609][143]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.13-00.58.10:614][143]LogUObjectHash: Compacting FUObjectHashTables data took   3.79ms
+[2019.12.13-00.58.10:667][146]LogPlayLevel: Display: Destroying online subsystem :Context_51
+[2019.12.13-00.58.51:797][316]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.12.13-00.58.52:543][377]Candidate modules for hot reload:
+[2019.12.13-00.58.52:543][377]  UFinalPractice
+[2019.12.13-00.58.52:543][377]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.23/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=UFinalPractice,9979 Win64 Development -TargetType=Editor -Project="C:/Repo/FinalPractice/UFinalPractice/UFinalPractice.uproject" "C:/Repo/FinalPractice/UFinalPractice/UFinalPractice.uproject"  -IgnoreJunk]
+[2019.12.13-00.58.52:545][377]Warning: Starting HotReload took  0.0s.
+[2019.12.13-00.59.09:226][345]CompilerResultsLog: New page: Compilation - Dec 12, 2019, 2:59:09 PM
+[2019.12.13-00.59.09:226][345]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Repo\FinalPractice).
+[2019.12.13-00.59.09:226][345]CompilerResultsLog: Parsing headers for UFinalPracticeEditor
+[2019.12.13-00.59.09:226][345]CompilerResultsLog:   Running UnrealHeaderTool "C:\Repo\FinalPractice\UFinalPractice\UFinalPractice.uproject" "C:\Repo\FinalPractice\UFinalPractice\Intermediate\Build\Win64\UFinalPracticeEditor\Development\UFinalPracticeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.12.13-00.59.09:226][345]CompilerResultsLog: Reflection code generated for UFinalPracticeEditor in 5.8379907 seconds
+[2019.12.13-00.59.09:226][345]CompilerResultsLog: Using Visual Studio 2019 14.23.28105 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.12.13-00.59.09:226][345]CompilerResultsLog: Building 4 actions with 16 processes...
+[2019.12.13-00.59.09:226][345]CompilerResultsLog:   [1/4] LaunchPad.cpp
+[2019.12.13-00.59.09:226][345]CompilerResultsLog:   [2/4] UE4Editor-UFinalPractice-9979.lib
+[2019.12.13-00.59.09:226][345]CompilerResultsLog:      Creating library C:\Repo\FinalPractice\UFinalPractice\Intermediate\Build\Win64\UE4Editor\Development\UFinalPractice\UE4Editor-UFinalPractice-9979.lib and object C:\Repo\FinalPractice\UFinalPractice\Intermediate\Build\Win64\UE4Editor\Development\UFinalPractice\UE4Editor-UFinalPractice-9979.exp
+[2019.12.13-00.59.09:226][345]CompilerResultsLog:   [3/4] UE4Editor-UFinalPractice-9979.dll
+[2019.12.13-00.59.09:226][345]CompilerResultsLog:      Creating library C:\Repo\FinalPractice\UFinalPractice\Intermediate\Build\Win64\UE4Editor\Development\UFinalPractice\UE4Editor-UFinalPractice-9979.suppressed.lib and object C:\Repo\FinalPractice\UFinalPractice\Intermediate\Build\Win64\UE4Editor\Development\UFinalPractice\UE4Editor-UFinalPractice-9979.suppressed.exp
+[2019.12.13-00.59.09:226][345]CompilerResultsLog:   [4/4] UFinalPracticeEditor.target
+[2019.12.13-00.59.09:226][345]CompilerResultsLog: Total time in Parallel executor: 9.84 seconds
+[2019.12.13-00.59.09:226][345]CompilerResultsLog: Total execution time: 16.56 seconds
+[2019.12.13-00.59.09:226][345]LogMainFrame: MainFrame: Module compiling took 16.695 seconds
+[2019.12.13-00.59.09:261][345]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2019.12.13-00.59.09:301][345]LogHotReload: Re-instancing LaunchPad after hot-reload.
+[2019.12.13-00.59.09:750][345]LogContentBrowser: Native class hierarchy updated for 'UFinalPractice' in 0.0004 seconds. Added 8 classes and 2 folders.
+[2019.12.13-00.59.09:756][345]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2019.12.13-00.59.09:832][345]LogUObjectHash: Compacting FUObjectHashTables data took   5.34ms
+[2019.12.13-00.59.09:850][345]LogContentBrowser: Native class hierarchy populated in 0.0098 seconds. Added 3053 classes and 767 folders.
+[2019.12.13-00.59.09:850][345]Display: HotReload took 17.3s.
+[2019.12.13-00.59.12:611][642]LogTemp: Repeating last play command: Selected Viewport
+[2019.12.13-00.59.12:628][642]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-00.59.12:628][642]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.13-00.59.12:628][642]PIE: New page: PIE session: FirstPersonExampleMap (Dec 12, 2019, 2:59:12 PM)
+[2019.12.13-00.59.12:628][642]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.12.13-00.59.12:636][642]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007829s)
+[2019.12.13-00.59.12:637][642]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.12.13-00.59.12:637][642]LogPlayLevel: PIE: World Init took: (0.000943s)
+[2019.12.13-00.59.12:637][642]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.008914s)
+[2019.12.13-00.59.12:701][642]LogUObjectHash: Compacting FUObjectHashTables data took   5.69ms
+[2019.12.13-00.59.12:721][642]LogInit: XAudio2 using 'Headphones (2- HD 4.50BTNC Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.12.13-00.59.12:730][642]LogInit: FAudioDevice initialized.
+[2019.12.13-00.59.12:739][642]LogLoad: Game class is 'UFinalPracticeGameMode'
+[2019.12.13-00.59.12:741][642]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2019.12.12-19.59.12
+[2019.12.13-00.59.12:742][642]LogWorld: Bringing up level for play took: 0.001665
+[2019.12.13-00.59.12:742][642]LogOnline: OSS: Creating online subsystem instance for: :Context_52
+[2019.12.13-00.59.12:744][642]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 0.618
+[2019.12.13-00.59.12:744][642]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-00.59.15:906][ 18]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-85.088 Y=-406.669 Z=146.640] for [FirstPersonProjectile_C]
+[2019.12.13-00.59.16:065][ 37]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-83.035 Y=-417.252 Z=147.875] for [FirstPersonProjectile_C]
+[2019.12.13-00.59.16:205][ 54]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-83.917 Y=-416.588 Z=148.610] for [FirstPersonProjectile_C]
+[2019.12.13-00.59.29:397][637]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-00.59.29:397][637]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.13-00.59.29:397][637]LogWorld: BeginTearingDown for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.12.13-00.59.29:398][637]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2019.12.13-00.59.29:408][637]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.12.13-00.59.29:408][637]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-00.59.29:448][637]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.13-00.59.29:456][637]LogUObjectHash: Compacting FUObjectHashTables data took   5.73ms
+[2019.12.13-00.59.29:502][639]LogPlayLevel: Display: Destroying online subsystem :Context_52
+[2019.12.13-01.01.00:903][942]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.12.13-01.01.01:498][986]Candidate modules for hot reload:
+[2019.12.13-01.01.01:498][986]  UFinalPractice
+[2019.12.13-01.01.01:498][986]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.23/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=UFinalPractice,6832 Win64 Development -TargetType=Editor -Project="C:/Repo/FinalPractice/UFinalPractice/UFinalPractice.uproject" "C:/Repo/FinalPractice/UFinalPractice/UFinalPractice.uproject"  -IgnoreJunk]
+[2019.12.13-01.01.01:500][986]Warning: Starting HotReload took  0.0s.
+[2019.12.13-01.01.11:343][ 84]CompilerResultsLog: New page: Compilation - Dec 12, 2019, 3:01:11 PM
+[2019.12.13-01.01.11:344][ 84]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Repo\FinalPractice).
+[2019.12.13-01.01.11:344][ 84]CompilerResultsLog: Parsing headers for UFinalPracticeEditor
+[2019.12.13-01.01.11:344][ 84]CompilerResultsLog:   Running UnrealHeaderTool "C:\Repo\FinalPractice\UFinalPractice\UFinalPractice.uproject" "C:\Repo\FinalPractice\UFinalPractice\Intermediate\Build\Win64\UFinalPracticeEditor\Development\UFinalPracticeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.12.13-01.01.11:344][ 84]CompilerResultsLog: Reflection code generated for UFinalPracticeEditor in 5.5654665 seconds
+[2019.12.13-01.01.11:344][ 84]CompilerResultsLog: Using Visual Studio 2019 14.23.28105 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.12.13-01.01.11:344][ 84]CompilerResultsLog: Building 5 actions with 16 processes...
+[2019.12.13-01.01.11:344][ 84]CompilerResultsLog:   [1/5] LaunchPad.gen.cpp
+[2019.12.13-01.01.11:344][ 84]CompilerResultsLog:   [2/5] LaunchPad.cpp
+[2019.12.13-01.01.11:344][ 84]CompilerResultsLog:   [3/5] UE4Editor-UFinalPractice-6832.lib
+[2019.12.13-01.01.11:344][ 84]CompilerResultsLog:      Creating library C:\Repo\FinalPractice\UFinalPractice\Intermediate\Build\Win64\UE4Editor\Development\UFinalPractice\UE4Editor-UFinalPractice-6832.lib and object C:\Repo\FinalPractice\UFinalPractice\Intermediate\Build\Win64\UE4Editor\Development\UFinalPractice\UE4Editor-UFinalPractice-6832.exp
+[2019.12.13-01.01.11:344][ 84]CompilerResultsLog:   [4/5] UE4Editor-UFinalPractice-6832.dll
+[2019.12.13-01.01.11:344][ 84]CompilerResultsLog:      Creating library C:\Repo\FinalPractice\UFinalPractice\Intermediate\Build\Win64\UE4Editor\Development\UFinalPractice\UE4Editor-UFinalPractice-6832.suppressed.lib and object C:\Repo\FinalPractice\UFinalPractice\Intermediate\Build\Win64\UE4Editor\Development\UFinalPractice\UE4Editor-UFinalPractice-6832.suppressed.exp
+[2019.12.13-01.01.11:344][ 84]CompilerResultsLog:   [5/5] UFinalPracticeEditor.target
+[2019.12.13-01.01.11:344][ 84]CompilerResultsLog: Total time in Parallel executor: 3.20 seconds
+[2019.12.13-01.01.11:344][ 84]CompilerResultsLog: Total execution time: 9.63 seconds
+[2019.12.13-01.01.11:344][ 84]LogMainFrame: MainFrame: Module compiling took 9.857 seconds
+[2019.12.13-01.01.11:382][ 84]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2019.12.13-01.01.11:425][ 84]LogHotReload: Re-instancing LaunchPad after hot-reload.
+[2019.12.13-01.01.11:976][ 84]LogContentBrowser: Native class hierarchy updated for 'UFinalPractice' in 0.0004 seconds. Added 8 classes and 2 folders.
+[2019.12.13-01.01.11:982][ 84]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2019.12.13-01.01.12:079][ 84]LogUObjectHash: Compacting FUObjectHashTables data took   6.22ms
+[2019.12.13-01.01.12:095][ 84]LogContentBrowser: Native class hierarchy populated in 0.0093 seconds. Added 3053 classes and 767 folders.
+[2019.12.13-01.01.12:096][ 84]Display: HotReload took 10.6s.
+[2019.12.13-01.01.15:954][195]LogTemp: Repeating last play command: Selected Viewport
+[2019.12.13-01.01.15:975][195]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-01.01.15:975][195]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.13-01.01.15:975][195]PIE: New page: PIE session: FirstPersonExampleMap (Dec 12, 2019, 3:01:15 PM)
+[2019.12.13-01.01.15:975][195]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.12.13-01.01.15:985][195]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009469s)
+[2019.12.13-01.01.15:986][195]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.12.13-01.01.15:986][195]LogPlayLevel: PIE: World Init took: (0.001106s)
+[2019.12.13-01.01.15:986][195]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.010796s)
+[2019.12.13-01.01.16:067][195]LogUObjectHash: Compacting FUObjectHashTables data took   7.00ms
+[2019.12.13-01.01.16:086][195]LogInit: XAudio2 using 'Headphones (2- HD 4.50BTNC Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.12.13-01.01.16:095][195]LogInit: FAudioDevice initialized.
+[2019.12.13-01.01.16:102][195]LogLoad: Game class is 'UFinalPracticeGameMode'
+[2019.12.13-01.01.16:103][195]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2019.12.12-20.01.16
+[2019.12.13-01.01.16:104][195]LogWorld: Bringing up level for play took: 0.001738
+[2019.12.13-01.01.16:104][195]LogOnline: OSS: Creating online subsystem instance for: :Context_53
+[2019.12.13-01.01.16:106][195]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap -0.02
+[2019.12.13-01.01.16:106][195]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-01.01.16:734][257]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-01.01.16:734][257]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.13-01.01.16:734][257]LogWorld: BeginTearingDown for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.12.13-01.01.16:734][257]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2019.12.13-01.01.16:742][257]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.12.13-01.01.16:743][257]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-01.01.16:784][257]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.13-01.01.16:805][257]LogUObjectHash: Compacting FUObjectHashTables data took   5.16ms
+[2019.12.13-01.01.16:855][259]LogPlayLevel: Display: Destroying online subsystem :Context_53
+[2019.12.13-01.01.18:115][406]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2019.12.13-01.01.21:106][765]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TemplateLabel)
+[2019.12.13-01.01.22:352][896]LogTemp: Repeating last play command: Selected Viewport
+[2019.12.13-01.01.22:369][896]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-01.01.22:369][896]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.13-01.01.22:369][896]PIE: New page: PIE session: FirstPersonExampleMap (Dec 12, 2019, 3:01:22 PM)
+[2019.12.13-01.01.22:369][896]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.12.13-01.01.22:377][896]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007653s)
+[2019.12.13-01.01.22:377][896]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.12.13-01.01.22:378][896]LogPlayLevel: PIE: World Init took: (0.000921s)
+[2019.12.13-01.01.22:378][896]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.008698s)
+[2019.12.13-01.01.22:420][896]LogUObjectHash: Compacting FUObjectHashTables data took   4.17ms
+[2019.12.13-01.01.22:439][896]LogInit: XAudio2 using 'Headphones (2- HD 4.50BTNC Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.12.13-01.01.22:447][896]LogInit: FAudioDevice initialized.
+[2019.12.13-01.01.22:448][896]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.12.13-01.01.22:456][896]LogLoad: Game class is 'UFinalPracticeGameMode'
+[2019.12.13-01.01.22:458][896]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2019.12.12-20.01.22
+[2019.12.13-01.01.22:458][896]LogWorld: Bringing up level for play took: 0.001680
+[2019.12.13-01.01.22:458][896]LogOnline: OSS: Creating online subsystem instance for: :Context_54
+[2019.12.13-01.01.22:460][896]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 0.334
+[2019.12.13-01.01.22:460][896]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-01.01.26:442][365]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-01.01.26:442][365]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.13-01.01.26:442][365]LogWorld: BeginTearingDown for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.12.13-01.01.26:442][365]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2019.12.13-01.01.26:456][365]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.12.13-01.01.26:456][365]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-01.01.26:499][365]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.13-01.01.26:503][365]LogUObjectHash: Compacting FUObjectHashTables data took   4.26ms
+[2019.12.13-01.01.26:551][367]LogPlayLevel: Display: Destroying online subsystem :Context_54
+[2019.12.13-01.02.25:361][744]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.12.13-01.02.26:136][816]Candidate modules for hot reload:
+[2019.12.13-01.02.26:136][816]  UFinalPractice
+[2019.12.13-01.02.26:136][816]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.23/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=UFinalPractice,4225 Win64 Development -TargetType=Editor -Project="C:/Repo/FinalPractice/UFinalPractice/UFinalPractice.uproject" "C:/Repo/FinalPractice/UFinalPractice/UFinalPractice.uproject"  -IgnoreJunk]
+[2019.12.13-01.02.26:138][816]Warning: Starting HotReload took  0.0s.
+[2019.12.13-01.02.40:615][490]LogEditorViewport: Clicking on Actor (LMB): BP_Launchpad_C (BP_Launchpad)
+[2019.12.13-01.02.42:456][704]CompilerResultsLog: New page: Compilation - Dec 12, 2019, 3:02:42 PM
+[2019.12.13-01.02.42:456][704]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Repo\FinalPractice).
+[2019.12.13-01.02.42:456][704]CompilerResultsLog: Parsing headers for UFinalPracticeEditor
+[2019.12.13-01.02.42:456][704]CompilerResultsLog:   Running UnrealHeaderTool "C:\Repo\FinalPractice\UFinalPractice\UFinalPractice.uproject" "C:\Repo\FinalPractice\UFinalPractice\Intermediate\Build\Win64\UFinalPracticeEditor\Development\UFinalPracticeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.12.13-01.02.42:456][704]CompilerResultsLog: Reflection code generated for UFinalPracticeEditor in 5.7404639 seconds
+[2019.12.13-01.02.42:456][704]CompilerResultsLog: Using Visual Studio 2019 14.23.28105 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.12.13-01.02.42:456][704]CompilerResultsLog: Building 4 actions with 16 processes...
+[2019.12.13-01.02.42:456][704]CompilerResultsLog:   [1/4] LaunchPad.cpp
+[2019.12.13-01.02.42:456][704]CompilerResultsLog:   [2/4] UE4Editor-UFinalPractice-4225.lib
+[2019.12.13-01.02.42:456][704]CompilerResultsLog:      Creating library C:\Repo\FinalPractice\UFinalPractice\Intermediate\Build\Win64\UE4Editor\Development\UFinalPractice\UE4Editor-UFinalPractice-4225.lib and object C:\Repo\FinalPractice\UFinalPractice\Intermediate\Build\Win64\UE4Editor\Development\UFinalPractice\UE4Editor-UFinalPractice-4225.exp
+[2019.12.13-01.02.42:456][704]CompilerResultsLog:   [3/4] UE4Editor-UFinalPractice-4225.dll
+[2019.12.13-01.02.42:456][704]CompilerResultsLog:      Creating library C:\Repo\FinalPractice\UFinalPractice\Intermediate\Build\Win64\UE4Editor\Development\UFinalPractice\UE4Editor-UFinalPractice-4225.suppressed.lib and object C:\Repo\FinalPractice\UFinalPractice\Intermediate\Build\Win64\UE4Editor\Development\UFinalPractice\UE4Editor-UFinalPractice-4225.suppressed.exp
+[2019.12.13-01.02.42:456][704]CompilerResultsLog:   [4/4] UFinalPracticeEditor.target
+[2019.12.13-01.02.42:456][704]CompilerResultsLog: Total time in Parallel executor: 9.61 seconds
+[2019.12.13-01.02.42:456][704]CompilerResultsLog: Total execution time: 16.19 seconds
+[2019.12.13-01.02.42:456][704]LogMainFrame: MainFrame: Module compiling took 16.332 seconds
+[2019.12.13-01.02.42:496][704]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2019.12.13-01.02.42:543][704]LogHotReload: Re-instancing LaunchPad after hot-reload.
+[2019.12.13-01.02.43:100][704]LogContentBrowser: Native class hierarchy updated for 'UFinalPractice' in 0.0004 seconds. Added 8 classes and 2 folders.
+[2019.12.13-01.02.43:106][704]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2019.12.13-01.02.43:198][704]LogUObjectHash: Compacting FUObjectHashTables data took   5.22ms
+[2019.12.13-01.02.43:214][704]LogContentBrowser: Native class hierarchy populated in 0.0092 seconds. Added 3053 classes and 767 folders.
+[2019.12.13-01.02.43:214][704]Display: HotReload took 17.1s.
+[2019.12.13-01.02.43:894][749]Cmd: DELETE
+[2019.12.13-01.02.43:894][749]Cmd: ACTOR DELETE
+[2019.12.13-01.02.43:895][749]LogEditorActor: Deleted Actor: BP_Launchpad_C
+[2019.12.13-01.02.43:974][749]LogUObjectHash: Compacting FUObjectHashTables data took   6.18ms
+[2019.12.13-01.02.43:974][749]LogEditorActor: Deleted 1 Actors (0.080 secs)
+[2019.12.13-01.02.45:049][876]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.13-01.02.47:984][181]LogUObjectGlobals: Reloading 1 Package(s):
+	Asset Name: /Game/BP_Launchpad
+[2019.12.13-01.02.48:063][181]LogUObjectHash: Compacting FUObjectHashTables data took   4.10ms
+[2019.12.13-01.02.48:096][181]LogActorComponent: UnregisterComponent: (/Engine/Transient.DirectionalLightComponent_47) Not registered. Aborting.
+[2019.12.13-01.02.48:096][181]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkyLightComponent_23) Not registered. Aborting.
+[2019.12.13-01.02.48:096][181]LogActorComponent: UnregisterComponent: (/Engine/Transient.LineBatchComponent_179) Not registered. Aborting.
+[2019.12.13-01.02.48:096][181]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.12.13-01.02.48:096][181]LogWorld: UWorld::CleanupWorld for World_23, bSessionEnded=true, bCleanupResources=true
+[2019.12.13-01.02.48:206][181]LogUObjectHash: Compacting FUObjectHashTables data took   4.74ms
+[2019.12.13-01.02.48:711][181]LogUObjectHash: Compacting FUObjectHashTables data took   4.27ms
+[2019.12.13-01.02.48:711][181]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BP_Launchpad.BP_Launchpad
+[2019.12.13-01.02.50:865][382]LogWorld: UWorld::CleanupWorld for World_24, bSessionEnded=true, bCleanupResources=true
+[2019.12.13-01.02.50:933][382]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BP_Launchpad.BP_Launchpad
+[2019.12.13-01.02.58:253][ 86]LogTemp: Repeating last play command: Selected Viewport
+[2019.12.13-01.02.58:274][ 86]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-01.02.58:274][ 86]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.13-01.02.58:275][ 86]PIE: New page: PIE session: FirstPersonExampleMap (Dec 12, 2019, 3:02:58 PM)
+[2019.12.13-01.02.58:275][ 86]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.12.13-01.02.58:285][ 86]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010422s)
+[2019.12.13-01.02.58:286][ 86]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.12.13-01.02.58:286][ 86]LogPlayLevel: PIE: World Init took: (0.000804s)
+[2019.12.13-01.02.58:286][ 86]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.011354s)
+[2019.12.13-01.02.58:329][ 86]LogUObjectHash: Compacting FUObjectHashTables data took   3.48ms
+[2019.12.13-01.02.58:348][ 86]LogInit: XAudio2 using 'Headphones (2- HD 4.50BTNC Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.12.13-01.02.58:358][ 86]LogInit: FAudioDevice initialized.
+[2019.12.13-01.02.58:381][ 86]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.13-01.02.58:381][ 86]LogLoad: Game class is 'UFinalPracticeGameMode'
+[2019.12.13-01.02.58:383][ 86]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2019.12.12-20.02.58
+[2019.12.13-01.02.58:384][ 86]LogWorld: Bringing up level for play took: 0.002112
+[2019.12.13-01.02.58:384][ 86]LogOnline: OSS: Creating online subsystem instance for: :Context_57
+[2019.12.13-01.02.58:387][ 86]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 0.262
+[2019.12.13-01.02.58:387][ 86]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-01.03.00:091][287]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-01.03.00:092][287]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.13-01.03.00:092][287]LogWorld: BeginTearingDown for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.12.13-01.03.00:105][287]LogSlate: Window 'UFinalPractice Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.12.13-01.03.00:118][287]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2019.12.13-01.03.00:124][287]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.12.13-01.03.00:124][287]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-01.03.00:169][287]LogUObjectHash: Compacting FUObjectHashTables data took   3.90ms
+[2019.12.13-01.03.00:195][290]LogPlayLevel: Display: Destroying online subsystem :Context_57
+[2019.12.13-01.03.04:554][767]LogTemp: Repeating last play command: Selected Viewport
+[2019.12.13-01.03.04:572][767]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-01.03.04:572][767]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.13-01.03.04:572][767]PIE: New page: PIE session: FirstPersonExampleMap (Dec 12, 2019, 3:03:04 PM)
+[2019.12.13-01.03.04:572][767]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.12.13-01.03.04:580][767]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007477s)
+[2019.12.13-01.03.04:580][767]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.12.13-01.03.04:580][767]LogPlayLevel: PIE: World Init took: (0.000788s)
+[2019.12.13-01.03.04:580][767]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.008383s)
+[2019.12.13-01.03.04:623][767]LogUObjectHash: Compacting FUObjectHashTables data took   4.26ms
+[2019.12.13-01.03.04:641][767]LogInit: XAudio2 using 'Headphones (2- HD 4.50BTNC Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.12.13-01.03.04:650][767]LogInit: FAudioDevice initialized.
+[2019.12.13-01.03.04:650][767]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.12.13-01.03.04:659][767]LogLoad: Game class is 'UFinalPracticeGameMode'
+[2019.12.13-01.03.04:661][767]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2019.12.12-20.03.04
+[2019.12.13-01.03.04:661][767]LogWorld: Bringing up level for play took: 0.001754
+[2019.12.13-01.03.04:661][767]LogOnline: OSS: Creating online subsystem instance for: :Context_58
+[2019.12.13-01.03.04:663][767]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 0.537
+[2019.12.13-01.03.04:663][767]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-01.03.18:695][449]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-01.03.18:696][449]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.13-01.03.18:696][449]LogWorld: BeginTearingDown for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.12.13-01.03.18:696][449]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2019.12.13-01.03.18:706][449]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.12.13-01.03.18:707][449]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-01.03.18:747][449]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.13-01.03.18:752][449]LogUObjectHash: Compacting FUObjectHashTables data took   3.84ms
+[2019.12.13-01.03.18:798][451]LogPlayLevel: Display: Destroying online subsystem :Context_58
+[2019.12.13-01.03.19:474][532]LogEditorViewport: Clicking on Actor (LMB): BP_Launchpad_C (BP_Launchpad)
+[2019.12.13-01.03.21:942][810]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.13-01.03.25:120][188]LogTemp: Repeating last play command: Selected Viewport
+[2019.12.13-01.03.25:138][188]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-01.03.25:138][188]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.13-01.03.25:138][188]PIE: New page: PIE session: FirstPersonExampleMap (Dec 12, 2019, 3:03:25 PM)
+[2019.12.13-01.03.25:139][188]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.12.13-01.03.25:147][188]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009693s)
+[2019.12.13-01.03.25:148][188]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.12.13-01.03.25:148][188]LogPlayLevel: PIE: World Init took: (0.000829s)
+[2019.12.13-01.03.25:148][188]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.010649s)
+[2019.12.13-01.03.25:190][188]LogUObjectHash: Compacting FUObjectHashTables data took   3.86ms
+[2019.12.13-01.03.25:210][188]LogInit: XAudio2 using 'Headphones (2- HD 4.50BTNC Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.12.13-01.03.25:218][188]LogInit: FAudioDevice initialized.
+[2019.12.13-01.03.25:226][188]LogLoad: Game class is 'UFinalPracticeGameMode'
+[2019.12.13-01.03.25:230][188]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2019.12.12-20.03.25
+[2019.12.13-01.03.25:230][188]LogWorld: Bringing up level for play took: 0.002946
+[2019.12.13-01.03.25:231][188]LogOnline: OSS: Creating online subsystem instance for: :Context_59
+[2019.12.13-01.03.25:233][188]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap -0.893
+[2019.12.13-01.03.25:233][188]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-01.03.31:858][976]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-01.03.31:858][976]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.13-01.03.31:858][976]LogWorld: BeginTearingDown for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.12.13-01.03.31:858][976]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2019.12.13-01.03.31:869][976]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.12.13-01.03.31:869][976]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-01.03.31:906][976]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.13-01.03.31:912][976]LogUObjectHash: Compacting FUObjectHashTables data took   3.65ms
+[2019.12.13-01.03.31:958][978]LogPlayLevel: Display: Destroying online subsystem :Context_59
+[2019.12.13-01.03.34:686][294]LogEditorViewport: Clicking on Actor (LMB): BP_Launchpad_C (BP_Launchpad)
+[2019.12.13-01.03.35:793][399]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.13-01.03.39:850][883]LogTemp: Repeating last play command: Selected Viewport
+[2019.12.13-01.03.39:868][883]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-01.03.39:868][883]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.13-01.03.39:868][883]PIE: New page: PIE session: FirstPersonExampleMap (Dec 12, 2019, 3:03:39 PM)
+[2019.12.13-01.03.39:869][883]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.12.13-01.03.39:878][883]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009292s)
+[2019.12.13-01.03.39:879][883]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.12.13-01.03.39:879][883]LogPlayLevel: PIE: World Init took: (0.000874s)
+[2019.12.13-01.03.39:879][883]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.010313s)
+[2019.12.13-01.03.39:920][883]LogUObjectHash: Compacting FUObjectHashTables data took   3.93ms
+[2019.12.13-01.03.39:941][883]LogInit: XAudio2 using 'Headphones (2- HD 4.50BTNC Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.12.13-01.03.39:948][883]LogInit: FAudioDevice initialized.
+[2019.12.13-01.03.39:954][883]LogLoad: Game class is 'UFinalPracticeGameMode'
+[2019.12.13-01.03.39:956][883]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2019.12.12-20.03.39
+[2019.12.13-01.03.39:956][883]LogWorld: Bringing up level for play took: 0.001739
+[2019.12.13-01.03.39:956][883]LogOnline: OSS: Creating online subsystem instance for: :Context_60
+[2019.12.13-01.03.39:958][883]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap -0.167
+[2019.12.13-01.03.39:958][883]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-01.03.47:589][795]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-01.03.47:589][795]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.13-01.03.47:589][795]LogWorld: BeginTearingDown for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.12.13-01.03.47:589][795]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2019.12.13-01.03.47:601][795]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.12.13-01.03.47:602][795]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-01.03.47:645][795]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.13-01.03.47:650][795]LogUObjectHash: Compacting FUObjectHashTables data took   3.66ms
+[2019.12.13-01.03.47:695][798]LogPlayLevel: Display: Destroying online subsystem :Context_60
+[2019.12.13-01.03.54:834][906]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.12.13-01.03.57:653][190]LogEditorViewport: Clicking on Actor (LMB): BP_Launchpad_C (BP_Launchpad)
+[2019.12.13-01.03.58:806][306]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.13-01.04.02:191][711]LogTemp: Repeating last play command: Selected Viewport
+[2019.12.13-01.04.02:206][711]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-01.04.02:206][711]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.13-01.04.02:206][711]PIE: New page: PIE session: FirstPersonExampleMap (Dec 12, 2019, 3:04:02 PM)
+[2019.12.13-01.04.02:207][711]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.12.13-01.04.02:215][711]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008197s)
+[2019.12.13-01.04.02:216][711]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.12.13-01.04.02:216][711]LogPlayLevel: PIE: World Init took: (0.000777s)
+[2019.12.13-01.04.02:216][711]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.009086s)
+[2019.12.13-01.04.02:255][711]LogUObjectHash: Compacting FUObjectHashTables data took   3.61ms
+[2019.12.13-01.04.02:277][711]LogInit: XAudio2 using 'Headphones (2- HD 4.50BTNC Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.12.13-01.04.02:289][711]LogInit: FAudioDevice initialized.
+[2019.12.13-01.04.02:298][711]LogLoad: Game class is 'UFinalPracticeGameMode'
+[2019.12.13-01.04.02:300][711]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2019.12.12-20.04.02
+[2019.12.13-01.04.02:300][711]LogWorld: Bringing up level for play took: 0.001791
+[2019.12.13-01.04.02:300][711]LogOnline: OSS: Creating online subsystem instance for: :Context_61
+[2019.12.13-01.04.02:302][711]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 0.177
+[2019.12.13-01.04.02:302][711]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-01.04.08:782][396]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.12.13-01.04.11:127][649]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-01.04.11:127][649]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.13-01.04.11:127][649]LogWorld: BeginTearingDown for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.12.13-01.04.11:128][649]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2019.12.13-01.04.11:139][649]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.12.13-01.04.11:140][649]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-01.04.11:181][649]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.13-01.04.11:186][649]LogUObjectHash: Compacting FUObjectHashTables data took   4.01ms
+[2019.12.13-01.04.11:235][651]LogPlayLevel: Display: Destroying online subsystem :Context_61
+[2019.12.13-01.04.11:860][726]LogEditorViewport: Clicking on Actor (LMB): BP_Launchpad_C (BP_Launchpad)
+[2019.12.13-01.04.12:818][832]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.13-01.04.18:925][557]LogTemp: Repeating last play command: Selected Viewport
+[2019.12.13-01.04.18:939][557]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-01.04.18:939][557]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.13-01.04.18:939][557]PIE: New page: PIE session: FirstPersonExampleMap (Dec 12, 2019, 3:04:18 PM)
+[2019.12.13-01.04.18:939][557]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.12.13-01.04.18:949][557]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009755s)
+[2019.12.13-01.04.18:950][557]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.12.13-01.04.18:950][557]LogPlayLevel: PIE: World Init took: (0.001163s)
+[2019.12.13-01.04.18:950][557]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.011080s)
+[2019.12.13-01.04.18:990][557]LogUObjectHash: Compacting FUObjectHashTables data took   3.92ms
+[2019.12.13-01.04.19:009][557]LogInit: XAudio2 using 'Headphones (2- HD 4.50BTNC Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.12.13-01.04.19:018][557]LogInit: FAudioDevice initialized.
+[2019.12.13-01.04.19:027][557]LogLoad: Game class is 'UFinalPracticeGameMode'
+[2019.12.13-01.04.19:029][557]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2019.12.12-20.04.19
+[2019.12.13-01.04.19:030][557]LogWorld: Bringing up level for play took: 0.001856
+[2019.12.13-01.04.19:030][557]LogOnline: OSS: Creating online subsystem instance for: :Context_62
+[2019.12.13-01.04.19:032][557]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 0.907
+[2019.12.13-01.04.19:032][557]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-01.04.29:603][822]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-01.04.29:603][822]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.13-01.04.29:603][822]LogWorld: BeginTearingDown for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.12.13-01.04.29:603][822]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2019.12.13-01.04.29:615][822]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.12.13-01.04.29:615][822]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-01.04.29:653][822]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.13-01.04.29:658][822]LogUObjectHash: Compacting FUObjectHashTables data took   3.99ms
+[2019.12.13-01.04.29:703][824]LogPlayLevel: Display: Destroying online subsystem :Context_62
+[2019.12.13-01.04.32:839][183]LogEditorViewport: Clicking on Actor (LMB): BP_Launchpad_C (BP_Launchpad)
+[2019.12.13-01.04.33:948][301]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.13-01.04.36:115][560]LogTemp: Repeating last play command: Selected Viewport
+[2019.12.13-01.04.36:130][560]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-01.04.36:130][560]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.13-01.04.36:130][560]PIE: New page: PIE session: FirstPersonExampleMap (Dec 12, 2019, 3:04:36 PM)
+[2019.12.13-01.04.36:130][560]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.12.13-01.04.36:140][560]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010069s)
+[2019.12.13-01.04.36:141][560]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.12.13-01.04.36:141][560]LogPlayLevel: PIE: World Init took: (0.001136s)
+[2019.12.13-01.04.36:141][560]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.011362s)
+[2019.12.13-01.04.36:184][560]LogUObjectHash: Compacting FUObjectHashTables data took   3.65ms
+[2019.12.13-01.04.36:202][560]LogInit: XAudio2 using 'Headphones (2- HD 4.50BTNC Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.12.13-01.04.36:210][560]LogInit: FAudioDevice initialized.
+[2019.12.13-01.04.36:221][560]LogLoad: Game class is 'UFinalPracticeGameMode'
+[2019.12.13-01.04.36:223][560]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2019.12.12-20.04.36
+[2019.12.13-01.04.36:224][560]LogWorld: Bringing up level for play took: 0.001666
+[2019.12.13-01.04.36:224][560]LogOnline: OSS: Creating online subsystem instance for: :Context_63
+[2019.12.13-01.04.36:226][560]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 0.1
+[2019.12.13-01.04.36:226][560]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-01.04.46:028][733]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-01.04.46:028][733]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.13-01.04.46:028][733]LogWorld: BeginTearingDown for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.12.13-01.04.46:028][733]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2019.12.13-01.04.46:038][733]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.12.13-01.04.46:038][733]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-01.04.46:076][733]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.13-01.04.46:081][733]LogUObjectHash: Compacting FUObjectHashTables data took   4.05ms
+[2019.12.13-01.04.46:130][735]LogPlayLevel: Display: Destroying online subsystem :Context_63
+[2019.12.13-01.04.48:681][ 27]LogEditorViewport: Clicking on Actor (LMB): BP_Launchpad_C (BP_Launchpad)
+[2019.12.13-01.04.49:645][117]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.13-01.04.54:656][713]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2019.12.13-01.04.54:710][713]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2019.12.13-01.04.54:984][713]LogSavePackage: Moving '../../../../../../Repo/FinalPractice/UFinalPractice/Saved/FirstPersonExampleMap571010ED405A9992B6EB7F970A6A3F7A.tmp' to '../../../../../../Repo/FinalPractice/UFinalPractice/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap'
+[2019.12.13-01.04.55:015][713]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 0.337
+[2019.12.13-01.04.55:799][804]LogTemp: Repeating last play command: Selected Viewport
+[2019.12.13-01.04.55:814][804]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-01.04.55:814][804]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.13-01.04.55:814][804]PIE: New page: PIE session: FirstPersonExampleMap (Dec 12, 2019, 3:04:55 PM)
+[2019.12.13-01.04.55:814][804]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.12.13-01.04.55:822][804]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007542s)
+[2019.12.13-01.04.55:823][804]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.12.13-01.04.55:823][804]LogPlayLevel: PIE: World Init took: (0.000753s)
+[2019.12.13-01.04.55:823][804]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.008406s)
+[2019.12.13-01.04.55:867][804]LogUObjectHash: Compacting FUObjectHashTables data took   4.04ms
+[2019.12.13-01.04.55:886][804]LogInit: XAudio2 using 'Headphones (2- HD 4.50BTNC Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.12.13-01.04.55:894][804]LogInit: FAudioDevice initialized.
+[2019.12.13-01.04.55:904][804]LogLoad: Game class is 'UFinalPracticeGameMode'
+[2019.12.13-01.04.55:906][804]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2019.12.12-20.04.55
+[2019.12.13-01.04.55:907][804]LogWorld: Bringing up level for play took: 0.002055
+[2019.12.13-01.04.55:907][804]LogOnline: OSS: Creating online subsystem instance for: :Context_64
+[2019.12.13-01.04.55:909][804]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap -0.217
+[2019.12.13-01.04.55:909][804]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-01.05.00:484][350]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-01.05.00:485][350]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.13-01.05.00:485][350]LogWorld: BeginTearingDown for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.12.13-01.05.00:485][350]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2019.12.13-01.05.00:495][350]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.12.13-01.05.00:495][350]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-01.05.00:531][350]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.13-01.05.00:537][350]LogUObjectHash: Compacting FUObjectHashTables data took   3.95ms
+[2019.12.13-01.05.00:588][352]LogPlayLevel: Display: Destroying online subsystem :Context_64
+[2019.12.13-01.05.08:230][259]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2019.12.13-01.05.09:076][354]LogSlate: FSceneViewport::OnFocusLost() reason 0

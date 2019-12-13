@@ -84,4 +84,14 @@
       <Filter>Source\UFinalPractice</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\UFinalPractice\LaunchPad.h">
+      <Filter>Source\UFinalPractice</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\UFinalPractice\LaunchPad.cpp">
+      <Filter>Source\UFinalPractice</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>
