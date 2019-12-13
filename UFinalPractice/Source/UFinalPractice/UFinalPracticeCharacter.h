@@ -62,6 +62,7 @@ public:
 	void SetHP(float hpToAdd);
 	void LootBox();
 	void KillCube();
+	void SortCube();
 
 
 	void TimerTester();

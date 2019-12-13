@@ -33,3 +33,11 @@ public:
 	virtual void NotifyHit(class UPrimitiveComponent* MyComp, AActor* Other, class UPrimitiveComponent* OtherComp, bool bSelfMoved, FVector HitLocation, FVector HitNormal, FVector NormalImpulse, const FHitResult& Hit);
 
 };
+
+struct FSortByHP
+{
+	FORCEINLINE bool operator()(const ACubemon& cube1, const ACubemon& cube2) const
+	{
+		return cube1.HP < cube2.HP; //If true go to the front.
+	}
+};

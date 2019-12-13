@@ -128,6 +128,7 @@ void AUFinalPracticeCharacter::SetupPlayerInputComponent(class UInputComponent* 
 
 	PlayerInputComponent->BindAction("Loot", IE_Pressed, this, &AUFinalPracticeCharacter::LootBox);
 	PlayerInputComponent->BindAction("KillCube", IE_Pressed, this, &AUFinalPracticeCharacter::KillCube);
+	PlayerInputComponent->BindAction("SortCube", IE_Pressed, this, &AUFinalPracticeCharacter::SortCube);
 	// Bind jump events
 	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &ACharacter::Jump);
 	PlayerInputComponent->BindAction("Jump", IE_Released, this, &ACharacter::StopJumping);
@@ -217,6 +218,26 @@ void AUFinalPracticeCharacter::KillCube()
 		}
 	}
 	if (furthest != nullptr) furthest->HP -= 0.1f;
+}
+
+void AUFinalPracticeCharacter::SortCube()
+{
+	TArray<AActor*> CubesFound;
+	TArray<ACubemon*> CubesFoundSorted;
+	UGameplayStatics::GetAllActorsOfClass(GetWorld(), ACubemon::StaticClass(), CubesFound);
+	ACubemon* tmp = nullptr;
+
+	for (auto cube : CubesFound)
+	{
+		CubesFoundSorted.Add(Cast<ACubemon>(cube));
+	}
+	CubesFoundSorted.Sort(FSortByHP());
+
+	for (auto cubemon : CubesFoundSorted)
+	{
+		auto cube = Cast<ACubemon>(cubemon);
+		GEngine->AddOnScreenDebugMessage(-1, 5, FColor::Orange, cube->GetActorLabel() + TEXT(" Has ") + FString::SanitizeFloat(cube->HP, 2));
+	}
 }
 
 void AUFinalPracticeCharacter::TimerTester()
